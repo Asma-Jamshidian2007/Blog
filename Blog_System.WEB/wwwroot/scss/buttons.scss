@@ -1,0 +1,330 @@
+a.action_btn {
+    font-size: $font18;
+    color: $white_color;
+    font-family: $roboto;
+    font-weight: $fontw700;
+    text-align: center;
+    background: $fourth_bg;
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: $border_radius;
+    position: relative;
+    z-index: 2;
+    @include transition(all .4s);
+    &:after{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 0;
+        left: 0;
+        top:0;
+        border-radius: $border_radius;
+        background:$white_bg;
+        z-index: -1;
+
+        @include transition(all .4s);
+    }
+    &:hover{
+        color: $heading_color;
+        box-shadow: $box_shadow2;
+        &:after{
+            width: 100%;
+            @include transition(all .4s);
+        }
+        @include transition(all .4s);
+    }
+}
+
+
+a.btn2 {
+    font-size: $body_fsize;
+    color: $white_color;
+    font-family: $roboto;
+    font-weight: $fontw700;
+    text-align: center;
+    background: $secondary_bg;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    @include transition(all .4s);
+    &:after{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 0;
+        left: 0;
+        top:0;
+        border-radius: 5px;
+        background:$white_bg;
+        z-index: -1;
+
+        @include transition(all .4s);
+    }
+    &:hover{
+        color: $heading_color;
+        box-shadow: $box_shadow2;
+        &:after{
+            width: 100%;
+            @include transition(all .4s);
+        }
+        @include transition(all .4s);
+    }
+}
+
+
+
+
+button.signup_btn3, 
+a.signup_btn3 {
+    border: none;
+    display: inline-block;
+    border-radius: $border_radius;
+    background: $third_bg;
+    box-shadow: $box_shadow3;
+    color: $white_color;
+    font-size: $font16;
+    font-weight: $fontw900;
+    line-height: 19px;
+    text-align: center;
+    padding: 16px 30px;
+    @include transition(all .3s);
+    &:hover{
+        background:$white_bg;
+        @include transition(all .3s);
+        box-shadow: $box_shadow2;
+        color: $heading_color;
+    }
+}
+
+
+button.signup_btn2, 
+a.signup_btn2 {
+    border: none;
+    display: inline-block;
+    border-radius: $border_radius;
+    background: $white_bg;
+    box-shadow: $box_shadow3;
+    color: $heading_color;
+    font-size: $font16;
+    font-weight: $fontw900;
+    line-height: 19px;
+    text-align: center;
+    padding: 16px 25px;
+    @include transition(all .3s);
+    &:hover{
+        background:$secondary_bg;
+        @include transition(all .3s);
+    }
+}
+
+
+button.submit_btn, 
+a.submit_btn {
+    width: 100%;
+    border: none;
+    display: inline-block;
+    border-radius: $border_radius;
+    background: $third_bg;
+    box-shadow: $box_shadow3;
+    color: $white_color;
+    font-size: $font16;
+    font-weight: $fontw900;
+    line-height: 19px;
+    text-align: center;
+    padding: 20px;
+    @include transition(all .3s);
+    &:hover{
+        background: $heading_bg !important;
+        @include transition(all .3s);
+    }
+}
+
+
+
+
+
+a.app_btn {
+    padding: 13px 20px 13px 70px;
+    display: inline-block;
+    background: $third_bg;
+    position: relative;
+    z-index: 2;
+    color: $white_color;
+    border-radius: $border_radius;
+    position: relative;
+    z-index: 2;
+    @include transition(all .4s);
+    &:after{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top:0;
+        border-radius: $border_radius;
+        background:$heading_bg;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+
+        @include transition(all .4s);
+    }
+    &:hover{
+        &:after{
+            visibility: visible;
+            opacity: 1;
+            @include transition(all .4s);
+        }
+        @include transition(all .4s);
+    }
+    span.app_btn_text {
+        display: block;
+       
+        font-size: $font30;
+        font-weight: $fontw900;
+        line-height: 30px;
+    }
+
+    span.app_btn_title {
+       
+        font-size: $body_fsize;
+        font-weight: $fontw400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    span.app_btn_icon {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: $font40;
+        margin-top: -20px;
+    }
+}
+
+.button_group {
+    a.app_btn{
+        &:last-child {
+            margin-left: 15px;
+        }
+    }
+    a.app_btn.app_store{
+        background:$secondary_bg;
+    }
+
+}
+
+
+
+
+a.readmore_btn {
+    color: $third_color;
+    font-size: $font16;
+    font-weight: $fontw900;
+    line-height: 19px;
+    @include transition(all .3s);
+    &:hover{
+        i{
+            padding-left: 5px;
+            @include transition(all .3s);
+        }
+    }
+    i {
+        padding-left: 3px;
+        @include transition(all .3s);
+    }
+}
+
+
+a.btn4 {
+    background: $third_bg;
+    box-shadow: $box_shadow2;
+    font-family: Roboto;
+    font-size: $body_fsize;
+    font-weight: $fontw700;
+    line-height: 24px;
+    color: $white_color;
+    display: inline-block;
+    padding: 23px 35px;
+    border-radius: $border_radius;
+    position: relative;
+    z-index: 2;
+    @include transition(all .4s);
+    &:before{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 0;
+        left:0;
+        top: 0;
+        border-radius: $border_radius;
+        z-index: -1;
+        background:$white_bg;
+        @include transition(all .4s);
+
+    }
+    &:hover{
+        color: $heading_color;
+        @include transition(all .4s);
+        box-shadow: $box_shadow2;
+        &:before{
+            width: 100%;
+            @include transition(all .4s);
+        }
+    }
+}
+
+a.btn5 {
+    border: 1.5px solid $third_color;
+    box-shadow: $box_shadow2;
+    color: $third_color;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 20px 35px;
+    border-radius: $border_radius;
+    i{
+        padding-left: 3px;
+        font-size: 14px;
+
+    }
+
+    position: relative;
+    z-index: 2;
+    @include transition(all .4s);
+    &:before{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 0;
+        left:0;
+        top: 0;
+        border-radius: $border_radius;
+        z-index: -1;
+        background:$third_bg;
+        @include transition(all .4s);
+
+    }
+    &:hover{
+        color: $white_color;
+        @include transition(all .4s);
+        
+        &:before{
+            width: 100%;
+            @include transition(all .4s);
+        }
+    }
+
+
+
+}
+
+.btn2_group a:last-child {
+    margin-left: 15px;
+}

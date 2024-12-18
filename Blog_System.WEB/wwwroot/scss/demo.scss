@@ -1,0 +1,33 @@
+
+
+.demo_area {
+    height: auto;
+    padding: 200px 0 100px;
+}
+
+
+.single_demo {
+    margin-bottom: 50px;
+    text-align: center;
+    transition: all .5s;
+}
+
+a.single_demo_link {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 15px;
+    display: block;
+}
+
+
+.single_demo:hover img {
+    transform: translateY(-10px);
+    transition: all .5s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.single_demo img {
+    transition: all .5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,14 @@
+$mobile_layout:425px;
+$mobile_2:767px;
+$tab_layout:990px;
+$small__leptop:1024px;
+$leptop2:1200px;
+$leptop:1400px;
+
+
+@media screen and (max-width: $mobile_layout) {
+	.this{
+		font-size: 12px;
+	}
+
+}

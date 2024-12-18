@@ -1,0 +1,837 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blog_System.WEB.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blog_System.WEB.3fsknfsvfy.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\AuthLayout\\css\\style.css",
+      "PackagePath": "staticwebassets\\AuthLayout\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\buttons.css",
+      "PackagePath": "staticwebassets\\css\\buttons.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\Rezvan.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\Rezvan.eot"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\Rezvan.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\Rezvan.svg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\Rezvan.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Rezvan.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\Rezvan.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\Rezvan.woff"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\Rezvan.woff2",
+      "PackagePath": "staticwebassets\\css\\fonts\\Rezvan.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\fontscss.txt",
+      "PackagePath": "staticwebassets\\css\\fonts\\fontscss.txt"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanwebboldfanum.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanwebboldfanum.eot"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanwebboldfanum.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanwebboldfanum.svg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanwebboldfanum.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanwebboldfanum.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanwebboldfanum.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanwebboldfanum.woff"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanwebboldfanum.woff2",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanwebboldfanum.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanweblightfanum.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanweblightfanum.eot"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanweblightfanum.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanweblightfanum.svg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanweblightfanum.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanweblightfanum.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanweblightfanum.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanweblightfanum.woff"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanweblightfanum.woff2",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanweblightfanum.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\iranyekanweblightfanum.zip",
+      "PackagePath": "staticwebassets\\css\\fonts\\iranyekanweblightfanum.zip"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\fonts\\whatfontis.com.htm",
+      "PackagePath": "staticwebassets\\css\\fonts\\whatfontis.com.htm"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\master.css",
+      "PackagePath": "staticwebassets\\css\\master.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\masterltr.css",
+      "PackagePath": "staticwebassets\\css\\masterltr.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\loader.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\loader.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\modal-video.min.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\modal-video.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\slicknav.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\slicknav.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\css\\plugins\\splitting.css",
+      "PackagePath": "staticwebassets\\css\\plugins\\splitting.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\bg\\bg3.png",
+      "PackagePath": "staticwebassets\\img\\bg\\bg3.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\bg\\hero1.png",
+      "PackagePath": "staticwebassets\\img\\bg\\hero1.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\bg\\screen.svg",
+      "PackagePath": "staticwebassets\\img\\bg\\screen.svg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog7.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog8.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\blog_news_letter.png",
+      "PackagePath": "staticwebassets\\img\\blog\\blog_news_letter.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\popular1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\popular1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\popular2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\popular2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\popular3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\popular3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\popular4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\popular4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\blog\\single_blog_big.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\single_blog_big.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-1.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-2.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-3.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-blog.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-blog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-blog2.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-blog3.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-blog4.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-blog4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-blog5.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-blog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-single-blog1.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-single-blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\demo\\demo-single-blog2.jpg",
+      "PackagePath": "staticwebassets\\img\\demo\\demo-single-blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\feature\\app31.png",
+      "PackagePath": "staticwebassets\\img\\feature\\app31.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\feature\\feature31.png",
+      "PackagePath": "staticwebassets\\img\\feature\\feature31.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\feature\\feature32.png",
+      "PackagePath": "staticwebassets\\img\\feature\\feature32.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\feature\\feature_sreen2.png",
+      "PackagePath": "staticwebassets\\img\\feature\\feature_sreen2.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\hero\\hero31.png",
+      "PackagePath": "staticwebassets\\img\\hero\\hero31.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\hero\\hero311.png",
+      "PackagePath": "staticwebassets\\img\\hero\\hero311.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\core_feature11.png",
+      "PackagePath": "staticwebassets\\img\\icon\\core_feature11.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\core_feature12.png",
+      "PackagePath": "staticwebassets\\img\\icon\\core_feature12.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\core_feature13.png",
+      "PackagePath": "staticwebassets\\img\\icon\\core_feature13.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\more_feature11.png",
+      "PackagePath": "staticwebassets\\img\\icon\\more_feature11.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\more_feature12.png",
+      "PackagePath": "staticwebassets\\img\\icon\\more_feature12.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\more_feature13.png",
+      "PackagePath": "staticwebassets\\img\\icon\\more_feature13.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\more_feature14.png",
+      "PackagePath": "staticwebassets\\img\\icon\\more_feature14.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\more_feature15.png",
+      "PackagePath": "staticwebassets\\img\\icon\\more_feature15.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\more_feature16.png",
+      "PackagePath": "staticwebassets\\img\\icon\\more_feature16.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\work11.png",
+      "PackagePath": "staticwebassets\\img\\icon\\work11.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\work12.png",
+      "PackagePath": "staticwebassets\\img\\icon\\work12.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\icon\\work13.png",
+      "PackagePath": "staticwebassets\\img\\icon\\work13.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\brand1.png",
+      "PackagePath": "staticwebassets\\img\\logo\\brand1.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\brand2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\brand2.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\brand3.png",
+      "PackagePath": "staticwebassets\\img\\logo\\brand3.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\brand4.png",
+      "PackagePath": "staticwebassets\\img\\logo\\brand4.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\brand5.png",
+      "PackagePath": "staticwebassets\\img\\logo\\brand5.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\fabicon.png",
+      "PackagePath": "staticwebassets\\img\\logo\\fabicon.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\fabicon2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\fabicon2.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\footer_logo2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\footer_logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\logo1.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\logo2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\logo\\logo3.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\screen\\carousel11.png",
+      "PackagePath": "staticwebassets\\img\\screen\\carousel11.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\screen\\carousel12.png",
+      "PackagePath": "staticwebassets\\img\\screen\\carousel12.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\screen\\carousel13.png",
+      "PackagePath": "staticwebassets\\img\\screen\\carousel13.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\screen\\hero3.png",
+      "PackagePath": "staticwebassets\\img\\screen\\hero3.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\screen\\screen11.png",
+      "PackagePath": "staticwebassets\\img\\screen\\screen11.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\screen\\screen12.png",
+      "PackagePath": "staticwebassets\\img\\screen\\screen12.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\screen\\screen13.png",
+      "PackagePath": "staticwebassets\\img\\screen\\screen13.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\screen\\screen14.png",
+      "PackagePath": "staticwebassets\\img\\screen\\screen14.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\shape\\line1.png",
+      "PackagePath": "staticwebassets\\img\\shape\\line1.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\shape\\oval1.png",
+      "PackagePath": "staticwebassets\\img\\shape\\oval1.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\img\\testi\\author1.png",
+      "PackagePath": "staticwebassets\\img\\testi\\author1.png"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\jquery-modal-video.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery-modal-video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\jquery.2.1.0.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.2.1.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\jquery.counterup.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.counterup.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.nav.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\scroll-out.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\scroll-out.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\simpleParallax.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\simpleParallax.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\splitting.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\splitting.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\plugins\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\scss\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\_mixin.scss",
+      "PackagePath": "staticwebassets\\scss\\_mixin.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\_others.scss",
+      "PackagePath": "staticwebassets\\scss\\_others.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\_responsive.scss",
+      "PackagePath": "staticwebassets\\scss\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\demo.scss",
+      "PackagePath": "staticwebassets\\scss\\demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\inner.scss",
+      "PackagePath": "staticwebassets\\scss\\inner.scss"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\scss\\master.scss",
+      "PackagePath": "staticwebassets\\scss\\master.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blog_System.WEB.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Blog_System.WEB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Blog_System.WEB.props",
+      "PackagePath": "build\\Blog_System.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Blog_System.WEB.props",
+      "PackagePath": "buildMultiTargeting\\Blog_System.WEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Blog_System.WEB.props",
+      "PackagePath": "buildTransitive\\Blog_System.WEB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\loginsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\loginsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\loginsignup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\loginsignup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\dtos\\users\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\dtos\\users\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginSignup.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml.cs",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml.cs",
+              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:06:51.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginSignup.cshtml",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml*",
+              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T08:06:45.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\Services\\Users\\UserService.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Users\\UserService.cs",
+              "RelativeToolTip": "BlogSystem.CoreLayer\\Services\\Users\\UserService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:04:56.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\DTOs\\Users\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\DTOs\\Users\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\DTOs\\Users\\UserRegisterDto.cs",
+              "RelativeToolTip": "BlogSystem.CoreLayer\\DTOs\\Users\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:04:51.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Users\\IUserService.cs",
+              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\Services\\Users\\IUserService.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Users\\IUserService.cs",
+              "RelativeToolTip": "BlogSystem.CoreLayer\\Services\\Users\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T21:03:09.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Program.cs",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Program.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Program.cs",
+              "RelativeToolTip": "Blog_System.WEB\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T20:30:13.236Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

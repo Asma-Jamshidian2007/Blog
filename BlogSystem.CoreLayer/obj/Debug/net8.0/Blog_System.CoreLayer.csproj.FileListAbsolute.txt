@@ -1,0 +1,17 @@
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\bin\Debug\net8.0\Blog_System.CoreLayer.deps.json
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\bin\Debug\net8.0\Blog_System.CoreLayer.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\bin\Debug\net8.0\Blog_System.CoreLayer.pdb
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_System.CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_System.CoreLayer.AssemblyInfoInputs.cache
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_System.CoreLayer.AssemblyInfo.cs
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_System.CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_System.CoreLayer.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\refint\Blog_System.CoreLayer.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_System.CoreLayer.pdb
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\ref\Blog_System.CoreLayer.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\bin\Debug\net8.0\Blog_System.DataLayer.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\bin\Debug\net8.0\Blog_System.DataLayer.pdb
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_System.CoreLayer.csproj.AssemblyReference.cache
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Interop.Accessibility.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_System.CoreLayer.csproj.ResolveComReference.cache
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.CoreLayer\obj\Debug\net8.0\Blog_Sys.19F75E49.Up2Date

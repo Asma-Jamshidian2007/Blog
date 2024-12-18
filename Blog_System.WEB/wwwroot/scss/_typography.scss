@@ -1,0 +1,147 @@
+
+
+a {
+    color: #3e425c;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+a:hover {
+    color: #2095f3;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body,
+html {
+    height: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6{
+    font-family: $roboto;
+    font-weight: $fontw700;
+    margin: 0;
+    color: $heading_color;
+}
+
+p{
+    margin: 0;
+}
+
+.tuc{
+    text-transform: uppercase;
+}
+.tct{
+    text-transform: capitalize;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+
+body {
+    font-size: $body_fsize;
+    line-height: 30px;
+    color: $body_color;
+    font-family: $roboto;
+    font-weight: $fontw400;
+    overflow-x: hidden;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+
+/*==============
+COMMON CSS
+=================*/
+
+.bg{
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+}
+
+
+/*==============
+SPACE CSS
+=================*/
+
+
+
+.section-padding{
+    padding: $section_padding;
+}
+
+.section-padding2{
+    padding: $section_padding2;
+}
+.section-padding-bottom{
+    padding-bottom:$padding_bottom;
+}
+.section-padding-bottom2{
+    padding-bottom: $padding_bottom2;
+}
+.space-100 {
+    height: 100px;
+}
+
+.space-50 {
+    height: 50px;
+}
+
+.space-80 {
+    height: 80px;
+}
+
+.space-40 {
+    height: 40px;
+}
+
+.space-60 {
+    height: 60px;
+}
+.space-70 {
+    height: 70px;
+}
+
+.space-30 {
+    height: 30px;
+}
+
+.space-20 {
+    height: 20px;
+}
+
+.space-10 {
+    height: 10px;
+}
+
+
+.hbm{
+    margin-bottom: $heading_bottom_spacing;
+}

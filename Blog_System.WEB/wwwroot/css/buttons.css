@@ -1,0 +1,10 @@
+a.action_btn {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  background: #4f95ff;
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 5px;
+}
