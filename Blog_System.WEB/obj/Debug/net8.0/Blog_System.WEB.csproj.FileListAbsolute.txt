@@ -173,3 +173,4 @@ C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\obj\Debug\net8.0\Blo
 C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Blog_System.CoreLayer.dll
 C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Blog_System.CoreLayer.pdb
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\obj\Debug\net8.0\Blog_System.WEB.sourcelink.json

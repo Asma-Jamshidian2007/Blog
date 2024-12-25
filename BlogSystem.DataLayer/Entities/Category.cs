@@ -19,5 +19,6 @@ namespace Blog_System.DataLayer.Entities
         #region relations
         public required ICollection<Post> Posts { get; set; }
         #endregion
+       
     }
 }

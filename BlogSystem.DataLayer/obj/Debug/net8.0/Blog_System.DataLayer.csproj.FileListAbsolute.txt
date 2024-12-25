@@ -12,3 +12,4 @@ C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.DataLayer\obj\Debug\net8.
 C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.DataLayer\obj\Debug\net8.0\Blog_System.DataLayer.pdb
 C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.DataLayer\obj\Debug\net8.0\Blog_System.DataLayer.genruntimeconfig.cache
 C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.DataLayer\obj\Debug\net8.0\ref\Blog_System.DataLayer.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\BlogSystem.DataLayer\obj\Debug\net8.0\Blog_System.DataLayer.sourcelink.json

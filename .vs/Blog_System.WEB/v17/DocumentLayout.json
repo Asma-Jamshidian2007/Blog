@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\loginsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\loginsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\signupmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\signupmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\loginsignup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\loginsignup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\dtos\\users\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\dtos\\users\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\wwwroot\\js\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\wwwroot\\js\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginSignup.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml.cs",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml.cs",
-              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T08:06:51.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginSignup.cshtml",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml",
-              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\LoginSignup.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T08:06:45.143Z",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\appsettings.json",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\appsettings.json",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\appsettings.json",
+              "RelativeToolTip": "Blog_System.WEB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-25T08:14:55.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Users\\UserService.cs",
-              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\Services\\Users\\UserService.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Users\\UserService.cs",
-              "RelativeToolTip": "BlogSystem.CoreLayer\\Services\\Users\\UserService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T08:04:56.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\DTOs\\Users\\UserRegisterDto.cs",
-              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\DTOs\\Users\\UserRegisterDto.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\DTOs\\Users\\UserRegisterDto.cs",
-              "RelativeToolTip": "BlogSystem.CoreLayer\\DTOs\\Users\\UserRegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T08:04:51.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Users\\IUserService.cs",
-              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\Services\\Users\\IUserService.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Users\\IUserService.cs",
-              "RelativeToolTip": "BlogSystem.CoreLayer\\Services\\Users\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T21:03:09.333Z"
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Shared\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Shared\\_AuthLayout.cshtml",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Shared\\_AuthLayout.cshtml",
+              "RelativeToolTip": "Blog_System.WEB\\Pages\\Shared\\_AuthLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T06:47:39.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Program.cs",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Program.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Program.cs",
-              "RelativeToolTip": "Blog_System.WEB\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAANAAAAAAAAAA==",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Blog_System.WEB\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-25T08:15:10.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\SignUp.cshtml",
+              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\SignUp.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T06:56:33.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Blog_System.WEB\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T06:47:34.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUpModel.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\SignUpModel.cshtml.cs",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\SignUpModel.cshtml.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\SignUpModel.cshtml.cs",
+              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\SignUpModel.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:30:13.236Z"
+              "WhenOpened": "2024-12-25T06:47:32.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "jquery.validate.js",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeToolTip": "Blog_System.WEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T06:44:51.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "jquery.validate.unobtrusive.min.js",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+              "RelativeToolTip": "Blog_System.WEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAADtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T06:37:56.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "jquery.min.js",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\jquery.min.js",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\wwwroot\\js\\jquery.min.js",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\jquery.min.js",
+              "RelativeToolTip": "Blog_System.WEB\\wwwroot\\js\\jquery.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-25T06:36:59.818Z"
             }
           ]
         }

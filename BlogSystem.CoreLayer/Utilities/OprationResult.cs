@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeYad_Blog.CoreLayer.Utilities
+namespace Blog_System.CoreLayer.Utilities.OperationResult
 {
     public class OperationResult
     {
-        public string Message { get; set; }
+        public string Message { get; set; }=string.Empty;
         public OperationResultStatus Status { get; set; }
 
         public static OperationResult Error()
