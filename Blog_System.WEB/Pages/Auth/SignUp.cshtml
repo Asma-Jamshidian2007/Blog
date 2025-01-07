@@ -2,7 +2,7 @@
 @model Blog_System.WEB.Pages.Auth.SignUpModel
 @{
     Layout = "Shared/_AuthLayout";
-    ViewData["Title"]="ورود یا ثبت نام";
+    ViewData["Title"]="ثبت نام";
 }
 
 
@@ -15,35 +15,32 @@
 <div class="form-container">
     <ul class="nav nav-tabs mb-4" id="formTabs">
 
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="signup-tab" data-bs-toggle="tab"  type="button" role="tab" aria-controls="signup" aria-selected="false">ثبت نام</button>
+        <li class="nav-item">
+            <button class="nav-link" id="signup-tab" aria-controls="signup" aria-selected="true">ثبت نام</button>
         </li>
     </ul>
 
 
-            <form>
+            <form method="post">
 
                 <div class="mb-3 position-relative">
                     <label for="signupLastName" class="form-label" >نام و نام خانوادگی</label>
                     <i class="fas fa-user form-control-icon"></i>
-            <span asp-validation-for="FullName"></span>
             <input type="text" class="form-control" id="signupLastName" asp-for="FullName" placeholder="نام خانوادگی خود را وارد کنید">
-            
+            <span class="text-danger" asp-validation-for="FullName"></span>
                 </div>
                 
                 <div class="mb-3 position-relative">
                     <label for="signupUsername" class="form-label" >نام کاربری</label>
                     <i class="fas fa-user-circle form-control-icon"></i>
-            <span asp-validation-for="UserName"></span>
             <input type="text" class="form-control" id="signupUsername" asp-for="UserName" placeholder="نام کاربری خود را انتخاب کنید">
-          
+            <span class="text-danger" asp-validation-for="UserName"></span>
                 </div>
                 <div class="mb-3 position-relative">
                     <label for="signupPassword" class="form-label">رمز عبور</label>
                     <i class="fas fa-lock form-control-icon"></i>
-            <span asp-validation-for="Password"></span>
                     <input type="password" class="form-control" id="signupPassword" asp-for="Password" placeholder="پسورد خود را وارد کنید" />
-          
+                    <span class="text-danger" asp-validation-for="Password"></span>
 
                 </div>
                 <button type="submit" class="btn btn-custom w-100">ثبت نام</button>

@@ -14,13 +14,12 @@ namespace   Blog_System.DataLayer.Context
         public DbSet<User> Users { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<PostComments> PostComments { get; set; }
-        public class YourDbContextFactory : IDesignTimeDbContextFactory<BlogContext>
+        public class DbContextFactory : IDesignTimeDbContextFactory<BlogContext>
         {
             public BlogContext CreateDbContext(string[] args)
             {
                 var optionsBuilder = new DbContextOptionsBuilder<BlogContext>();
-                optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=BlogDb;Trusted_Connection=True;MultipleActiveResultSets=true;");
-
+                optionsBuilder.UseSqlServer("Server=.;Database=BlogDB;Trusted_Connection=True;");
                 return new BlogContext(optionsBuilder.Options);
             }
         }

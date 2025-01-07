@@ -9,11 +9,17 @@ namespace Blog_System.DataLayer.Entities
 {
     public class User : BaseEntity
     {
-        [Required]
-        public string UserName { get; set; }=string.Empty;
-        public string FullName { get; set; }= string.Empty;
-        [Required]
-        public string Password { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "{0}را وارد کنید")]
+        public string UserName { get; set; }
+
+        [Required(ErrorMessage = "{0}را وارد کنید")]
+        public string FullName { get; set; }
+
+        [Required(ErrorMessage = "{0}را وارد کنید")]
+        public string Password { get; set; }
+
+       
         public UserRole Role { get; set; }
 
         #region relations

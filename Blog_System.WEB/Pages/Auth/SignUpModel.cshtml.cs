@@ -9,13 +9,14 @@ using System.ComponentModel.DataAnnotations;
 namespace Blog_System.WEB.Pages.Auth
 {
     [BindProperties]
+    [ValidateAntiForgeryToken]
     public class SignUpModel : PageModel
     {
         private readonly IUserService? _userService;
         [Display(Name = "نام کاربری")]
         [Required (ErrorMessage ="{0} را وارد کنید")]
         public string UserName { get; set; } = string.Empty;
-        [Display(Name = "نام و نام کاربری")]
+        [Display(Name = "نام و نام خانوادگی")]
         [Required(ErrorMessage = "{0} را وارد کنید")]
         public string FullName { get; set; } = string.Empty;
         [Display(Name = "رمز عبور")]
@@ -27,6 +28,9 @@ namespace Blog_System.WEB.Pages.Auth
         }
         public IActionResult OnPost()
         {
+            if (!ModelState.IsValid) { 
+            return Page();
+            }
             var result = _userService?.UserRegister(new UserRegisterDto() { 
             UserName = UserName,
             FullName = FullName,
@@ -34,7 +38,7 @@ namespace Blog_System.WEB.Pages.Auth
             });
             if (result?.Status == OperationResultStatus.Error)
             {
-                ModelState.AddModelError(UserName,result.Message);
+                ModelState.AddModelError("UserName",result.Message);
                 return Page();
             }
             return RedirectToAction("Index");

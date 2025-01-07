@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Blog_System.DataLayer.Context;
 using Blog_System.CoreLayer.Services.Users;
+using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Authentication.Cookies;
 namespace Blog_System.WEB
 {
     public class Program
@@ -14,9 +16,19 @@ namespace Blog_System.WEB
             builder.Services.AddRazorPages();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddDbContext<BlogContext>(options =>
-     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+     options.UseSqlServer(builder.Configuration.GetConnectionString("Server=.;Database=BlogDB;Trusted_Connection=True;")));
             var app = builder.Build();
-
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            }).AddCookie(options =>
+            {
+                options.LoginPath = "/Auth/Login";
+                options.LogoutPath = "/Auth/Logout";
+                options.ExpireTimeSpan = TimeSpan.FromDays(30);
+            });
 
 
             // Configure the HTTP request pipeline.
@@ -31,7 +43,7 @@ namespace Blog_System.WEB
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapRazorPages();

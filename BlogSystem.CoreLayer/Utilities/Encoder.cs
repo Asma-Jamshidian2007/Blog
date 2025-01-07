@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace CodeYad_Blog.CoreLayer.Utilities
+namespace Blog_System.CoreLayer.Utilities
 {
     public static class Encoder
     {
