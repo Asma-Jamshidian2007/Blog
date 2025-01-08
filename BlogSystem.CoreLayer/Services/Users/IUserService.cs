@@ -11,8 +11,10 @@ namespace Blog_System.CoreLayer.Services.Users
 {
     public interface IUserService
     {
+        // Register a new user
         OperationResult UserRegister(UserRegisterDto registerDto);
-        UserDto UserLogin(LoginUserDto loginDto);
 
+        // Login an existing user
+        UserDto UserLogin(LoginUserDto loginDto);
     }
 }

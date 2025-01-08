@@ -16,52 +16,71 @@ namespace Blog_System.CoreLayer.Services.Users
     public class UserService : IUserService
     {
         private readonly BlogContext _context;
+
+        // Constructor to inject the BlogContext dependency
         public UserService(BlogContext context)
         {
             _context = context;
         }
 
+        // Handles user login logic
         public UserDto UserLogin(LoginUserDto loginDto)
         {
+            // Hash the provided password using MD5
             var hashedPassword = loginDto.Password.EncodeToMd5();
-            var User=_context.Users.FirstOrDefault(u => u.UserName==loginDto.UserName && u.Password==hashedPassword);
-            if (User == null) {
+
+            // Check if a user with the given username and hashed password exists
+            var user = _context.Users.FirstOrDefault(u => u.UserName == loginDto.UserName && u.Password == hashedPassword);
+
+            // Return null if user does not exist
+            if (user == null)
+            {
                 return null;
             }
+
+            // Map user entity to UserDto
             var userDto = new UserDto()
             {
-                UserName = User.UserName,
-                Password = User.Password,
-                FullName = User.FullName,
-                Role = User.Role,
-                RegisterDate =User.CreationDate,
-                UserId = User.Id
-
+                UserName = user.UserName,
+                Password = user.Password,
+                FullName = user.FullName,
+                Role = user.Role,
+                RegisterDate = user.CreationDate,
+                UserId = user.Id
             };
+
             return userDto;
         }
 
+        // Handles user registration logic
         public OperationResult UserRegister(UserRegisterDto registerDto)
         {
-            
+            // Check if the username already exists in the database
             var isUserNameExist = _context.Users.Any(u => u.UserName == registerDto.UserName);
-            if (isUserNameExist) {
-               return OperationResult.Error("نام کاربری تکراری است");
-            }
-            var HashedPass=registerDto.Password.EncodeToMd5();
-            _context.Users.Add(new User() {
-            FullName = registerDto.FullName,
-            UserName = registerDto.UserName,
-            IsDelete=false,
-             Role =UserRole.User,
-             CreationDate = DateTime.Now,
-             Password = HashedPass
-            
-            });
-            _context.SaveChanges();
-            return OperationResult.Success();   
 
+            if (isUserNameExist)
+            {
+                return OperationResult.Error("نام کاربری تکراری است");
+            }
+
+            // Hash the user's password using MD5
+            var hashedPassword = registerDto.Password.EncodeToMd5();
+
+            // Add the new user to the database
+            _context.Users.Add(new User()
+            {
+                FullName = registerDto.FullName,
+                UserName = registerDto.UserName,
+                IsDelete = false,
+                Role = UserRole.User,
+                CreationDate = DateTime.Now,
+                Password = hashedPassword
+            });
+
+            // Save changes to the database
+            _context.SaveChanges();
+
+            return OperationResult.Success();
         }
-        
     }
 }

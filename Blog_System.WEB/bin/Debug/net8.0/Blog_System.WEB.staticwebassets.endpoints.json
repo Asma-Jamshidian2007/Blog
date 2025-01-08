@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1312"
+          "Value": "1343"
         },
         {
           "Name": "Content-Type",
@@ -25,22 +25,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc=\""
+          "Value": "\"gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 10:03:26 GMT"
+          "Value": "Wed, 08 Jan 2025 12:07:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc="
+          "Value": "sha256-gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA="
         }
       ]
     },
     {
-      "Route": "AuthLayout/css/style.mkcunh4za7.css",
+      "Route": "AuthLayout/css/style.j38qnds82z.css",
       "AssetFile": "AuthLayout/css/style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -54,7 +54,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1312"
+          "Value": "1343"
         },
         {
           "Name": "Content-Type",
@@ -62,21 +62,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc=\""
+          "Value": "\"gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 10:03:26 GMT"
+          "Value": "Wed, 08 Jan 2025 12:07:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mkcunh4za7"
+          "Value": "j38qnds82z"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc="
+          "Value": "sha256-gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA="
         },
         {
           "Name": "label",
@@ -11151,6 +11151,88 @@
         {
           "Name": "label",
           "Value": "js/site.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/validate.grqffevbe2.js",
+      "AssetFile": "js/validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:12:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "grqffevbe2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8="
+        },
+        {
+          "Name": "label",
+          "Value": "js/validate.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/validate.js",
+      "AssetFile": "js/validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:12:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8="
         }
       ]
     },

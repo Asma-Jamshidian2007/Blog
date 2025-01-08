@@ -11,15 +11,15 @@ namespace Blog_System.DataLayer.Entities
     {
 
         [Required(ErrorMessage = "{0}را وارد کنید")]
-        public string UserName { get; set; }
+        public string UserName { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "{0}را وارد کنید")]
-        public string FullName { get; set; }
+        public string FullName { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "{0}را وارد کنید")]
-        public string Password { get; set; }
+        public string Password { get; set; } = string.Empty;
 
-       
+
         public UserRole Role { get; set; }
 
         #region relations

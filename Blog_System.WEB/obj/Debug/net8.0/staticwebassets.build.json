@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sIXH6fUHqxHJMRKuLLk1XEwzNznYbbRzTH4G5dA8PE4=",
+  "Hash": "r9UdAk/0ZVsPOvGf2Rl2zfolxf6YN4IJDws6kXbihjs=",
   "Source": "Blog_System.WEB",
   "BasePath": "_content/Blog_System.WEB",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mkcunh4za7",
-      "Integrity": "Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc=",
+      "Fingerprint": "j38qnds82z",
+      "Integrity": "gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AuthLayout\\css\\style.css"
@@ -2894,6 +2894,27 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+      "Identity": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\validate.js",
+      "SourceId": "Blog_System.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\",
+      "BasePath": "_content/Blog_System.WEB",
+      "RelativePath": "js/validate#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "grqffevbe2",
+      "Integrity": "xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\validate.js"
+    },
+    {
       "Identity": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Blog_System.WEB",
       "SourceType": "Discovered",
@@ -4334,7 +4355,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1312"
+          "Value": "1343"
         },
         {
           "Name": "Content-Type",
@@ -4342,11 +4363,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc=\""
+          "Value": "\"gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 10:03:26 GMT"
+          "Value": "Wed, 08 Jan 2025 12:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4356,12 +4377,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc="
+          "Value": "sha256-gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA="
         }
       ]
     },
     {
-      "Route": "AuthLayout/css/style.mkcunh4za7.css",
+      "Route": "AuthLayout/css/style.j38qnds82z.css",
       "AssetFile": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\AuthLayout\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4371,7 +4392,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1312"
+          "Value": "1343"
         },
         {
           "Name": "Content-Type",
@@ -4379,11 +4400,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc=\""
+          "Value": "\"gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 10:03:26 GMT"
+          "Value": "Wed, 08 Jan 2025 12:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4393,7 +4414,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mkcunh4za7"
+          "Value": "j38qnds82z"
         },
         {
           "Name": "label",
@@ -4401,7 +4422,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jvas/VwjjxxTJUU0QJl2LJhz20BHcX9Nl/P2cEnSTqc="
+          "Value": "sha256-gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA="
         }
       ]
     },
@@ -15554,6 +15575,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/validate.grqffevbe2.js",
+      "AssetFile": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:12:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "grqffevbe2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/validate.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8="
+        }
+      ]
+    },
+    {
+      "Route": "js/validate.js",
+      "AssetFile": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 08 Jan 2025 11:12:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8="
         }
       ]
     },

@@ -133,6 +133,7 @@ wwwroot\js\plugins\simpleParallax.js
 wwwroot\js\plugins\splitting.js
 wwwroot\js\plugins\wow.min.js
 wwwroot\js\site.js
+wwwroot\js\validate.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

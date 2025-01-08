@@ -8,7 +8,10 @@ namespace Blog_System.CoreLayer.DTOs.Users
 {
     public class LoginUserDto
     {
-        public String UserName { get; set; }
-        public String Password { get; set; }
+        // Username for login
+        public string UserName { get; set; } = string.Empty;
+
+        // Password for login
+        public string Password { get; set; } = string.Empty;
     }
 }
