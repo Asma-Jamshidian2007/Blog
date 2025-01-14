@@ -10,6 +10,9 @@ using Blog_System.CoreLayer;
 using Blog_System.DataLayer.Context;
 using Blog_System.DataLayer.Entities;
 using Blog_System.CoreLayer.Utilities;
+using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Blog_System.CoreLayer.Services.Users
 {
@@ -26,36 +29,39 @@ namespace Blog_System.CoreLayer.Services.Users
         // Handles user login logic
         public UserDto UserLogin(LoginUserDto loginDto)
         {
-            // Hash the provided password using MD5
+            if (loginDto == null || string.IsNullOrEmpty(loginDto.UserName) || string.IsNullOrEmpty(loginDto.Password))
+            {
+                return null;
+            }
+
             var hashedPassword = loginDto.Password.EncodeToMd5();
 
-            // Check if a user with the given username and hashed password exists
             var user = _context.Users.FirstOrDefault(u => u.UserName == loginDto.UserName && u.Password == hashedPassword);
 
-            // Return null if user does not exist
             if (user == null)
             {
                 return null;
             }
 
-            // Map user entity to UserDto
-            var userDto = new UserDto()
+            return new UserDto()
             {
                 UserName = user.UserName,
-                Password = user.Password,
+                Password = hashedPassword,
                 FullName = user.FullName,
                 Role = user.Role,
                 RegisterDate = user.CreationDate,
                 UserId = user.Id
             };
-
-            return userDto;
         }
 
-        // Handles user registration logic
+
         public OperationResult UserRegister(UserRegisterDto registerDto)
         {
-            // Check if the username already exists in the database
+            if (registerDto == null || string.IsNullOrEmpty(registerDto.UserName) || string.IsNullOrEmpty(registerDto.Password))
+            {
+                return OperationResult.Error("اطلاعات وارد شده معتبر نیست");
+            }
+
             var isUserNameExist = _context.Users.Any(u => u.UserName == registerDto.UserName);
 
             if (isUserNameExist)
@@ -63,10 +69,8 @@ namespace Blog_System.CoreLayer.Services.Users
                 return OperationResult.Error("نام کاربری تکراری است");
             }
 
-            // Hash the user's password using MD5
             var hashedPassword = registerDto.Password.EncodeToMd5();
 
-            // Add the new user to the database
             _context.Users.Add(new User()
             {
                 FullName = registerDto.FullName,
@@ -77,10 +81,17 @@ namespace Blog_System.CoreLayer.Services.Users
                 Password = hashedPassword
             });
 
-            // Save changes to the database
-            _context.SaveChanges();
+            try
+            {
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                return OperationResult.Error($"خطا در ثبت کاربر: {ex.Message}");
+            }
 
             return OperationResult.Success();
         }
+
     }
 }

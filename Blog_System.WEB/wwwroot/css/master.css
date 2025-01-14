@@ -52,6 +52,10 @@ CSS LIST --->
 /*=====================
 TYPOGRAPGY CSS
 */
+section {
+    font-family: Roboto;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+}
 a {
   color: #3e425c;
   transition: 0.3s;

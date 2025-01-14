@@ -1,0 +1,41 @@
+﻿@model Blog_System.WEB.Areas.Admin.Models.Category.EditCategoryViewModel
+@{
+    Layout = "_EditLayout";
+    ViewData["title"] = "ویرایش دسته بندی";
+}
+<link rel="stylesheet" href="/css/CreaeCategory.css">
+<section class="content">
+    <div class="box box-body">
+        <div class="box box-primary">
+            <h2>@ViewData["title"] </h2>
+            <form method="post" asp-area="Admin" asp-controller="Category" asp-action="Edit" class="form-horizontal">
+                <div class="form-group">
+                    <label asp-for="Title" class="control-label">عنوان دسته‌بندی</label>
+                    <input type="text" asp-for="Title" class="form-control" placeholder="عنوان دسته‌بندی " required />
+                    <span asp-validation-for="Title"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Slug" class="control-label">اسلاگ</label>
+                    <input type="text" asp-for="Slug" class="form-control" placeholder="اسلاگ " required />
+                    <span asp-validation-for="Slug"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="metaTag" class="control-label">متاتگ</label>
+                    <input type="text" asp-for="MetaTag" class="form-control" placeholder="متاتگ " />
+                    <span asp-validation-for="MetaTag"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="MetaDescription" class="control-label">متا دیسکریپشن</label>
+                    <textarea asp-for="MetaDescription" class="form-control" placeholder="متا دیسکریپشن " rows="4"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success btn-block">ویرایش دسته‌بندی</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

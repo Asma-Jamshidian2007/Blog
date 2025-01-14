@@ -13,21 +13,23 @@ namespace Blog_System.WEB.Pages.Auth
     [BindProperties]
     public class LoginModel : PageModel
     {
-        private readonly IUserService? _userService;
+        private readonly IUserService _userService;
 
-        // Constructor to inject the user service
+        // Constructor injection of IUserService
         public LoginModel(IUserService userService)
         {
-            _userService = userService;
+            _userService = userService ?? throw new ArgumentNullException(nameof(userService));
         }
 
+        [RegularExpression("^[a-zA-Z0-9]+$", ErrorMessage = "نام کاربری فقط باید شامل حروف انگلیسی و اعداد باشد")]
         [Display(Name = "نام کاربری")]
         [Required(ErrorMessage = "{0} را وارد کنید")]
-        public string UserName { get; set; }
+        public string UserName { get; set; } = string.Empty;
 
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-zA-Z]).{8,}$", ErrorMessage = "رمز عبور باید حداقل شامل یک حرف بزرگ، یک عدد و 8 کاراکتر باشد")]
         [Display(Name = "رمز عبور")]
         [Required(ErrorMessage = "{0} را وارد کنید")]
-        public string Password { get; set; }
+        public string Password { get; set; } = string.Empty;
 
         public void OnGet()
         {
@@ -48,8 +50,7 @@ namespace Blog_System.WEB.Pages.Auth
             // If the user is not found, add a model error and return to the login page
             if (user == null)
             {
-                ModelState.AddModelError("UserName", "اطلاعات ثبت نشده است");
-                
+                ModelState.AddModelError("Password", "نام کاربری یا رمز عبور اشتباه است");
                 return Page();
             }
 

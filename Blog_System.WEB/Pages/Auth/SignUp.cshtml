@@ -39,12 +39,17 @@
                 <div class="mb-3 position-relative">
                     <label for="signupPassword" class="form-label">رمز عبور</label>
                     <i class="fas fa-lock form-control-icon"></i>
-                    <input type="password" class="form-control" id="signupPassword" asp-for="Password" placeholder="پسورد خود را وارد کنید" />
+            <input id="password" type="password" class="form-control" id="signupPassword" asp-for="Password" placeholder="پسورد خود را وارد کنید" />
                     <span class="text-danger" asp-validation-for="Password"></span>
 
                 </div>
+        <div>
+            <small id="capsLockWarning" style="display:none; color:red;">روشن است capsLock</small>
+        </div>
                 <button type="submit" class="btn btn-custom w-100">ثبت نام</button>
-                <a href="./Login" class="btn btn-custom bg-white w-100" style="color:black;">اکانت دارم</a>
-
+                <br>
+        <a href="./Login" class="btn btn-custom bg-white w-100" style="color:black;">اکانت دارم</a>
+        <script src="~/js/validate.js"></script>
             </form>
         </div>
+

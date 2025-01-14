@@ -20,11 +20,12 @@ namespace Blog_System.DataLayer.Entities
 
         // Meta description to describe the category (optional, for SEO)
         public string MetaDescription { get; set; } = string.Empty;
-
+        public int? ParentId { get; set; }
         #region Relationships
 
+
         // Required collection of related posts (A category can have multiple posts)
-        public required ICollection<Post> Posts { get; set; }
+        public ICollection<Post> Posts { get; set; }
 
         #endregion
     }

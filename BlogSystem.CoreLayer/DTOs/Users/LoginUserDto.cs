@@ -9,9 +9,9 @@ namespace Blog_System.CoreLayer.DTOs.Users
     public class LoginUserDto
     {
         // Username for login
-        public string UserName { get; set; } = string.Empty;
+        public string UserName { get; set; }
 
         // Password for login
-        public string Password { get; set; } = string.Empty;
+        public string Password { get; set; } 
     }
 }
