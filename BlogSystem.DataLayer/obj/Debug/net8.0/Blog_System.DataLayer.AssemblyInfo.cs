@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blog_System.DataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+017e10df2bc28556deebee18f1ad5dbbe445bb17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a87b87c0cb1cb7c63f9d245569bf873717ff2150")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blog_System.DataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blog_System.DataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

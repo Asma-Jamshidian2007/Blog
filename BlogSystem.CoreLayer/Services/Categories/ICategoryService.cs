@@ -6,11 +6,12 @@ namespace Blog_System.CoreLayer.Services.Categories
 {
     public interface ICategoryService
     {
-        OperationResult CreatCategory(CreateCategoryDto createDto);
+        OperationResult CreateCategory(CreateCategoryDto createDto);
         OperationResult EditCategory(EditCategoryDto editDto);
         CategoryDto? GetCategoryBy(int id);
         CategoryDto? GetCategoryBy(string slug);
-        List<CategoryDto> GetCategoryBy(); 
+        List<CategoryDto> GetAll(); 
         bool IsSlugExist(string slug);
+        OperationResult DeleteCategory(int id);
     }
 }

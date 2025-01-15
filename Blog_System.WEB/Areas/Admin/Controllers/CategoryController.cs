@@ -11,7 +11,6 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
     {
         private readonly ICategoryService _categoryService;
 
-     
         public CategoryController(ICategoryService categoryService)
         {
             _categoryService = categoryService ?? throw new ArgumentNullException(nameof(categoryService));
@@ -19,42 +18,44 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var categories = _categoryService.GetCategoryBy();
-            if (categories == null)
-            {
-                return View("Error");
-            }
-            return View(model: categories);
+            var categories = _categoryService.GetAll();
+            return View(categories);
         }
 
         public IActionResult Add()
         {
             return View();
         }
-        [HttpPost]
-        public IActionResult Add(CreateCategoryViewModel viewModel) {
-            var result = _categoryService.CreatCategory(viewModel.MapToDto());
 
-        return RedirectToAction("Index");
+        [HttpPost]
+        public IActionResult Add(CreateCategoryViewModel viewModel)
+        {
+            _categoryService.CreateCategory(viewModel.MapToDto());
+            return RedirectToAction("Index");
         }
-        public IActionResult Edit(int id) {
+
+        public IActionResult Edit(int id)
+        {
             var category = _categoryService.GetCategoryBy(id);
-            if (category == null) {
+            if (category == null)
                 return RedirectToAction("Index");
-            }
-            var model = new EditCategoryViewModel()
+
+            var model = new EditCategoryViewModel
             {
                 Slug = category.Slug,
-               MetaDescription = category.MetaDescription,
-               MetaTag = category.MetaTag,
-               Title = category.Title
+                MetaDescription = category.MetaDescription,
+                MetaTag = category.MetaTag,
+                Title = category.Title
             };
+
             return View(model);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id , EditCategoryViewModel editModel) {
-            var result = _categoryService.EditCategory(new EditCategoryDto()
+        public IActionResult Edit(int id, EditCategoryViewModel editModel)
+        {
+            var result = _categoryService.EditCategory(new EditCategoryDto
             {
                 Slug = editModel.Slug,
                 MetaDescription = editModel.MetaDescription,
@@ -62,11 +63,26 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
                 Title = editModel.Title,
                 Id = id
             });
-            if(result.Status!= OperationResultStatus.Success)
+
+            if (result.Status != OperationResultStatus.Success)
             {
                 ModelState.AddModelError(nameof(editModel.Slug), result.Message);
                 return View();
             }
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var result = _categoryService.DeleteCategory(id);
+            if (result.Status != OperationResultStatus.Success)
+            {
+                TempData["ErrorMessage"] = result.Message;
+                return RedirectToAction("Index");
+            }
+
+            TempData["SuccessMessage"] = "Category deleted successfully.";
             return RedirectToAction("Index");
         }
     }

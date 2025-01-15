@@ -2603,7 +2603,7 @@ wwwroot\Admin\plugins\timepicker\bootstrap-timepicker.min.css
 wwwroot\Admin\plugins\timepicker\bootstrap-timepicker.min.js
 wwwroot\AuthLayout\css\style.css
 wwwroot\css\buttons.css
-wwwroot\css\CreaeCategory.css
+wwwroot\css\CreateCategory.css
 wwwroot\css\fonts\fontscss.txt
 wwwroot\css\fonts\iranyekanwebboldfanum.eot
 wwwroot\css\fonts\iranyekanwebboldfanum.svg

@@ -1884,8 +1884,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i4dwz5w0gu</Fingerprint>
-      <Integrity>ckGnmdS2rYhDNWsvA60zxUhyuDxmiVysnn2HcFtih7k=</Integrity>
+      <Fingerprint>jjewn3yhuq</Fingerprint>
+      <Integrity>YSsTD99w5c/hY+j0CgEVaE7GgSm1nF1imGh2zD10IU8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\contents.css'))</OriginalItemSpec>
@@ -1902,8 +1902,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>568jf7lops</Fingerprint>
-      <Integrity>4xSM2r796T7nC4dIPRs16Z3HgHo+pm3R+J8QtXXm8Bg=</Integrity>
+      <Fingerprint>ckfng6r6jb</Fingerprint>
+      <Integrity>dDl69lOKq9rF73DjM4PtK0sHAnvxhJYOIq8vqh4zumI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\lang\_translationstatus.txt'))</OriginalItemSpec>
@@ -1938,8 +1938,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>myi1g02fq5</Fingerprint>
-      <Integrity>PgYtur6HHtcg4HcytaPxbBxXocX5HFLOZCvO16jKBxE=</Integrity>
+      <Fingerprint>ypshnyq7ur</Fingerprint>
+      <Integrity>pkpp/L2GvXYWSxWZOtTF8ONSfm9n6/X+/011R+uKzY8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\a11yhelp\dialogs\lang\_translationstatus.txt'))</OriginalItemSpec>
@@ -1992,8 +1992,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mdt0ppijei</Fingerprint>
-      <Integrity>ujE/JEBJYy12vu0ifWXiyU4gkNg+4lZoMSN3d8OfoaM=</Integrity>
+      <Fingerprint>zq2uqj1nva</Fingerprint>
+      <Integrity>a7+Xyev19HoAOo1bUzS1YdHMtZGRhAH8XKxyUxNOWNA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\balloonpanel\skins\kama\balloonpanel.css'))</OriginalItemSpec>
@@ -2010,8 +2010,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mwvn3lx9ia</Fingerprint>
-      <Integrity>uleHl2kh6fPbXOXRYnayfoOSIduFOr+j8IDUvhWsO08=</Integrity>
+      <Fingerprint>f727hb7x7i</Fingerprint>
+      <Integrity>63M8Skwphvlm8JlnJQG8mBZhv2uXPvlDrEg1gIHXWtk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\balloonpanel\skins\moono-lisa\balloonpanel.css'))</OriginalItemSpec>
@@ -2064,8 +2064,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1s2w8euotf</Fingerprint>
-      <Integrity>Eba7rHMBBjVynjlNKJDSwTmPReWHT8/GBwuDQTegyrQ=</Integrity>
+      <Fingerprint>rqekwtpf6y</Fingerprint>
+      <Integrity>XXQMZbtAKHSjerKU7E2/2oHJpTzSaPP58wY3fjM5IKw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\balloonpanel\skins\moono\balloonpanel.css'))</OriginalItemSpec>
@@ -2226,8 +2226,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2fdkt2xm3k</Fingerprint>
-      <Integrity>7pWY0UB+sTFQCHXj3K9ByUXQ9Aa7Ha67z10cMhJyNjs=</Integrity>
+      <Fingerprint>68itm463xx</Fingerprint>
+      <Integrity>eniiGEED7/Pl4VEjPHx6qZ9wAHGYzO5n+ULxcfRgB0M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\arta.css'))</OriginalItemSpec>
@@ -2244,8 +2244,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nc2qncjfwt</Fingerprint>
-      <Integrity>mVrY73XoVrPokXbOHCrmHV7zWdLOggb42WHm4AI+tKg=</Integrity>
+      <Fingerprint>rbeq4qpb2g</Fingerprint>
+      <Integrity>+bhKDAsdWvmNzMu/Tf35a7sXUcJB1DU7fikhc5P5G9w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\ascetic.css'))</OriginalItemSpec>
@@ -2262,8 +2262,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hdycbp0ev8</Fingerprint>
-      <Integrity>+1ecK+1JnA2BvOlZ06nR+rKQBP1RxSLogBxqkjd4yEw=</Integrity>
+      <Fingerprint>4zag7yne3r</Fingerprint>
+      <Integrity>kLopoxf2dP0yeF5YHh11wI2xB9I1pxDJE0MAJWu/P4U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-dune.dark.css'))</OriginalItemSpec>
@@ -2280,8 +2280,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bkm8gw0f06</Fingerprint>
-      <Integrity>O3RSocNqT6MEnHzBSpSWVgEpe+azvyRkbXOEbx8rk6Y=</Integrity>
+      <Fingerprint>gfwjlpu5zp</Fingerprint>
+      <Integrity>7IPkTZPsMV12Lv+vw0PaJfR8s6DcWfTbcgEqGt/TMdo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-dune.light.css'))</OriginalItemSpec>
@@ -2298,8 +2298,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n36mi8n1e1</Fingerprint>
-      <Integrity>Y+r8SwHL2Z0kT+3C2XG6qN46Kr2ikqT8B3O+4NwnHto=</Integrity>
+      <Fingerprint>zlrck0fqyk</Fingerprint>
+      <Integrity>xxpQPCqGAYNwJXsF/u1cmn2ZWKgYuTXtj8lv32fTkSg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-forest.dark.css'))</OriginalItemSpec>
@@ -2316,8 +2316,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>npd7ck7feo</Fingerprint>
-      <Integrity>1TJFmbmuXMyb4TuOZesh2RhHQY08+/cJRCbzUGStXUo=</Integrity>
+      <Fingerprint>xd9ls69wxp</Fingerprint>
+      <Integrity>O9mu0R9BUQiQa4iV+ej6Ze+X0EyNVYpqPpq5XwrRJyY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-forest.light.css'))</OriginalItemSpec>
@@ -2334,8 +2334,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tkc13c7svi</Fingerprint>
-      <Integrity>EwcTChfOSg6M/2N9/jtSrZLnX1PeRD22xLfdvoTEeo0=</Integrity>
+      <Fingerprint>dzqke7m8a6</Fingerprint>
+      <Integrity>Z5Cg07zwKN2XfC7GAcsBVhy6tZc1hZvpILAUOxbXR88=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-heath.dark.css'))</OriginalItemSpec>
@@ -2352,8 +2352,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gx1ku0opsr</Fingerprint>
-      <Integrity>PBvr1JZwD2Hi7voWV0HRkjPd4NFinymAYdsezEiopec=</Integrity>
+      <Fingerprint>xgd168tn2b</Fingerprint>
+      <Integrity>cXCq8tKL2fM8XYdb31BvAdz89OUw2XVNK2HO1DaOF6E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-heath.light.css'))</OriginalItemSpec>
@@ -2370,8 +2370,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9n255glaiw</Fingerprint>
-      <Integrity>Wy6FWZD+N9CLWHU50/r510H5+MHXO6nwqmY7JNNUasg=</Integrity>
+      <Fingerprint>9539zewzbl</Fingerprint>
+      <Integrity>08z/yWPpb973qGSGQ8CPlFVLy14SVc1Aezxakj2lbg0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-lakeside.dark.css'))</OriginalItemSpec>
@@ -2388,8 +2388,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ti3xl04pab</Fingerprint>
-      <Integrity>FUXIMAVhXd8IFjDH/659ZQnZTVY0Kqz8V+SOwNOgelE=</Integrity>
+      <Fingerprint>y1ehhc13oy</Fingerprint>
+      <Integrity>mm1WvtvUhbq4Ds8vH6WTxEGZTIpjXQCBISmER1wt7Ds=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-lakeside.light.css'))</OriginalItemSpec>
@@ -2406,8 +2406,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4g0zht9ivz</Fingerprint>
-      <Integrity>/L3b359PE5jr5hH/UzDGCNUZxKcuOCkXsNyNE/wZbyM=</Integrity>
+      <Fingerprint>2hsa0eowub</Fingerprint>
+      <Integrity>WtnnUVwR1C7enFhDfBPg2CdcgpBQ+8WUtPJgIl8rlnM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-seaside.dark.css'))</OriginalItemSpec>
@@ -2424,8 +2424,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aaugzp42d2</Fingerprint>
-      <Integrity>UsQEYRvdN1sLNeqYqPiByXZ1qb83yeXWxEVnbB1f4Ow=</Integrity>
+      <Fingerprint>11bkvyt8f4</Fingerprint>
+      <Integrity>K3Tn63lxwxiw4OPqkvCusj01kL4XgXztqAfJcO+faCw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\atelier-seaside.light.css'))</OriginalItemSpec>
@@ -2442,8 +2442,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ug4rcxkfye</Fingerprint>
-      <Integrity>Xv8Sjh2+EHh+KXre9PO9L+lIBiZPNAN77c7D+6Jub+U=</Integrity>
+      <Fingerprint>57vcxqi96s</Fingerprint>
+      <Integrity>8fHwQHpolBtLR7MLuMCBWFztScwLUa8SAGiVpwPjdHI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\brown_paper.css'))</OriginalItemSpec>
@@ -2478,8 +2478,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pyffaoqa2h</Fingerprint>
-      <Integrity>kcgWdXA/y0E9ezHmQECIfulaybfzQlLE/3TVZIG29NI=</Integrity>
+      <Fingerprint>ovcv4y39v3</Fingerprint>
+      <Integrity>DPEwUwsMZqeoxWNiD3LZqf+W8RL9UBVm2mhphgUUqSo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\dark.css'))</OriginalItemSpec>
@@ -2496,8 +2496,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n17bvehb5p</Fingerprint>
-      <Integrity>lcDysF5rFGuU6f2oj4knJROMpRXzeWJ758MNR7nwD+c=</Integrity>
+      <Fingerprint>xhtnaihrwm</Fingerprint>
+      <Integrity>FZcJFsWwUR1hajLUOpsVo+WB5ZT7nAYecy+ETTvb5YM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\default.css'))</OriginalItemSpec>
@@ -2514,8 +2514,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mf3utvw7fr</Fingerprint>
-      <Integrity>4kUnde5nKYoUGdItOobJMLruPMNuovLv4IZi5ODBMSE=</Integrity>
+      <Fingerprint>g3feap808t</Fingerprint>
+      <Integrity>FO72JkUWeVyEDCldQKvS3b5kqbBx2xoQm9/maknEdRk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\docco.css'))</OriginalItemSpec>
@@ -2532,8 +2532,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yoeujij3ml</Fingerprint>
-      <Integrity>Hu8gTd5UQJOD7kY9lGv7LA5LzvVEs2XcbjA18Xz8Geo=</Integrity>
+      <Fingerprint>jhiwsk40dv</Fingerprint>
+      <Integrity>l9E+y7lAhmlntfaEmZEEUQbuI5XzsmjkNbX1XMAutOM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\far.css'))</OriginalItemSpec>
@@ -2550,8 +2550,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qkqoytu00s</Fingerprint>
-      <Integrity>do0+aA6v6BvIkGjeowomTcmiwojaCoHi9xJHgh9vSsA=</Integrity>
+      <Fingerprint>xb7rnx1eg0</Fingerprint>
+      <Integrity>I3epKRioo3Wq21wB2ZY5AM8gu5gmMfRcGVKi0SuKoIc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\foundation.css'))</OriginalItemSpec>
@@ -2568,8 +2568,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ty679w528w</Fingerprint>
-      <Integrity>BRgwxwI7BOMHnUDCeZ34rZCo52Ssz4PelTYCntPWDss=</Integrity>
+      <Fingerprint>wroh5js1w8</Fingerprint>
+      <Integrity>VBfV+EIa6O3KMCdisdyaKOmujz+IZHp1ZmpARYxXyJA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\github.css'))</OriginalItemSpec>
@@ -2586,8 +2586,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6kt7l0nfvt</Fingerprint>
-      <Integrity>mgldxnF2KJvDeg7SLBypN3tGGgx3D1XzhC0OzWsu3Nk=</Integrity>
+      <Fingerprint>sn89mpfxts</Fingerprint>
+      <Integrity>6GE2BDC72h72UCIAGi+DvO1dBDzJ+Pdf7v6sEch6SUY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\googlecode.css'))</OriginalItemSpec>
@@ -2604,8 +2604,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vmooco53ry</Fingerprint>
-      <Integrity>SXGiO8Njpv6auk0n7ZCOiDW357S+Q3nXTfDQcdiqgaQ=</Integrity>
+      <Fingerprint>n948sw9pt8</Fingerprint>
+      <Integrity>m7MQIKOuDOd1Yms/couXvLAn4YTU2kvWJFQBZVzGhSk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\idea.css'))</OriginalItemSpec>
@@ -2622,8 +2622,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ofxmo0zt90</Fingerprint>
-      <Integrity>xNpMz9t0M9N6s9UEvPi/Ieb0f9cR2Dus3gHleFKrKNM=</Integrity>
+      <Fingerprint>pztj9jl8b4</Fingerprint>
+      <Integrity>a7xXfCXobjKUIMK4r7EdttFzLgeu+EIcn6TfJ8OLAhc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\ir_black.css'))</OriginalItemSpec>
@@ -2640,8 +2640,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mlzfd48797</Fingerprint>
-      <Integrity>+l7kR+pt/MhI1iT/ZNyR1Bkmx1a3p584BTj/sXh+P7I=</Integrity>
+      <Fingerprint>xvqemazxel</Fingerprint>
+      <Integrity>Y9KvGgTsAPuqFMd+HQ1bfxJLSwFFCrwvQCtRitLUj34=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\magula.css'))</OriginalItemSpec>
@@ -2658,8 +2658,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8pbwstrpow</Fingerprint>
-      <Integrity>xNyzGlYmefLQcwTPrEZMO2riuqUeQ4Ur0+AMYly0RuQ=</Integrity>
+      <Fingerprint>7m5dw65bfi</Fingerprint>
+      <Integrity>UZozisvTJ3GQxf+XjBOSH6w6QsaAEd6SuSZmap9fgas=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\mono-blue.css'))</OriginalItemSpec>
@@ -2676,8 +2676,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f8fe0eue92</Fingerprint>
-      <Integrity>YWNkS0JgvTu36PwbZTjrYqo5YFapMabvX56ZwAHtee8=</Integrity>
+      <Fingerprint>4tbvuia4bm</Fingerprint>
+      <Integrity>iFO5NTHPfZ52gnVFy2WBJYdYZTlTp62KCumA/fFIGzQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\monokai.css'))</OriginalItemSpec>
@@ -2694,8 +2694,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tw2vthzrxn</Fingerprint>
-      <Integrity>fTHPEmbEbxJq3O+rzBCfvib8DDGvkqRPABcTTDRUYDo=</Integrity>
+      <Fingerprint>nzl2hey6fi</Fingerprint>
+      <Integrity>0yQXfzdcFCUH89cb9EJTstBkILEzD6GSz+iJ6sYhHEg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\monokai_sublime.css'))</OriginalItemSpec>
@@ -2712,8 +2712,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aspeoi24ur</Fingerprint>
-      <Integrity>9sUt5aS76D+/3/ad1ESatPV+Y9gZPRhPJHE7K3BpsIg=</Integrity>
+      <Fingerprint>ye4scep605</Fingerprint>
+      <Integrity>pmbBXw0p2hjA4lyAp1rYxQDj4L+fm/AXN9X0+haHHJU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\obsidian.css'))</OriginalItemSpec>
@@ -2730,8 +2730,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kzhb9dz6w6</Fingerprint>
-      <Integrity>MCOq/M8Ob7C3fIf8g/tx7IJ4GQW1Zt7aHpj+myz875M=</Integrity>
+      <Fingerprint>mctjuqw9tf</Fingerprint>
+      <Integrity>VuHOB9rNIFRO6/1wey/ZKO6y7e7NzvMGMQFmoSkgiHA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\paraiso.dark.css'))</OriginalItemSpec>
@@ -2748,8 +2748,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cmr8n4rzwu</Fingerprint>
-      <Integrity>1LT/w5AxAW8INVDZg/lpC38NzSc4TWAZ9S3WxGfB5cE=</Integrity>
+      <Fingerprint>qtowuq6cpr</Fingerprint>
+      <Integrity>riu3B3ft2OFwaFMSrQwj3+mc5LuOoSMovmHLv73AOgo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\paraiso.light.css'))</OriginalItemSpec>
@@ -2766,8 +2766,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pqpad5mtsc</Fingerprint>
-      <Integrity>0aHO1y2v+EQkHApbX9xrK6pg5c5Vkuqk2dw9LMb10FI=</Integrity>
+      <Fingerprint>hbv2t5660v</Fingerprint>
+      <Integrity>86PlL+K55u+ck47sR4+yRs2BTBf0H3IN0SFEWLyfnMU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\pojoaque.css'))</OriginalItemSpec>
@@ -2802,8 +2802,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i1ajtb42hi</Fingerprint>
-      <Integrity>lsI7XjAMdi9VndTcMHMVOUKq3SulX3qYUUNqQpFY7Jc=</Integrity>
+      <Fingerprint>40mfico3uj</Fingerprint>
+      <Integrity>JF/227uI2SUoAPjfx4URJizKZceefc/E4RBkSqFpHDw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\railscasts.css'))</OriginalItemSpec>
@@ -2820,8 +2820,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ua7gx4u1t3</Fingerprint>
-      <Integrity>CgZRrrXH8kaySYWRcu7XHGT65qatTUwL0hgvrg1D8JY=</Integrity>
+      <Fingerprint>r39bajc3vl</Fingerprint>
+      <Integrity>1/gkrlIguANqo8KVyVu5bRTPiP305QtzBzqMOCAYbFY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\rainbow.css'))</OriginalItemSpec>
@@ -2838,8 +2838,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0aukhqrjz9</Fingerprint>
-      <Integrity>SJ9zSCSpX7wwbAo4HWwbekaH9exhTrF1bPrjelY4Bcs=</Integrity>
+      <Fingerprint>k50yhz3sjm</Fingerprint>
+      <Integrity>SIJX1aCHuK4a5Gnm5hl2xPjODdylzk+tiwcim+RIOsA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\school_book.css'))</OriginalItemSpec>
@@ -2874,8 +2874,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>14xs90vcfs</Fingerprint>
-      <Integrity>X9AH3meaGpL1SKgWMyVODDrG710mbDWZeDkzcb+5LkA=</Integrity>
+      <Fingerprint>azm38nekmf</Fingerprint>
+      <Integrity>6sTpkR6/aWqn+R5l4ADXPm7YOSQUsfeWqifgozNOrn8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\solarized_dark.css'))</OriginalItemSpec>
@@ -2892,8 +2892,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>241jvg9fdo</Fingerprint>
-      <Integrity>YpusLi9o5VYfSci4WRaO35PdNoHxQ1CfizalstQVwcA=</Integrity>
+      <Fingerprint>r9qoo53tzi</Fingerprint>
+      <Integrity>/1bTQD831z4kNFTj7X+eS80dme7yKq8QmlNbniilWvk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\solarized_light.css'))</OriginalItemSpec>
@@ -2910,8 +2910,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hzlao9e28x</Fingerprint>
-      <Integrity>zcmpMEc344YyRrXJ6//fCvZTNaB/jU0ln/byxei1f+I=</Integrity>
+      <Fingerprint>xug64j3e16</Fingerprint>
+      <Integrity>2fqSagUM/LgB6VsoST3TlXiXgtC21vlAfT3revdwl+Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\sunburst.css'))</OriginalItemSpec>
@@ -2928,8 +2928,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c2fv2uzy29</Fingerprint>
-      <Integrity>/Hed25hnUhjGUy7yiu4cp+g/PUSv+p0MCHNutimKHoM=</Integrity>
+      <Fingerprint>j4jc7pz3uc</Fingerprint>
+      <Integrity>Lblx0frIaCe45ZLCGT1bdPDxe73Go/QVjidcMpqFTSg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\tomorrow.css'))</OriginalItemSpec>
@@ -2946,8 +2946,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e4cg651lvd</Fingerprint>
-      <Integrity>ohRIJW03XR+Yuzi/1NIGUuydsP4+Stz7i19+pM5V2Ro=</Integrity>
+      <Fingerprint>7nqjg3mlry</Fingerprint>
+      <Integrity>o6mBgHLNUtA520IyHj53SRbZBfoAGUCDpyaVKL/Zv0U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\tomorrow-night.css'))</OriginalItemSpec>
@@ -2964,8 +2964,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n4bvckbymk</Fingerprint>
-      <Integrity>F9aeKxXujUUra83bbcrt2X6uNtH7fVdNHSBhFsEMwU0=</Integrity>
+      <Fingerprint>wb3emw8g7e</Fingerprint>
+      <Integrity>XN5tsN0y5xE/cZJZaV3RZ0OrpgXvKkCgX+sp2e1l1Vc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\tomorrow-night-blue.css'))</OriginalItemSpec>
@@ -2982,8 +2982,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pbulyp7nm8</Fingerprint>
-      <Integrity>O93HrelHERyg0v0PEha1RjqYJtgDwXVG+XUNOqGLQeg=</Integrity>
+      <Fingerprint>40qutmelcc</Fingerprint>
+      <Integrity>3KteRsiwyfawE76TApE3NTKo2CGBn6+iEcwheNVOvU0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\tomorrow-night-bright.css'))</OriginalItemSpec>
@@ -3000,8 +3000,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c4rg80rarn</Fingerprint>
-      <Integrity>TCXFXZRKLw0mXhKWwSCtuZ9cdRWiYMMBJH+6N7s55iI=</Integrity>
+      <Fingerprint>7konqyk2jg</Fingerprint>
+      <Integrity>F75xe4htC2M3zVIouPlONF9IthEqP0YDz64XJDFqJLA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\tomorrow-night-eighties.css'))</OriginalItemSpec>
@@ -3018,8 +3018,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c6wswpznq6</Fingerprint>
-      <Integrity>HFpUElL0jn2IugkamgTF9/nEs+Lb/b0YXomsG3xv7ys=</Integrity>
+      <Fingerprint>ej1o2nef9g</Fingerprint>
+      <Integrity>yrsq7Kvljg84ghqDNvhfs4Vn0FCRIj+DIxGkCtA96VM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\vs.css'))</OriginalItemSpec>
@@ -3036,8 +3036,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t9d7hepmxn</Fingerprint>
-      <Integrity>8fe8pFrQug1aG8XEWSNBpsmnu2xnNnHuvSWfy+ptyak=</Integrity>
+      <Fingerprint>l2ew6jt4if</Fingerprint>
+      <Integrity>PdE2CS4EEeFrM3LbxuocKzid7dWUl/5Wv89pRaewVs8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\xcode.css'))</OriginalItemSpec>
@@ -3054,8 +3054,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7vlgyryi8z</Fingerprint>
-      <Integrity>syD3PwN/gL5bL11/qegIJHiV3qCQGYLjMdy28BQ1iyA=</Integrity>
+      <Fingerprint>n4lny0vxe7</Fingerprint>
+      <Integrity>SaN0EgN/cYvJ/qXyYi3iGDz+mzgpgDUpRCjaIz35XKw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\codesnippet\lib\highlight\styles\zenburn.css'))</OriginalItemSpec>
@@ -3144,8 +3144,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>269vq55s7y</Fingerprint>
-      <Integrity>1uGQ49IDGiSlDpeWG7iLC2rqII8ogBgMNLacPk0gZ+I=</Integrity>
+      <Fingerprint>92kr368u5q</Fingerprint>
+      <Integrity>r6b+szUKTDmc6BnIdWyhITxzcI7MqbBopWSFJZ5loRI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\colordialog\dialogs\colordialog.css'))</OriginalItemSpec>
@@ -3198,8 +3198,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>308d5c1vub</Fingerprint>
-      <Integrity>PfHzvSNv++n+G5IPd/SPhhexRry9BT52INS71Fz5zlg=</Integrity>
+      <Fingerprint>qvit1alozv</Fingerprint>
+      <Integrity>KqLVl41vfSWIPy3LS6WVRYm0bVa2IvFhsirdP/45qEM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\copyformatting\styles\copyformatting.css'))</OriginalItemSpec>
@@ -3216,8 +3216,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pvan1f927n</Fingerprint>
-      <Integrity>KxzPyYVjd9ewxVsbVZvumuNBNlOqtPOlZw5F5e8w+pY=</Integrity>
+      <Fingerprint>b7hhwboofp</Fingerprint>
+      <Integrity>Vx1IErPdSlE/qvd01+q4q0T0n9ftxxQqN3JEN4IFLRU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\devtools\lang\_translationstatus.txt'))</OriginalItemSpec>
@@ -4782,8 +4782,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>neppnsj74p</Fingerprint>
-      <Integrity>36PDLJC1lS5jq4bHtz8gh+AQkGDmLhtKmFYuKsjyiac=</Integrity>
+      <Fingerprint>fp1vl6o20r</Fingerprint>
+      <Integrity>ndi9y5zfeZmG7KKAO2pGPgXu52AHqNgdlxFoduoPZoU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\preview\preview.html'))</OriginalItemSpec>
@@ -4872,8 +4872,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dnkqxsf581</Fingerprint>
-      <Integrity>9zMgTF72n7fuW2kpBt8zTA2jwNHz6qMBIf5vByyyq8I=</Integrity>
+      <Fingerprint>vnbyw87k0o</Fingerprint>
+      <Integrity>deBnmVPlhv+sVa8ScAwVuaS31JdlEDwW/YlDwkFivww=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\scayt\dialogs\dialog.css'))</OriginalItemSpec>
@@ -4890,8 +4890,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2kqkx09n9m</Fingerprint>
-      <Integrity>ctT8Kfk3He5UFGvJ4wjel7trybRHMXLbWjcDs5utS3E=</Integrity>
+      <Fingerprint>evzywp9knv</Fingerprint>
+      <Integrity>5mGRq7/EteXmKRv01MrLTgdLuNlEV/9ThLPxjnIZWiw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\scayt\dialogs\toolbar.css'))</OriginalItemSpec>
@@ -4908,8 +4908,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rhkg503dr6</Fingerprint>
-      <Integrity>v2Dl8uWPXLVzoWHR4Y/dqz+PFNlPVuAjYC42FQG31So=</Integrity>
+      <Fingerprint>oz1ud5gezz</Fingerprint>
+      <Integrity>lEZfinq/TagpXg+pOmDroSh4MN/EHjaY+z0gCRuV1Yw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\scayt\skins\moono-lisa\scayt.css'))</OriginalItemSpec>
@@ -6132,8 +6132,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h9obqabaxr</Fingerprint>
-      <Integrity>a77R6PJFbTK0+vP5pzzTeHCodPm/ACUCg9ADaJjczAE=</Integrity>
+      <Fingerprint>nnd2stl55h</Fingerprint>
+      <Integrity>o3EQXgrY5SIeBImdaf6zSpNe24ZIanzKAsSVYEv9kyw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\specialchar\dialogs\lang\_translationstatus.txt'))</OriginalItemSpec>
@@ -6150,8 +6150,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8qr25ngvp9</Fingerprint>
-      <Integrity>IGYhjY/jG/DgpFY2Q1seShfbXyQt5lkMzg+Y4GGcl2k=</Integrity>
+      <Fingerprint>pcyu8rdtya</Fingerprint>
+      <Integrity>l5Kysc0XxXuirch21+LCvLR09YdrsYwH+9dXlw+HZdc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\tableselection\styles\tableselection.css'))</OriginalItemSpec>
@@ -6168,8 +6168,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>14orhubod6</Fingerprint>
-      <Integrity>L7RIExCLx+PEU7C7UOJ3yk3AHP/VFfViZORPN3UdVvo=</Integrity>
+      <Fingerprint>5xlnla05te</Fingerprint>
+      <Integrity>uasBRKFXYG147h3yx403IX8JoRaqwGKjtLv0s4bO4FI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\templates\dialogs\templates.css'))</OriginalItemSpec>
@@ -6312,8 +6312,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>269vq55s7y</Fingerprint>
-      <Integrity>1uGQ49IDGiSlDpeWG7iLC2rqII8ogBgMNLacPk0gZ+I=</Integrity>
+      <Fingerprint>92kr368u5q</Fingerprint>
+      <Integrity>r6b+szUKTDmc6BnIdWyhITxzcI7MqbBopWSFJZ5loRI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\uicolor\dialogs\uicolor.css'))</OriginalItemSpec>
@@ -6366,8 +6366,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6rsxchmkog</Fingerprint>
-      <Integrity>LiBfu5YGQRnrDTaSK+3afHb25pqx2I6QBCn67PzKrBc=</Integrity>
+      <Fingerprint>bdv0nx64y6</Fingerprint>
+      <Integrity>z5kKuwQF2gI7KHAWpg2aF378d2sw//7TFMX8weiJ7VE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\uicolor\lang\_translationstatus.txt'))</OriginalItemSpec>
@@ -6402,8 +6402,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ek5u18icgx</Fingerprint>
-      <Integrity>UqetyhqvdjTkvylp9MFbW6qc//i3NQLvGpzajIbJZcY=</Integrity>
+      <Fingerprint>bs0f4r8ncn</Fingerprint>
+      <Integrity>u8H4XtaB+AwSop/G45D+Mln8En+q3XoauHzGrPE3BfM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\wsc\dialogs\ciframe.html'))</OriginalItemSpec>
@@ -6420,8 +6420,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j4rkd2g1rk</Fingerprint>
-      <Integrity>U3sL7S86woQxiszx/DepdzwWYo8h6xElaFsr6jooKgU=</Integrity>
+      <Fingerprint>2ka4rb9u7c</Fingerprint>
+      <Integrity>jtrZaCTtbmaHvBUPySunSeDNVcT03lNDRWji7OHiuZk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\wsc\dialogs\tmpFrameset.html'))</OriginalItemSpec>
@@ -6438,8 +6438,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r4vseysvss</Fingerprint>
-      <Integrity>ZV3PeNbFVgGe13aYjcyLWyn4P4Njjg92eOPjJTF16JI=</Integrity>
+      <Fingerprint>ryljy3m17h</Fingerprint>
+      <Integrity>DRz2YAngRR/ItzqMbjKVdcpNw03RKmle43kFsPzAQkw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\wsc\dialogs\wsc.css'))</OriginalItemSpec>
@@ -6456,8 +6456,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>snfw0400z3</Fingerprint>
-      <Integrity>SKeQv7lB5oUsixsFUq8jHw/BKaKPGxf0Bvn8SHr5h54=</Integrity>
+      <Fingerprint>k3yfhu817p</Fingerprint>
+      <Integrity>oPx/4bonUJCpMDjFKVDdtTiWOzNvAAn0xu/RcicXQE8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\plugins\wsc\skins\moono-lisa\wsc.css'))</OriginalItemSpec>
@@ -6474,8 +6474,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d3p54bv8a2</Fingerprint>
-      <Integrity>t3GJ0B6VH1ynZtaB1z+WIJXkY+6z0Hx50FSjOBxhvOk=</Integrity>
+      <Fingerprint>oyavfbfdsj</Fingerprint>
+      <Integrity>wAshCoyTDoDWZHtHCjg0HCu54vhgKV6yKVNUqvTX+rw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\css\samples.css'))</OriginalItemSpec>
@@ -6582,8 +6582,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6mi9lutccb</Fingerprint>
-      <Integrity>gvw3LMUUEsWoBPDdFRZRQ9QoqKOsfjMShPYGEYKY4P8=</Integrity>
+      <Fingerprint>43wtee5ae5</Fingerprint>
+      <Integrity>sN0cQabDto8rUR4rHmqlWaO421gicBiXzoRs7cApEL0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\index.html'))</OriginalItemSpec>
@@ -6600,8 +6600,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jj3uvaot11</Fingerprint>
-      <Integrity>bxTWY3GE1URgj/T9AmwICHuzw416zAcB8LfL4XWDoI4=</Integrity>
+      <Fingerprint>i24edfyxmx</Fingerprint>
+      <Integrity>GjW3jd6yLx5Nv85DIuvpkYlcn/gtf3L00YklWSfUkgA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\ajax.html'))</OriginalItemSpec>
@@ -6618,8 +6618,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ru9oz49y8x</Fingerprint>
-      <Integrity>HRX7e8pp8i+7kKGH5H+psWphvZ1/+H67D2INvW+1MuU=</Integrity>
+      <Fingerprint>lkhm25kny9</Fingerprint>
+      <Integrity>dXijbGsGQlpylB39HE0U5MMHL/63Xk9tNVS+gJi910o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\api.html'))</OriginalItemSpec>
@@ -6636,8 +6636,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l3os6gibt3</Fingerprint>
-      <Integrity>/7CCrduDkij5sDx3ZVoq9cyIWuayBACjlrU5x/jYTUI=</Integrity>
+      <Fingerprint>raez7m8xp0</Fingerprint>
+      <Integrity>I3J+p+nNQPxtNHHilEGt/NPDSr6eNuWkvkoyi8wiuUU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\appendto.html'))</OriginalItemSpec>
@@ -6672,8 +6672,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>abez7ar8xz</Fingerprint>
-      <Integrity>yk2zQNFlCEP4shuXhAHBAQE21DaPuR9xQ+4n8m3a4mM=</Integrity>
+      <Fingerprint>jptqgtxcek</Fingerprint>
+      <Integrity>GTP0pXHVCSOrfvruiafPaEHhgYIJZj6v4CnHj6XEdW8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\assets\outputxhtml\outputxhtml.css'))</OriginalItemSpec>
@@ -6708,8 +6708,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pwepsu4n5w</Fingerprint>
-      <Integrity>uet3hE4JDmhViTKxN4DhXht+KezlfgWSZbNnCVfk7V8=</Integrity>
+      <Fingerprint>5wvp18xxtl</Fingerprint>
+      <Integrity>S4G2GmtuL37TePwYVTEG3kLAWTv30mHpgw7zb+zBjPc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\autogrow\autogrow.html'))</OriginalItemSpec>
@@ -6726,8 +6726,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mzegz7vco6</Fingerprint>
-      <Integrity>HuHaPPzsrMHe4j61cRQWDp/tH4Kg5YO/t0bDx4Z4AK0=</Integrity>
+      <Fingerprint>ntqwtuljw4</Fingerprint>
+      <Integrity>y9QYlqOYMBgB+0eeRzFCV0fUL295t1v6czcgkOINmrY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\bbcode\bbcode.html'))</OriginalItemSpec>
@@ -6744,8 +6744,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r0brrma9ns</Fingerprint>
-      <Integrity>dZyAn0bZr0H/4o24Z2TjVUZBdyn4t9ofZXoFflBxdHA=</Integrity>
+      <Fingerprint>6yzpobg2ih</Fingerprint>
+      <Integrity>wtmtnqZ7p9e+2iQ20P9BwBjV1GolEWO9kdh/OHlQo88=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\codesnippet\codesnippet.html'))</OriginalItemSpec>
@@ -6762,8 +6762,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7oh57i33gn</Fingerprint>
-      <Integrity>SThF4bj45wfg+X79DA/Jd9YuQ7MkRtfO9E58JRizXTE=</Integrity>
+      <Fingerprint>mdkl6cjcd5</Fingerprint>
+      <Integrity>lv8sVMBpGA77EQkUWslZxKm2c4PYGc8nJrHc6cFiG3s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\datafiltering.html'))</OriginalItemSpec>
@@ -6780,8 +6780,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kt5w2jkz9b</Fingerprint>
-      <Integrity>iKwWkwOtuRHLezP8keRYcLLUvKPY6Dbwlf2aaEsVFBo=</Integrity>
+      <Fingerprint>yrhgp8grm9</Fingerprint>
+      <Integrity>/lZ9OKHv5gJa6YQal+cC1WJcRtFDZ5a3XkgGIYVL58s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\devtools\devtools.html'))</OriginalItemSpec>
@@ -6798,8 +6798,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sftv52y61k</Fingerprint>
-      <Integrity>yLPiMpBnreg4CtkoleV7Q7l1uXWl3RyJHj3alFWFPOU=</Integrity>
+      <Fingerprint>bi3t4fpwkb</Fingerprint>
+      <Integrity>/ZiEJt92wbyO6VcHgjNhdLdoSxnPxN83c/fXSyKuhEM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\dialog\dialog.html'))</OriginalItemSpec>
@@ -6816,8 +6816,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>adrmx2dunf</Fingerprint>
-      <Integrity>Do0V0SsKYPckiytSKp9rrIeU3m0elejKTl9unsTNejo=</Integrity>
+      <Fingerprint>qotgguzw44</Fingerprint>
+      <Integrity>SnIALb6Nn8wLbWtlw909GwS6ieTIJI5sBhYK7RR0LY8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\divarea\divarea.html'))</OriginalItemSpec>
@@ -6834,8 +6834,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d01qpj8qrk</Fingerprint>
-      <Integrity>Y5M87Sqb606Kywxc1KCbsDznA4o9hQTg1o2VTM3mrc8=</Integrity>
+      <Fingerprint>w0lru8d0ix</Fingerprint>
+      <Integrity>0I6sQOGKzvGLMfiJzQLsanQq3XTscQ4OmVicVAlCRFs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\divreplace.html'))</OriginalItemSpec>
@@ -6852,8 +6852,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cq6qh3ewkj</Fingerprint>
-      <Integrity>lCExKu0JVNJGB3HD7PYnmQA3xY8JiJMYKLy7JLDYhiI=</Integrity>
+      <Fingerprint>rianmiteep</Fingerprint>
+      <Integrity>A0Myqb7oE5E3Lew2s+R2VAQrVku4H+7q6RINzCYRpF4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\docprops\docprops.html'))</OriginalItemSpec>
@@ -6870,8 +6870,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2565a5edll</Fingerprint>
-      <Integrity>qrMxdOAMA2GvE5u9DPkxcDM5g2NSyuJbaakrqmk0+/U=</Integrity>
+      <Fingerprint>36vnrmml8q</Fingerprint>
+      <Integrity>i7D1PSWrl3V5EDuo2M2GUnFWk0KCWKs2hQ/Y/zZ16ww=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\enterkey\enterkey.html'))</OriginalItemSpec>
@@ -6888,8 +6888,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xgeebeoeh7</Fingerprint>
-      <Integrity>wSPnWDDdfAZTj+76iLbS0zETQU55ORDiTbTxiV5ETqI=</Integrity>
+      <Fingerprint>m762burcfm</Fingerprint>
+      <Integrity>8l4T6cYf2lAsKgmVTT62jysBc8rmGy/OU+gxq8A3K1M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\htmlwriter\outputforflash.html'))</OriginalItemSpec>
@@ -6906,8 +6906,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2wtgoh5h9b</Fingerprint>
-      <Integrity>rnh1cV52CUi4jRbCSexChQmx1RIPErElr/ZXv/h6Grw=</Integrity>
+      <Fingerprint>ixllkxlzuz</Fingerprint>
+      <Integrity>utX3k09F16aefHhIi6wLsKcEx5OA/FaHrJM+PSpMAik=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\htmlwriter\outputhtml.html'))</OriginalItemSpec>
@@ -6960,8 +6960,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5i0wp94pez</Fingerprint>
-      <Integrity>jcdRsyPh2hp98Y5gjvtvG08Yg6dXWei00vjRJqwvLvA=</Integrity>
+      <Fingerprint>eil2unorao</Fingerprint>
+      <Integrity>mkzkM8FGE6PLevEpNCXn1LxJZd6rVg4pFOA/zwlN6wA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\image2\image2.html'))</OriginalItemSpec>
@@ -6978,8 +6978,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>g7f35p2xr9</Fingerprint>
-      <Integrity>vPgviExbTHgqW59XiTr7wchAEGKXdisJr3UshVZiUP8=</Integrity>
+      <Fingerprint>tlhv1r3pta</Fingerprint>
+      <Integrity>4cf1/TfpyDskXIL6GFBBZf1QvqB7F7Nhka0JC+KkC/A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\index.html'))</OriginalItemSpec>
@@ -6996,8 +6996,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fcosy4shro</Fingerprint>
-      <Integrity>waPWVZifwNviMRQjWH/ricTA8X4rzSNCbP/PGJkKwV0=</Integrity>
+      <Fingerprint>irxb0llaom</Fingerprint>
+      <Integrity>Ujy9/xEpUXLLNPK8cMce+5i738BJNGDS2wJII4W7sAk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\inlineall.html'))</OriginalItemSpec>
@@ -7014,8 +7014,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4ytrlj786l</Fingerprint>
-      <Integrity>XKHtf8cJ7bEuuqSYgV3ScNcaN3ON0KQc5zZKNcC6v9s=</Integrity>
+      <Fingerprint>uhqmczu8t6</Fingerprint>
+      <Integrity>XvgMERRFvRe47ZMcZ6J6F+CvIVPFA5x/x/TkkkbYHZY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\inlinebycode.html'))</OriginalItemSpec>
@@ -7032,8 +7032,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vitecu0dfn</Fingerprint>
-      <Integrity>CW8+j9ujdJqacgRAPAtINom1Sr6IY92UR3qudHf2pJ4=</Integrity>
+      <Fingerprint>i9vz4kxgpm</Fingerprint>
+      <Integrity>Bu2qumJ4/ydB5fWc6Hm9F4i3CrVzfAoWpv2+VyTWx6Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\inlinetextarea.html'))</OriginalItemSpec>
@@ -7050,8 +7050,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vmuabztdc1</Fingerprint>
-      <Integrity>lyAUKjPxH/V2j/CZwGsMzMjUamQDULPTchrPwVgcngc=</Integrity>
+      <Fingerprint>suasr785dr</Fingerprint>
+      <Integrity>DKM0CsI3N8GITDLkpFDAqfonTcIGaV+2DbFoCW0+W2Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\jquery.html'))</OriginalItemSpec>
@@ -7068,8 +7068,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2fk29e2csb</Fingerprint>
-      <Integrity>ImvhubuGd1XVToPq98DjY10ylJqkhumsao1fhxJRO0Y=</Integrity>
+      <Fingerprint>vcptzgagba</Fingerprint>
+      <Integrity>YfdhRORB5snJ6UIm6Rped5gq1scDoxjik53hy/vKSIo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\magicline\magicline.html'))</OriginalItemSpec>
@@ -7086,8 +7086,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8vtuosa1t8</Fingerprint>
-      <Integrity>TCVneOB0Oyfyj9CM+ZbYMKfAXMwb3o3SUH1fQXohM8s=</Integrity>
+      <Fingerprint>f6zo0pbqvh</Fingerprint>
+      <Integrity>6QMZLoNN8mfmuLj9f4eNtWd4+id8bA2gKqArGYE5v0s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\mathjax\mathjax.html'))</OriginalItemSpec>
@@ -7104,8 +7104,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ppx594cpbf</Fingerprint>
-      <Integrity>7XKVw3A/n8tBS9cvqCWxvzsWo+kYUrJToFgq3pR5yLQ=</Integrity>
+      <Fingerprint>wm6kn397af</Fingerprint>
+      <Integrity>mBGt00nRarct8uIetfdGoLxZzXjvreptcJHe42ShdII=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\placeholder\placeholder.html'))</OriginalItemSpec>
@@ -7122,8 +7122,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pt5poynb9r</Fingerprint>
-      <Integrity>QwbBo8oz1yWGrAx0qJO6C98tljvyxcfuqTl1ifdk/4k=</Integrity>
+      <Fingerprint>e8mu9ay54q</Fingerprint>
+      <Integrity>8sLF69c04yekkaQBEXIhrRNOcDszQCEjV4V8Iyebei8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\readonly.html'))</OriginalItemSpec>
@@ -7140,8 +7140,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>df874ve44a</Fingerprint>
-      <Integrity>aWZ90C1/gjQB18DCc5TjRyoLunaLjtIUzJ0Uh0XtlHA=</Integrity>
+      <Fingerprint>pdnvpletcv</Fingerprint>
+      <Integrity>HdVuhoJiHbgQM4+Iq6fKMM1vecBhE3AaOykHHYzv9uI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\replacebyclass.html'))</OriginalItemSpec>
@@ -7158,8 +7158,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l9kus72mk2</Fingerprint>
-      <Integrity>54WuO/wKyEf+sCVJ10M1q48Z1bVAOQxooUOKFktcLR0=</Integrity>
+      <Fingerprint>2stzz3q9v5</Fingerprint>
+      <Integrity>fq/aFJ/84KWyeTg9NjuP9gyTIYM2FKTxZP8ls1HX/Z8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\replacebycode.html'))</OriginalItemSpec>
@@ -7176,8 +7176,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>441uluhhfo</Fingerprint>
-      <Integrity>3OFPgtZ15nvqRC9O+LJabhJzZf+ta6ISpbVg0pH6gks=</Integrity>
+      <Fingerprint>fu1879keh1</Fingerprint>
+      <Integrity>qVnt3QdEroO69n5OwiBep/Ed0U9qh8JvpgeG54/0mZs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\sample.css'))</OriginalItemSpec>
@@ -7194,8 +7194,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1tbeh6wbe4</Fingerprint>
-      <Integrity>RXwqDFfGdx5wGL/Sh/36IH73q6/O+bSnsdDvOVzCqLk=</Integrity>
+      <Fingerprint>e9l80z15q7</Fingerprint>
+      <Integrity>otl2X7mOjEQ5njyrHbHj1Q0xO9O7NK+hpWTP6NgAQtU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\sharedspace\sharedspace.html'))</OriginalItemSpec>
@@ -7212,8 +7212,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6ihdk7d34d</Fingerprint>
-      <Integrity>IsbkWFHX+azgNeygGQU3a189CItSnDof7+mcoCcPQ6c=</Integrity>
+      <Fingerprint>sjb7gp8zf9</Fingerprint>
+      <Integrity>OIpnnk2iOrA2rF0VLRl5ELWQLSST3l8QABT9sbdytQE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\sourcedialog\sourcedialog.html'))</OriginalItemSpec>
@@ -7230,8 +7230,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>swynfmq82e</Fingerprint>
-      <Integrity>fDcv7RY49/JFZZZ5Oq9mWLy3Ho6mz0n++DmJKAkVOAk=</Integrity>
+      <Fingerprint>36naqaknfs</Fingerprint>
+      <Integrity>Nap/lWBCl0fnVjrhQmH60WATgyxLXhMpMUw30Xa3Ysw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\stylesheetparser\assets\sample.css'))</OriginalItemSpec>
@@ -7248,8 +7248,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qtair5ya9a</Fingerprint>
-      <Integrity>TtZlNvatROEWwjh7nLA02z+nx22LOSAihhCKl+PuQ60=</Integrity>
+      <Fingerprint>cjoa2l58oe</Fingerprint>
+      <Integrity>SF/YpUg9M/LIVKSIBHfbh628HgAJw6socLd45DzOlVo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\stylesheetparser\stylesheetparser.html'))</OriginalItemSpec>
@@ -7266,8 +7266,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kkliz2vx03</Fingerprint>
-      <Integrity>TEdnwgY4DIPxaQVnh8msrehr3RsRvMmnKEapVyjdaXI=</Integrity>
+      <Fingerprint>tveoggw08w</Fingerprint>
+      <Integrity>WbEvsyCOtKkiytkyJykUnx79Ya3YiABpGdMxfHXbaJA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\tabindex.html'))</OriginalItemSpec>
@@ -7284,8 +7284,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8varjtcep9</Fingerprint>
-      <Integrity>xDY4LhblKJE8NoyCsSzJq7vksZVW5JuTHaww/Xv2er0=</Integrity>
+      <Fingerprint>otmeoyxtvg</Fingerprint>
+      <Integrity>DJvIr+k4QulG5lpbjPMzHuDpbEKUC/oCWKt7hoXRpFk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\tableresize\tableresize.html'))</OriginalItemSpec>
@@ -7302,8 +7302,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5xdvqk2hbs</Fingerprint>
-      <Integrity>OeIwIo91BNUbEqHDHelDAlAKYjjAa+FbRXO9YF7YLCQ=</Integrity>
+      <Fingerprint>be8356s1uq</Fingerprint>
+      <Integrity>vbWjZKQxC8GbPcB6+Dws/u26jx8q2c5TvgRCSWZkc6A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\toolbar\toolbar.html'))</OriginalItemSpec>
@@ -7320,8 +7320,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>le4uqkrse4</Fingerprint>
-      <Integrity>M7R3vj93m4KMfy8g6HjQeStEvCSf2bozzf2+Zq71M00=</Integrity>
+      <Fingerprint>tvz95k4uz8</Fingerprint>
+      <Integrity>Fy1pKv3/JLyWfUjZ7/Egw9e/hfgLyp7B7L6UXHMZPtc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\uicolor.html'))</OriginalItemSpec>
@@ -7338,8 +7338,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hzffmuai5q</Fingerprint>
-      <Integrity>rSxSXghd5RViVnM4SbjZWf/Zm/++zNzTH9HlNSwDarM=</Integrity>
+      <Fingerprint>vl2ij6hin2</Fingerprint>
+      <Integrity>TcfsR8cdj3egS7rxMwsr+mQ8kgrbvmnGiFwmXy3Xpsk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\uicolor\uicolor.html'))</OriginalItemSpec>
@@ -7356,8 +7356,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5df2iw2h9c</Fingerprint>
-      <Integrity>txPjx8I0mfH2ViytqSQDuD5xhEE7RPUl7nUtjAPIhzM=</Integrity>
+      <Fingerprint>va0ke1csf7</Fingerprint>
+      <Integrity>h3BuIE44C1oWsseqzQhnMap0LCjin5Eg5IH1WNTsg0E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\uilanguages.html'))</OriginalItemSpec>
@@ -7374,8 +7374,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f3npw3910r</Fingerprint>
-      <Integrity>1eLnJhp3HSXwZ8UOaKLL2c0814h8rZs65rekkv/mAQs=</Integrity>
+      <Fingerprint>25tl18bmza</Fingerprint>
+      <Integrity>xnd49FIDAs0KjaDFVhnSrtmDD82hP5+JpISxDDzqPhg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\wysiwygarea\fullpage.html'))</OriginalItemSpec>
@@ -7392,8 +7392,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sblbhm8m3u</Fingerprint>
-      <Integrity>uAkDvRJ/EK5GUIWlKqqBBy8Pu6SnvUu+7kRGNolHH6k=</Integrity>
+      <Fingerprint>k26r4wlus7</Fingerprint>
+      <Integrity>fCtuokydOlBf5draeUzG/SAZvHRk9NOXdEICbB+DcKw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\old\xhtmlstyle.html'))</OriginalItemSpec>
@@ -7410,8 +7410,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y7cfayjeug</Fingerprint>
-      <Integrity>YlIH4i+jVsTus4VlacbJ8x2FF9kPtjyFww05G0Vi618=</Integrity>
+      <Fingerprint>a3zm9f7hmz</Fingerprint>
+      <Integrity>JlB0OO/9ZaVLcccd/P7TijTb3hN/V4OzXWGdMTzclD0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\toolbarconfigurator\css\fontello.css'))</OriginalItemSpec>
@@ -7500,8 +7500,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kg07l0h5u0</Fingerprint>
-      <Integrity>FIOklsLiBJN/xbav0uOWWC2u9aNqu1RbfBVGKHprk/w=</Integrity>
+      <Fingerprint>d9yzttgxyx</Fingerprint>
+      <Integrity>MakiUkD3ASxMuUj+vnJuNMZU54iKzAvSk+AD+RWNA28=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\toolbarconfigurator\font\LICENSE.txt'))</OriginalItemSpec>
@@ -7518,8 +7518,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d8owj1ncfo</Fingerprint>
-      <Integrity>rUn9VAcBQ+112QLdNjJu1gyNvS9n4SAwmdEjtnMqiLE=</Integrity>
+      <Fingerprint>k82px7eihz</Fingerprint>
+      <Integrity>lHRKVwzXWskWTFI0hbRsFpm36iZBgTx4hO6mYeLBwx4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\toolbarconfigurator\index.html'))</OriginalItemSpec>
@@ -7536,8 +7536,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lh09uwajct</Fingerprint>
-      <Integrity>R9c+o5wWQKqMXIABINRgTAdnXT/ZJViP10BSKN4XL/U=</Integrity>
+      <Fingerprint>zd41o8wohr</Fingerprint>
+      <Integrity>dwSyJnG1L/9guDq5M/CDmPmVGZZJjRdgQmkzyB/XNZE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\toolbarconfigurator\lib\codemirror\codemirror.css'))</OriginalItemSpec>
@@ -7554,8 +7554,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5spidapiem</Fingerprint>
-      <Integrity>+wf8uYz7IAKdYZnUNBKSTEw9Gov1ndTbtUllTBtLLME=</Integrity>
+      <Fingerprint>q0aobqydyo</Fingerprint>
+      <Integrity>RsQU5URRp13gKx0P62NjfqlGtySljGsdgL5mw9BxU50=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\toolbarconfigurator\lib\codemirror\neo.css'))</OriginalItemSpec>
@@ -7572,8 +7572,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7wbom9qq3d</Fingerprint>
-      <Integrity>Nwz2T0JXNLI5/iaYEyaAN+bbncvzjl35I0Y+7D6jVkE=</Integrity>
+      <Fingerprint>ud6ldcecvx</Fingerprint>
+      <Integrity>bi9jKUFGZkXQVoA0ir9OBBAKQNgXiUm6CSxnu7iRHEU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\samples\toolbarconfigurator\lib\codemirror\show-hint.css'))</OriginalItemSpec>
@@ -7590,8 +7590,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e2sstoil14</Fingerprint>
-      <Integrity>FnrGt2yHOGcC2PfHgxMOPuH+eq8dxZ9d7Is3h0XoIcM=</Integrity>
+      <Fingerprint>66qzoawpde</Fingerprint>
+      <Integrity>Pi+mnLM6ZKNiWODxYz0yMVucl9iBbK3diSLOA6temxQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\dialog.css'))</OriginalItemSpec>
@@ -7608,8 +7608,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6sn0wbxyk4</Fingerprint>
-      <Integrity>msv8YIojZjLbd+S2zHz9J3Iry+Aw0xhi7G+lHHq8PfU=</Integrity>
+      <Fingerprint>w63cnmx3gu</Fingerprint>
+      <Integrity>2AU8dhVZLoC9L13bKfc2nAPqnE567g/+8iPhBCOb2ns=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\dialog_ie.css'))</OriginalItemSpec>
@@ -7626,8 +7626,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hp79poofk8</Fingerprint>
-      <Integrity>RehJ848gkq87JWYkXlAfHPz+7zeL+4gnmb9NxsnLkVA=</Integrity>
+      <Fingerprint>rhuibw4exe</Fingerprint>
+      <Integrity>35UIKw1deVt17xXjq3Fk9G9CBjssuu+Gcmo83e4kdxc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\dialog_ie7.css'))</OriginalItemSpec>
@@ -7644,8 +7644,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t73izfg83f</Fingerprint>
-      <Integrity>yX+PXQvlhk1tMCPx7lEBDFpB+ovGGSFrG+AGMh1xZJw=</Integrity>
+      <Fingerprint>5lrlx6qhyf</Fingerprint>
+      <Integrity>FwgL4aOYAZGWpTL/NlnFprV1LcV87vzMX/qv2Y/ZVg8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\dialog_ie8.css'))</OriginalItemSpec>
@@ -7662,8 +7662,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5ij8ajqa8q</Fingerprint>
-      <Integrity>Q1UJAtKyQsrF/H7PQQE7hp4IABTkKDUpJ0ycOfVEVZ8=</Integrity>
+      <Fingerprint>i7gzge8yvw</Fingerprint>
+      <Integrity>zkRkqilPMPwjp44ncYlEHvYDyaLkIeCcNbxv/NWkbAA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\dialog_iequirks.css'))</OriginalItemSpec>
@@ -7680,8 +7680,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l3r892a8pr</Fingerprint>
-      <Integrity>zzNwCRnvtiuEyDPOvv4aVOn/+0Q0aB6x6MUV8v/Qw/c=</Integrity>
+      <Fingerprint>b8ko3jbyv4</Fingerprint>
+      <Integrity>a7thgl3H/ip46Hpz5GS9IawQgrleo2E5DVBFXPwXb9Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\editor.css'))</OriginalItemSpec>
@@ -7698,8 +7698,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bzekm7kxyp</Fingerprint>
-      <Integrity>11o2uCVMW0lkaBPrEHW0KUR/tlRJ5UwIGnkJX6oS7uM=</Integrity>
+      <Fingerprint>5sw455yf12</Fingerprint>
+      <Integrity>C0iInFFSt5mdK245LFCiK7H3o34Vys+wVV3ToAJsFCM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\editor_ie.css'))</OriginalItemSpec>
@@ -7716,8 +7716,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dwhckwdmfc</Fingerprint>
-      <Integrity>Y7alHI8+hEDNlEuXnlzUVafytZDOXoA17itaiBqOK7U=</Integrity>
+      <Fingerprint>q5o4lg6tx5</Fingerprint>
+      <Integrity>TmhUzwFj2VdPZDcQPeunPnC3mkoC2OGEj3ub+6/qSwA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\editor_ie7.css'))</OriginalItemSpec>
@@ -7734,8 +7734,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>phvoxzd1qz</Fingerprint>
-      <Integrity>kw2kIJ9h5TqaP97tPChF9Ym52YRBFpTy77D4jFX67LI=</Integrity>
+      <Fingerprint>9i0iwjxx0x</Fingerprint>
+      <Integrity>75BJmmIKK2fHr/do8BF3NFhrSzontxG/8BIXrOLbeWE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\editor_ie8.css'))</OriginalItemSpec>
@@ -7752,8 +7752,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>97v80jjtvv</Fingerprint>
-      <Integrity>9et2SR0irGpoTtis4EA3OSY7gfW+4Eg1RPuKf8xKLqU=</Integrity>
+      <Fingerprint>rgmo1geqlx</Fingerprint>
+      <Integrity>RTdMG3y4PLnindzVlYJlWarj1uFqBI8wXZdf+wMOdLE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\kama\editor_iequirks.css'))</OriginalItemSpec>
@@ -7950,8 +7950,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wb7v7iruox</Fingerprint>
-      <Integrity>3FXXg36yrNh1s7rSYeuJU5LwGsNREfajy7jpb/1bmP4=</Integrity>
+      <Fingerprint>2vivg0t1dl</Fingerprint>
+      <Integrity>PpFECX50yDJUrGoiiXcdTi3f+IZrjZsqCoHnRCKlyxc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\dialog.css'))</OriginalItemSpec>
@@ -7968,8 +7968,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iabt8ktkhy</Fingerprint>
-      <Integrity>lnkuM/1w4W6RZ3eGyK33inHrGLgBGlwgmO3GU3smhrQ=</Integrity>
+      <Fingerprint>v60acr973i</Fingerprint>
+      <Integrity>ibh/gTyWbKyseEvqIc3oACztuYoomu74n/paWVTcAYw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\dialog_ie.css'))</OriginalItemSpec>
@@ -7986,8 +7986,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2yo131f6we</Fingerprint>
-      <Integrity>iit4gBuUup8BFEZ8yYcW+YcDy5wVzNCYz0CuJCrR1qs=</Integrity>
+      <Fingerprint>gzsb9zi9mb</Fingerprint>
+      <Integrity>fNxkG1VmAIwxo2W3jEa0TECf6E37XXYBOPRb1dzi4DU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\dialog_ie8.css'))</OriginalItemSpec>
@@ -8004,8 +8004,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6x1yleozyg</Fingerprint>
-      <Integrity>OqslondLiep+AJcIYFej8ihOpF8w9z5WsJFwf+VIFiE=</Integrity>
+      <Fingerprint>lhl9i1he6y</Fingerprint>
+      <Integrity>96QrucXFu13jP1bpLlQNv2cheuPumOnESoY8LSIYuaw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\dialog_iequirks.css'))</OriginalItemSpec>
@@ -8022,8 +8022,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ct4lg2gfru</Fingerprint>
-      <Integrity>YNw3cgEpbWXIQeA9RtYRfFUfn4aRu3MyEMDPFq292rE=</Integrity>
+      <Fingerprint>dsrsvvypyu</Fingerprint>
+      <Integrity>U8mIFbUinHaBdxVdriwF7IGPh2v6oHpErxxgJc4A620=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\editor.css'))</OriginalItemSpec>
@@ -8040,8 +8040,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sjpwe0wokz</Fingerprint>
-      <Integrity>WBf2v7YFp7teKmKtM6ywemUnQdscnyX1CXxS+MiTCz8=</Integrity>
+      <Fingerprint>f7wgopfciz</Fingerprint>
+      <Integrity>CxO4JvXANLZkweaD9dog9+HBYNAUEwPCLH7AdX1yPw4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\editor_gecko.css'))</OriginalItemSpec>
@@ -8058,8 +8058,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a2e5b9b674</Fingerprint>
-      <Integrity>crV/C4yOFeZ/jjJtDs4WSSEcFELXVxYoDJu8gOYOyHM=</Integrity>
+      <Fingerprint>ph9tfmvuxw</Fingerprint>
+      <Integrity>TcxedQIKOn4DNlWcJsigAMiKREPCgaHmx60X1obftI0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\editor_ie.css'))</OriginalItemSpec>
@@ -8076,8 +8076,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2m6k5tmox0</Fingerprint>
-      <Integrity>hojKorP3omO+I6KOMA2dn8SL6j+fbFM+w29wu5xGrq8=</Integrity>
+      <Fingerprint>ckv2te077n</Fingerprint>
+      <Integrity>TAH1cxDryK5FqiHQJKFAqu1K+5XGgntwwUBSe73Y1OU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\editor_ie8.css'))</OriginalItemSpec>
@@ -8094,8 +8094,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w4qujqwbgg</Fingerprint>
-      <Integrity>MMX/6UJe6UDDkm+F/HBXIthc3tL6YNjEbl/MoDjVJqw=</Integrity>
+      <Fingerprint>z2cmwbh7m3</Fingerprint>
+      <Integrity>q+IeAIcDwt5u7fs12CnPJk9Ty57R7J8PAPuCnZbASuc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono-lisa\editor_iequirks.css'))</OriginalItemSpec>
@@ -8328,8 +8328,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2jmjj0xkcm</Fingerprint>
-      <Integrity>zvvmjAvLuccvSIvj1sHQ7/Bt520fY4L8v/4Lm3D7QO0=</Integrity>
+      <Fingerprint>vc2rxw1d04</Fingerprint>
+      <Integrity>USriFME5bFyi8QTfndgmdXpwbTWj86TgE+IZjhCwX/c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\dialog.css'))</OriginalItemSpec>
@@ -8346,8 +8346,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>z603ocxdpa</Fingerprint>
-      <Integrity>RcR7cpVPn4jSp4Y4Ha1MQOejc2v8hNGqPXg36W0cJjg=</Integrity>
+      <Fingerprint>l74hat85ni</Fingerprint>
+      <Integrity>kc1v+ZzbkowSRt1y5MOHzJ8B8pZB47b8nsyZsZh1VhA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\dialog_ie.css'))</OriginalItemSpec>
@@ -8364,8 +8364,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>id238ss003</Fingerprint>
-      <Integrity>xuaaatKj13gOKYE2xm9QVEwAl+Comb1dmfxQxV9veS8=</Integrity>
+      <Fingerprint>qmfr286wx6</Fingerprint>
+      <Integrity>HrbIAX3Xnav3OJwlZw3CLM5Isq9r/w95mPoI4uXuwTk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\dialog_ie7.css'))</OriginalItemSpec>
@@ -8382,8 +8382,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t2h9sh35q1</Fingerprint>
-      <Integrity>ta5LkUx1iYA9HbX0AiyhS4cQ1NR10l4rZ0Yr7oBTlHk=</Integrity>
+      <Fingerprint>zw8hc0i20u</Fingerprint>
+      <Integrity>Y3OTV/XEg4dxzYSArChyVQZzg8owD4IyL6HjUKMuQUA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\dialog_ie8.css'))</OriginalItemSpec>
@@ -8400,8 +8400,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>049s2zja5z</Fingerprint>
-      <Integrity>IHuZc+hzcqdKXhRQh3PvuP0Ir2pJS8PcbYq8zNAHMdc=</Integrity>
+      <Fingerprint>v868vdm45d</Fingerprint>
+      <Integrity>Yfu3uHz0mZDebDWzR3srrQaof70VtQrNpTSIKbks6OU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\dialog_iequirks.css'))</OriginalItemSpec>
@@ -8418,8 +8418,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4jhbp3adq7</Fingerprint>
-      <Integrity>gE2xY5Xep1P7rVSQ0mVIwAON5dWnr5X91n0UpEODkbE=</Integrity>
+      <Fingerprint>fghacyguez</Fingerprint>
+      <Integrity>IbUEAA9KrAnvmWvLKHVkeAJpUMJtT7bVpIkwsk1TuuU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\editor.css'))</OriginalItemSpec>
@@ -8436,8 +8436,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hm9y3xmqr9</Fingerprint>
-      <Integrity>OUxRQeGqqr4JKp09bHCaEx++RXnRlA50EKci/X6p0PQ=</Integrity>
+      <Fingerprint>5hmwl3gvhf</Fingerprint>
+      <Integrity>N+XWiGaMa3SpLudbv4HuEYm8bsB/UpJBNbrZSzocUFk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\editor_gecko.css'))</OriginalItemSpec>
@@ -8454,8 +8454,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cipnwgnvw4</Fingerprint>
-      <Integrity>HI98UC7113fhW+nBFTArX+ozOw8QAM2xT29Rv/0wuRM=</Integrity>
+      <Fingerprint>pgmua2ak5k</Fingerprint>
+      <Integrity>xwB8vCBBK0SmHzwGOsxoVEJZn8AfVlELzXXB4i9W994=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\editor_ie.css'))</OriginalItemSpec>
@@ -8472,8 +8472,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>af2axqxaza</Fingerprint>
-      <Integrity>xiOUaf+aP44UsHLGS/7oWzSewVa+Pj+D6WwG6B3fUpg=</Integrity>
+      <Fingerprint>ui0p9sng6k</Fingerprint>
+      <Integrity>Gii5F1np4GD2caBvWSz8acDq27hlxQGpU/ubDlnMv44=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\editor_ie7.css'))</OriginalItemSpec>
@@ -8490,8 +8490,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5hwbob21lx</Fingerprint>
-      <Integrity>Kf2JiWpSdHEcnheaUFRmiVoSDcFQhgKeD//FedyzmeU=</Integrity>
+      <Fingerprint>lqmqrp11az</Fingerprint>
+      <Integrity>Y7tbIxZ53cKB1jvv7C3PxQREYoA82HK0sdMeHqzrHb4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\editor_ie8.css'))</OriginalItemSpec>
@@ -8508,8 +8508,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zzmevy1oua</Fingerprint>
-      <Integrity>78JZ+QHsiYck0ZnMf+WZCt5idnd88E2X7FGEtEyDePM=</Integrity>
+      <Fingerprint>t1hs77fukz</Fingerprint>
+      <Integrity>r2egHE/b5MGboWuyJMuXyEgPmuzevQpSXE7XF3M1iFY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor-english\skins\moono\editor_iequirks.css'))</OriginalItemSpec>
@@ -8778,8 +8778,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>u4g8dwuv1e</Fingerprint>
-      <Integrity>rlAOq1tvLU9pVaN7X2/qxmfBX8H9M2T7On6YrhM9B+M=</Integrity>
+      <Fingerprint>i6689u27b8</Fingerprint>
+      <Integrity>tm03Fz3BOGTynmuMt4zoj86GY4GC8VHlga4Un0GxGu0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\contents.css'))</OriginalItemSpec>
@@ -8796,8 +8796,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kwqostbi3q</Fingerprint>
-      <Integrity>NP4kTKFTf+R3ze2xPpMoJOl5un5ezuQFWNZMLJgCOkU=</Integrity>
+      <Fingerprint>cm5phdo46k</Fingerprint>
+      <Integrity>tG14mb4XwV1hM6Q/GwiQZRcgQjPDOqBqo0Jp8Ognpkk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt'))</OriginalItemSpec>
@@ -9084,8 +9084,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>neppnsj74p</Fingerprint>
-      <Integrity>36PDLJC1lS5jq4bHtz8gh+AQkGDmLhtKmFYuKsjyiac=</Integrity>
+      <Fingerprint>fp1vl6o20r</Fingerprint>
+      <Integrity>ndi9y5zfeZmG7KKAO2pGPgXu52AHqNgdlxFoduoPZoU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\plugins\preview\preview.html'))</OriginalItemSpec>
@@ -9102,8 +9102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2kqkx09n9m</Fingerprint>
-      <Integrity>ctT8Kfk3He5UFGvJ4wjel7trybRHMXLbWjcDs5utS3E=</Integrity>
+      <Fingerprint>evzywp9knv</Fingerprint>
+      <Integrity>5mGRq7/EteXmKRv01MrLTgdLuNlEV/9ThLPxjnIZWiw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\plugins\scayt\dialogs\toolbar.css'))</OriginalItemSpec>
@@ -10110,8 +10110,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bqt6l4uufq</Fingerprint>
-      <Integrity>AwFQdnSym6VKbEBUTDeSROy1YFKTepB/vGCGIWC+2Z4=</Integrity>
+      <Fingerprint>4x6cwk9n75</Fingerprint>
+      <Integrity>+BG0A+dpA+Pe7/8TOt3R2v5vG1KW58EKu/0hdCpLO58=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt'))</OriginalItemSpec>
@@ -10128,8 +10128,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kj8hwi4zv6</Fingerprint>
-      <Integrity>gO1VSI5puz16ySJlobbvIOrUATtzbkmqUDcYS5QQzaY=</Integrity>
+      <Fingerprint>6r6qw5z37x</Fingerprint>
+      <Integrity>ThfPbCAA9XyQOc1OCjQ2gEAcaVXHfinjBKE+IdLZnsM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\plugins\templates\dialogs\templates.css'))</OriginalItemSpec>
@@ -10272,8 +10272,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kfw8labiee</Fingerprint>
-      <Integrity>0NxoShjPoq+FSRLo9dcGFzst78z4ZcZ1XG0jZT5UyQA=</Integrity>
+      <Fingerprint>q32rqhbs0l</Fingerprint>
+      <Integrity>ZjHrFziguk9dskfmSeSulED+kUZpMaTBUTIu0GaHQXA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\plugins\wsc\dialogs\ciframe.html'))</OriginalItemSpec>
@@ -10290,8 +10290,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gwtshdt815</Fingerprint>
-      <Integrity>oKRRVu/m2aOgyOfIwzMbbFYBbbIzErYYNynNMvsbWBU=</Integrity>
+      <Fingerprint>0ac4jr6ek0</Fingerprint>
+      <Integrity>2MlgqIjeY8zep6dyiuSZqhfkdqqisSQSuMjArAPCmhk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\plugins\wsc\dialogs\tmpFrameset.html'))</OriginalItemSpec>
@@ -10308,8 +10308,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o1i1y7ucxb</Fingerprint>
-      <Integrity>ZDDx53qIu6CZGOQyKsBEBXmwYyu7JeIlrCM0o4WOkJQ=</Integrity>
+      <Fingerprint>hnuqhafrfh</Fingerprint>
+      <Integrity>rebGBZKS/hIaloYv6YfLVL6IL1+R7a+OwD/Gzl+tcHY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\plugins\wsc\dialogs\wsc.css'))</OriginalItemSpec>
@@ -10326,8 +10326,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>47laue9t67</Fingerprint>
-      <Integrity>0C/kV3+clYwyL1h+L+9fd7GLHDv5ZJVQ4SU/71fwBnM=</Integrity>
+      <Fingerprint>7je7lhidh6</Fingerprint>
+      <Integrity>U75FEKdD0d49I6iKY18rXcEu7gfWwVvflcZNH0xG2vA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\ajax.html'))</OriginalItemSpec>
@@ -10344,8 +10344,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tyekd8a4ws</Fingerprint>
-      <Integrity>xXWQmNaf11o3gZBedCUvT3q7hzqoAGY2TAHnlV70zic=</Integrity>
+      <Fingerprint>nytw6iyj8v</Fingerprint>
+      <Integrity>UXKcZVDizXydHY0vk7dBfWLBXcDgB+WCZv/bL8uHO2g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\api.html'))</OriginalItemSpec>
@@ -10362,8 +10362,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6k8mun7e52</Fingerprint>
-      <Integrity>1l4TeepKh3M+RwgeNbGZcEmnWBnu5GXEleZBnGvN2G0=</Integrity>
+      <Fingerprint>jvs70vusrb</Fingerprint>
+      <Integrity>Eba259Vc/SiwzLAcAKINF0gNEnqSQGAh9vDOtvj0hsY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\appendto.html'))</OriginalItemSpec>
@@ -10398,8 +10398,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y1ywwm2hzs</Fingerprint>
-      <Integrity>ZgwpNdUWbPVF4wZFN2t8wU3lsycx8B6lgpxhDC5I9Sk=</Integrity>
+      <Fingerprint>zogn2ebuy0</Fingerprint>
+      <Integrity>Qx7sg8gV7pVVR+gsdOEE/rVRwH2ip5zBOO51i+jf+wo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\assets\outputxhtml\outputxhtml.css'))</OriginalItemSpec>
@@ -10434,8 +10434,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wf3dgm8pcz</Fingerprint>
-      <Integrity>rDpiJaz3hNNdooWlTIqBnlkFbpnx9tyKL5rsSZqh6/k=</Integrity>
+      <Fingerprint>i5h1b4ntfg</Fingerprint>
+      <Integrity>FjjsfH/bLNNEdGqCaL89YwlZh2UwwPEaCWE9MPB6wvo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\datafiltering.html'))</OriginalItemSpec>
@@ -10452,8 +10452,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yag0mb0q24</Fingerprint>
-      <Integrity>irSNF3gy2Qpq3ABUCEUFklyaoP5TOL0zPRXfH0IhwPI=</Integrity>
+      <Fingerprint>pqxs4a53se</Fingerprint>
+      <Integrity>0ZWv8o+k+VAJk+AwAMzLop8GQGJfAfnAaiWMRVcvW1E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\divreplace.html'))</OriginalItemSpec>
@@ -10470,8 +10470,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qwvzccvi6g</Fingerprint>
-      <Integrity>SjjGbb5jkPd8snWQZe2l2SSHXaVcbTwR6d3gmU8g87k=</Integrity>
+      <Fingerprint>f935rruk4e</Fingerprint>
+      <Integrity>w8ZT1C0bnEUyqYtPfyN7D1+NdIeinMNbdRJ5TnlTvNw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\index.html'))</OriginalItemSpec>
@@ -10488,8 +10488,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lzgdtgkqz6</Fingerprint>
-      <Integrity>QdRVTpZsgvtqmhayNHT38b+WggM40p7kpNYDfOJyV30=</Integrity>
+      <Fingerprint>9m6vz5oy8e</Fingerprint>
+      <Integrity>v5XFrfU+56eYpeSOgO47+IiVFVHJcLM3DdxFIn1inE8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\inlineall.html'))</OriginalItemSpec>
@@ -10506,8 +10506,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0b2yuxf8zb</Fingerprint>
-      <Integrity>LDKrR/XK+VNYtEeG2mUD6dGkrejb6+F3WXqhU4wKYDQ=</Integrity>
+      <Fingerprint>5rf5uriwe8</Fingerprint>
+      <Integrity>/9aW4TUW5ImSnRVmsmVyJMs0Of15yf1RAt4SmkIzntc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\inlinebycode.html'))</OriginalItemSpec>
@@ -10524,8 +10524,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0eupxuxx1r</Fingerprint>
-      <Integrity>6FAcBGjX2IeCKzMMt3FBxQtGr1IrFYRJTUneC5EBQpo=</Integrity>
+      <Fingerprint>sv74pk4h9n</Fingerprint>
+      <Integrity>GPbjbXp1QGuOp55uKIBkEyyV9jQ/s9yHKHLro1Qy5eI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\inlinetextarea.html'))</OriginalItemSpec>
@@ -10542,8 +10542,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j902g1ahll</Fingerprint>
-      <Integrity>Kf4nSGLjmvmuNM582FW0AKBp8Mt5pHfr2rqp0tmbwHI=</Integrity>
+      <Fingerprint>7vsd5j5ck2</Fingerprint>
+      <Integrity>nYsZUT/KxnCsCrtDWmJOHmHrdfCuHJe5e0xh1SfummA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\jquery.html'))</OriginalItemSpec>
@@ -10560,8 +10560,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>20zrae22yi</Fingerprint>
-      <Integrity>8ss9ihSXxmJh4ZfgmPi/y5tO523ys6t7yzLz9yA0zxc=</Integrity>
+      <Fingerprint>tduy24owxm</Fingerprint>
+      <Integrity>USBRO/h1KvsbOezRsgK2muhde/PtpT4znWLxFtdB6Gg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\plugins\dialog\dialog.html'))</OriginalItemSpec>
@@ -10578,8 +10578,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5ngto9lhaz</Fingerprint>
-      <Integrity>gWWAIzQdjDNIDulIqZpCOlxTYtxy6y9ROOQPUqybjb0=</Integrity>
+      <Fingerprint>g8nk92xp6d</Fingerprint>
+      <Integrity>oPN5Nfs0oHUaejQ00eHGynfiMYFjWCuyqslgh0mCCEw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\plugins\enterkey\enterkey.html'))</OriginalItemSpec>
@@ -10596,8 +10596,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bo4vz2yit3</Fingerprint>
-      <Integrity>axTGu6aRSAhcNbl3H5BfMhuKTCjo25/qYGRGA9KPyUI=</Integrity>
+      <Fingerprint>73tcb01812</Fingerprint>
+      <Integrity>Qxkdq9o1UJI3LqYt0cmmuyjIlVPIEadTTFIvhb/tukw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\plugins\htmlwriter\outputforflash.html'))</OriginalItemSpec>
@@ -10614,8 +10614,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>atu6xbrtcj</Fingerprint>
-      <Integrity>fp7jWbB6bLpOqIVZvhWATi3uxIw7wL3sEknNd44+Y9o=</Integrity>
+      <Fingerprint>7vk3nei3n1</Fingerprint>
+      <Integrity>Y9upcKiJD9sMAKVHSOXVIMjr9D0MjfW/n+iVbODvPMw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\plugins\htmlwriter\outputhtml.html'))</OriginalItemSpec>
@@ -10632,8 +10632,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j93p8v3szr</Fingerprint>
-      <Integrity>x/DTF1mhue5cVDvG44VJxw24n7LdpunufvkBHNcC6Hw=</Integrity>
+      <Fingerprint>av0z1xnaxh</Fingerprint>
+      <Integrity>2ltAriGJmBH1pCd+p7ySLINzQyqxk3OyVtP6ECdIVrw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\plugins\magicline\magicline.html'))</OriginalItemSpec>
@@ -10650,8 +10650,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9aho3cxtfq</Fingerprint>
-      <Integrity>f698WraVAqK+hss4WjoLZcd5hkv9StULaWvVXql6xT0=</Integrity>
+      <Fingerprint>f7gibfgjqb</Fingerprint>
+      <Integrity>i2nc88LI86tO3DqejOYGI8szzFPl0mwfk3mc41Hkgv0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\plugins\toolbar\toolbar.html'))</OriginalItemSpec>
@@ -10668,8 +10668,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d8e7wwu0of</Fingerprint>
-      <Integrity>zcPlkXUBlDk1IqlvmeMN9HsIk5z5XbvPzH/Ak8ocfqo=</Integrity>
+      <Fingerprint>zvlm40nlie</Fingerprint>
+      <Integrity>T0yW2hLCIKBWuOp4+O8mZLlDO/tsRsaqHJZzhC607Lg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\plugins\wysiwygarea\fullpage.html'))</OriginalItemSpec>
@@ -10686,8 +10686,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lq2m8gggwe</Fingerprint>
-      <Integrity>Xf+jonm8AjEyxb/4kY1Fq6CL2iBW0fa7UFgwqDLKLX4=</Integrity>
+      <Fingerprint>g1o4680lun</Fingerprint>
+      <Integrity>TIeo5zsuqbfoZSWAG845ogHwc3nzeai1/TUisXU1t2M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\readonly.html'))</OriginalItemSpec>
@@ -10704,8 +10704,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xte541rysc</Fingerprint>
-      <Integrity>VTI8vUB/lf4zTP4AVbijtGtU5KL4zEoHW8N0qHfZx5E=</Integrity>
+      <Fingerprint>e8u3p3kyaw</Fingerprint>
+      <Integrity>ziBvc16wHTNtahVSBUG65pHh562W1s4oZsHZ4I4sVi0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\replacebyclass.html'))</OriginalItemSpec>
@@ -10722,8 +10722,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2kcuw9vzww</Fingerprint>
-      <Integrity>Ei/v0n5rKUclREvmT5AYmEwgmlP450vsSnHAhryfcNs=</Integrity>
+      <Fingerprint>pk3a0b9pw0</Fingerprint>
+      <Integrity>mQzovZ+eHfkv+g1zP/8j+iPpnMFEPGOp+IPobIzdE+0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\replacebycode.html'))</OriginalItemSpec>
@@ -10740,8 +10740,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8k5afqggog</Fingerprint>
-      <Integrity>qFE5gCbQh5IEl0RDlxxAizShUrsPNbuQIhHyv7srTr0=</Integrity>
+      <Fingerprint>9vs58smg3k</Fingerprint>
+      <Integrity>m4big3XQsBqLp0WjUBSAbNK6ZnlGGnBL7Qesxah+BYU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\sample.css'))</OriginalItemSpec>
@@ -10758,8 +10758,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lp3lae4ii0</Fingerprint>
-      <Integrity>CQjDXpJOqesgfYFMEpJVbKBt0NNfAcQ3KernEKL2IL8=</Integrity>
+      <Fingerprint>y4oy5kwz7h</Fingerprint>
+      <Integrity>Tpyyq98HPmfwPAGYsqJ1UV5nsXhdlng6ZVz3C48w5zY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\tabindex.html'))</OriginalItemSpec>
@@ -10776,8 +10776,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qpbuhfpa9x</Fingerprint>
-      <Integrity>zvO84QEiIqYMpN54lCL22TWne5lkAokcXMoTlPme6qc=</Integrity>
+      <Fingerprint>aerhu5vksr</Fingerprint>
+      <Integrity>Dll17q4Y+/LqpEMY2igVrrJjiqJWnhP7IuaPghOSCH0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\uicolor.html'))</OriginalItemSpec>
@@ -10794,8 +10794,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h0u0ss77mx</Fingerprint>
-      <Integrity>8VMPvaNra7J6Vjmxt1i2pPR1XlVy3dpUMQNxMqOohA8=</Integrity>
+      <Fingerprint>3dvpcsqg6f</Fingerprint>
+      <Integrity>+XiiCzJD60WOdCJ7wVabskPaN8KrhwoICXd3rwi84Bg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\uilanguages.html'))</OriginalItemSpec>
@@ -10812,8 +10812,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ghusbt0kva</Fingerprint>
-      <Integrity>VAjX4ROBuMVWxz6EgxGWauCUEHBGW8om6DnXc/zNDo8=</Integrity>
+      <Fingerprint>hentqsuzte</Fingerprint>
+      <Integrity>R/qqkY/3lVfGdbUSiXqv0GEJ3pOoSqXOm8klB4dsDik=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\samples\xhtmlstyle.html'))</OriginalItemSpec>
@@ -11460,8 +11460,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ukmzw5y1rp</Fingerprint>
-      <Integrity>DhEQ3feSqGcr4clcvJCvvS3jvCPGO3SSQiA4l0DlMy8=</Integrity>
+      <Fingerprint>rf8o9dby5q</Fingerprint>
+      <Integrity>SZIWT9xy8hLUgZXCf8izklSh0jL8lxJjqKlLUEeStmE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\bootstrapck\sample\bootstrapck-sample.html'))</OriginalItemSpec>
@@ -11496,8 +11496,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wdxm150tz4</Fingerprint>
-      <Integrity>fJhgP6i6HGHhZh2i0+93K43v1aukS9ODfkulgbbYrY0=</Integrity>
+      <Fingerprint>4jyn3z82qu</Fingerprint>
+      <Integrity>cKIGzkvu52SvBkWAzm9k14v3vVn3O0RYeK1geMRNbfg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\dialog.css'))</OriginalItemSpec>
@@ -11514,8 +11514,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fu4j2f4nlc</Fingerprint>
-      <Integrity>R33J8J/5tCkqWQbXPCIKdCgtgjVMT5NM1BUhXvjosVg=</Integrity>
+      <Fingerprint>iaevhdib4s</Fingerprint>
+      <Integrity>5sAb7PxM+ZCzhgX+W89Cbu/ct/bT8NKLq+lo61KqUuQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\dialog_ie.css'))</OriginalItemSpec>
@@ -11532,8 +11532,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6nk4id6ffo</Fingerprint>
-      <Integrity>fviVmVqMvx6na2ZPO5RRE+fT7YMp0NRiMi7PH1NifCM=</Integrity>
+      <Fingerprint>fdzowxprgp</Fingerprint>
+      <Integrity>7aLdqFf89tboDBZDMeYZC3Jv47N59c6Zd9IGldStxL4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\dialog_ie7.css'))</OriginalItemSpec>
@@ -11550,8 +11550,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nuqkuub86t</Fingerprint>
-      <Integrity>EXXPozDJXezeQ5YVkvjGh/o9GCYctg/CApYJyYExbBk=</Integrity>
+      <Fingerprint>aostm8pwjm</Fingerprint>
+      <Integrity>lkPmXpGs+fm6eWkERq9P0OrAarWTX8iLi+64BYxmZ0A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\dialog_ie8.css'))</OriginalItemSpec>
@@ -11568,8 +11568,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ohxpx0nqrj</Fingerprint>
-      <Integrity>NNnrgaw0Dovm3THPlJZM0forydj8hSbfjFT8+kEgFKY=</Integrity>
+      <Fingerprint>k74a9azkdp</Fingerprint>
+      <Integrity>MIvKmUfkYZ3OasA8fEE0bTFTEyOx4N5z6w1SX65LQj4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\dialog_iequirks.css'))</OriginalItemSpec>
@@ -11586,8 +11586,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n58zfqq4oi</Fingerprint>
-      <Integrity>C8ueN14LpkUPbCmWqlqflyKW723y/ExZV1g6Y6x3/vc=</Integrity>
+      <Fingerprint>xtll0ydmyg</Fingerprint>
+      <Integrity>O4a3G7Hf2tyMkBps+MFp2VrKSXi1JASS/OqUzVWyhWY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\editor.css'))</OriginalItemSpec>
@@ -11604,8 +11604,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e66ctn4h32</Fingerprint>
-      <Integrity>RiM++XK8iqRQpUUZsphCrr8GK9UFz4CKRtyP29BaAPA=</Integrity>
+      <Fingerprint>0uaztppkgb</Fingerprint>
+      <Integrity>mPJbEV7UMv438Fx9l/PIlXSuFW8lW2d8AhB0I7QQgUE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\editor_gecko.css'))</OriginalItemSpec>
@@ -11622,8 +11622,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0o0iapvcac</Fingerprint>
-      <Integrity>IO7QrNkbbRa/G9bGvkmaZhvwws5t4ZxITSyfTH7kcm4=</Integrity>
+      <Fingerprint>nzanp9q2vv</Fingerprint>
+      <Integrity>ncvfMvBye6KwzzMplWx9VP/8V8OrV77JBwbUyUUhrpY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\editor_ie.css'))</OriginalItemSpec>
@@ -11640,8 +11640,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vk8gm5yzvg</Fingerprint>
-      <Integrity>b3m2keIY6yBrDfmQMVcIGIOZTI/LBQfGtn1Dpy7YoPA=</Integrity>
+      <Fingerprint>e154lsx41o</Fingerprint>
+      <Integrity>gidiST6vxkwbYX0Iht88RwF+xMbqkxwu0guk2PmWyg8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\editor_ie7.css'))</OriginalItemSpec>
@@ -11658,8 +11658,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>buvdhz5pjk</Fingerprint>
-      <Integrity>jXC7tP5kdjCVlL/kgnGKo5WagH3byPE6CXrQWEZVEUU=</Integrity>
+      <Fingerprint>ts8mbm1e9n</Fingerprint>
+      <Integrity>85bwsa15mPHUOfD6aHR1qMdR7iO4zTlW19X5LfmA50k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\editor_ie8.css'))</OriginalItemSpec>
@@ -11676,8 +11676,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8uvxckkv8b</Fingerprint>
-      <Integrity>kIRUzuP/JHOQvu7WOVrk0c0ePnHAR/1kXBfrSH/5Z+A=</Integrity>
+      <Fingerprint>w1ahdnpe7a</Fingerprint>
+      <Integrity>3LkivzdV/iXhfKT993amTL5rvIR1ZP94FtR57ymUSxk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bower_components\ckeditor\skins\moono\editor_iequirks.css'))</OriginalItemSpec>
@@ -42672,8 +42672,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ed1examf7c</Fingerprint>
-      <Integrity>jrhV3BujoAKrWF5N3fiZpZCH90JQIJg3Hr8jaThEgzA=</Integrity>
+      <Fingerprint>kqoklgjuc9</Fingerprint>
+      <Integrity>xCAjCkYVGeygRmxjaH/vfuH9px4kA1Vq91rUo231k30=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\dist\css\customize-adminlte.css'))</OriginalItemSpec>
@@ -46866,8 +46866,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j38qnds82z</Fingerprint>
-      <Integrity>gckfH0gX0z23yCU+XTrGVlgXBqDN9q25WsknPm9R2PA=</Integrity>
+      <Fingerprint>6wu3akbssy</Fingerprint>
+      <Integrity>2na/PI662bXXUtJWr2sF66IttMuqr+nG8o6TvIkp3Vs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AuthLayout\css\style.css'))</OriginalItemSpec>
@@ -46908,23 +46908,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\buttons.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\CreaeCategory.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\CreateCategory.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Blog_System.WEB</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Blog_System.WEB</BasePath>
-      <RelativePath>css/CreaeCategory.css</RelativePath>
+      <RelativePath>css/CreateCategory.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gxz7bphj0r</Fingerprint>
-      <Integrity>pHD0RMu/51VZR44UqMa/jXaEosjJityknhsd4tL9EzE=</Integrity>
+      <Fingerprint>23ky80mktc</Fingerprint>
+      <Integrity>LgJL+32QdkUGKaqxaO8sfE4e4FCTymfE8FHDxdrq7Hk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\CreaeCategory.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\CreateCategory.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\fonts\fontscss.txt'))">
       <SourceType>Package</SourceType>
@@ -46938,8 +46938,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>clvr7u6fq7</Fingerprint>
-      <Integrity>UGhDuTivUUCkGLVX9bxzBXaBrJLkvyzn7dEZ7S9sI4w=</Integrity>
+      <Fingerprint>uv2xgj1x8g</Fingerprint>
+      <Integrity>2hiZGarv1z4KDlH78RPndQ8XGd/S8nNvcM7qiKq0S08=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\fonts\fontscss.txt'))</OriginalItemSpec>
@@ -47370,8 +47370,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tdk4bw7na8</Fingerprint>
-      <Integrity>Mds86K/hS1NjX9beoYWS7eMmj64DchmSY+RHWzlFKVs=</Integrity>
+      <Fingerprint>0t18b6xr21</Fingerprint>
+      <Integrity>3LGYCsuqAQagSXd6IjQpYqaIiFAUNF/gGdH67tXLk6k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\plugins\loader.css'))</OriginalItemSpec>
@@ -47442,8 +47442,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>q4cuvaoszv</Fingerprint>
-      <Integrity>6v/RYG9f14c1hRQIXkS7GtmuohlxBduboOxrPZBlI98=</Integrity>
+      <Fingerprint>8y7ignkkf8</Fingerprint>
+      <Integrity>wAQ1n1EfclZWhYGh2xotUv5Ey13sGfrHhWq9VqJEDMw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\plugins\splitting.css'))</OriginalItemSpec>
@@ -49062,8 +49062,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vuikhj8l7n</Fingerprint>
-      <Integrity>dzlj8ykRusBG6h5Ye/B0zfNKyA6cOEQvkiXG2juAu0w=</Integrity>
+      <Fingerprint>5at0niq6g2</Fingerprint>
+      <Integrity>w0ydjAAjv1OLLyTJb3RVBrhRr9Q8uwHWCil6eu792gk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</OriginalItemSpec>
@@ -49116,8 +49116,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7hmiwvycll</Fingerprint>
-      <Integrity>taFAtBDxGMaNyRjBDmg5i8jzXM3ZbL7S0g7K3aXvDrU=</Integrity>
+      <Fingerprint>e9n3kxvqe5</Fingerprint>
+      <Integrity>gsDpVCGXY3YzKlwJ3aatgXZgqFJ3D3P3CZK0e2xJ+q8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\plugins\jquery.2.1.0.min.js'))</OriginalItemSpec>
@@ -49188,8 +49188,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wwymxpl2a8</Fingerprint>
-      <Integrity>wBDVVM71XjKcGFl0Eur+maJdNGZVan0JFCL0XP+J5LI=</Integrity>
+      <Fingerprint>18rd5tsw0i</Fingerprint>
+      <Integrity>EUSEtryqbC56yDAZKda82hin9xkkqDXC5sAf29ZCH1s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\plugins\jquery.waypoints.min.js'))</OriginalItemSpec>
@@ -49224,8 +49224,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bycgelnqo7</Fingerprint>
-      <Integrity>k9fSFKUfZFITRG6gC/mottahLvifQVOybGh/c2ZFBas=</Integrity>
+      <Fingerprint>pzm14qi78t</Fingerprint>
+      <Integrity>pTYb5I5kKX8jBGqUgBBnv89kQ5HHbeYky85VYONdZgs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\plugins\popper.min.js'))</OriginalItemSpec>
@@ -49242,8 +49242,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rp9yeik5hs</Fingerprint>
-      <Integrity>UcQ71sNVomqyQD6+po3pnlkyBcnkxgRCPpaaOspXURM=</Integrity>
+      <Fingerprint>gc109vvoiw</Fingerprint>
+      <Integrity>0HtbTO2yZBtf+aXvpW61lSN53SLeGSBtU/II5pIezfU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\plugins\scroll-out.min.js'))</OriginalItemSpec>
@@ -49278,8 +49278,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0qnmkatkki</Fingerprint>
-      <Integrity>aBJ31mtkT7mDjcTBS+cAo1gQ8gzsGLWKEWr+pT35qaU=</Integrity>
+      <Fingerprint>2vlpt620q0</Fingerprint>
+      <Integrity>EpBe14rvK8aVFduoPVhxGoa6hQSNqYaTW3h3VDDJO6c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\plugins\splitting.js'))</OriginalItemSpec>
@@ -49314,8 +49314,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xtxxf3hu2r</Fingerprint>
-      <Integrity>hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=</Integrity>
+      <Fingerprint>fr7q2aak1r</Fingerprint>
+      <Integrity>y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
@@ -49332,8 +49332,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>grqffevbe2</Fingerprint>
-      <Integrity>xLMJJcAB7fiPSdW1RuBOoLy0YkrZXPmRrwbSOeDhdm8=</Integrity>
+      <Fingerprint>tllt21khzo</Fingerprint>
+      <Integrity>X4d6tJ3+2rL070PNwEffjkHhqWm+6HOAkPi9SuF5LjA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\validate.js'))</OriginalItemSpec>
@@ -50142,8 +50142,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>81b7ukuj9c</Fingerprint>
-      <Integrity>ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk=</Integrity>
+      <Fingerprint>z6qzljqjd0</Fingerprint>
+      <Integrity>WzAxfJw1u28FEBxQHehmzGhSq5tlXc9ZQXM/ZkTD69A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\LICENSE'))</OriginalItemSpec>
@@ -50196,8 +50196,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>356vix0kms</Fingerprint>
-      <Integrity>16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=</Integrity>
+      <Fingerprint>l3n5xuwxn8</Fingerprint>
+      <Integrity>z8IfXovWVa6ZfuyRYTi3B7HSkLgycsAqlcn4IbjIcxA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\LICENSE.txt'))</OriginalItemSpec>
@@ -50214,8 +50214,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ay5nd8zt9x</Fingerprint>
-      <Integrity>4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=</Integrity>
+      <Fingerprint>gcjdx5jb8l</Fingerprint>
+      <Integrity>0HeMWyQUbTbe7SGnSYbjj9+HVA0hKDmEUtbYoTKe+Bk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\additional-methods.js'))</OriginalItemSpec>
@@ -50232,8 +50232,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9oaff4kq20</Fingerprint>
-      <Integrity>N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=</Integrity>
+      <Fingerprint>35gxhxa0gh</Fingerprint>
+      <Integrity>90Rlzuz8pIZK4g9o2I7nGK+9n5cU9Rbdt4GtxRO5arA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\dist\additional-methods.min.js'))</OriginalItemSpec>
@@ -50286,8 +50286,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x0q3zqp4vz</Fingerprint>
-      <Integrity>geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw=</Integrity>
+      <Fingerprint>xzw0cte36n</Fingerprint>
+      <Integrity>85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation\LICENSE.md'))</OriginalItemSpec>
@@ -50358,8 +50358,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mlv21k5csn</Fingerprint>
-      <Integrity>hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=</Integrity>
+      <Fingerprint>jfsiqqwiad</Fingerprint>
+      <Integrity>kR0ThRjy07+hq4p08nfdkjN+pI94Gj2rK5lyE0buITU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
@@ -50376,8 +50376,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>eex7xdmsfp</Fingerprint>
-      <Integrity>KuZ05ahspRvqgR0H6ACVKMFidFJiab1//Rh8x303fSU=</Integrity>
+      <Fingerprint>9gh3mz1vci</Fingerprint>
+      <Integrity>GY2X4nWNzOQ5qMPsdkfazzpGMqik7XDevinWYBRhNgs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\buttons.scss'))</OriginalItemSpec>
@@ -50394,8 +50394,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1yqk8an6j7</Fingerprint>
-      <Integrity>aSUFEVPZq4hMomEWFD3fC0Kcje9qzm7rpx4SXKCagDU=</Integrity>
+      <Fingerprint>ub4fs9xxjb</Fingerprint>
+      <Integrity>VoxBVOq/gqiOP58Nt3721VgVMz5IRCvwpb+n6PLsm8I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\demo.scss'))</OriginalItemSpec>
@@ -50412,8 +50412,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>omvejs2kaf</Fingerprint>
-      <Integrity>YGXjqXf8HtPR1uCxlfz8AuwR0zlN3BJHvJPBHu3zpPQ=</Integrity>
+      <Fingerprint>91440mqvkh</Fingerprint>
+      <Integrity>bWXG/hvVskgwy9jIGqz17EB2y2d6I5kHPO0k6CnWDFY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\inner.scss'))</OriginalItemSpec>
@@ -50430,8 +50430,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zc3dl71u1m</Fingerprint>
-      <Integrity>vWzOvXjLE2f45cfgHDATzTh1iwehTrFwuozCRrjmpqg=</Integrity>
+      <Fingerprint>efobwg6v51</Fingerprint>
+      <Integrity>atBT1wCfGcQVrKkD6FdMWmiJApuEEwJSjpHBC/AANH8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\master.scss'))</OriginalItemSpec>
@@ -50448,8 +50448,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qkgi71rqwy</Fingerprint>
-      <Integrity>lqDjQRtDJ7Wj9qrOoaF+R+DBI6nTJTPb09TasF+JRVA=</Integrity>
+      <Fingerprint>u63id5wyn2</Fingerprint>
+      <Integrity>Wj7boKK/YozN900fwCIXEZyjEn7HfCelfhHevwl59BE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\_colors.scss'))</OriginalItemSpec>
@@ -50466,8 +50466,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ubz96u7yrb</Fingerprint>
-      <Integrity>GgkVI2265Ddmu9B97WKtFPOPxJvDr+0vaUO1MRHvc/k=</Integrity>
+      <Fingerprint>4ld8785wwl</Fingerprint>
+      <Integrity>yM21+3XKIx9Fp+EgPxvPitOYP0h8M2wxG3KH//MdMOg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\_fonts.scss'))</OriginalItemSpec>
@@ -50484,8 +50484,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pibwa9iwxc</Fingerprint>
-      <Integrity>UTAPBIEa5iMP0PtaS4Ibsk50kpy1DKrl/xUqNadWnrA=</Integrity>
+      <Fingerprint>uwbt81b3i8</Fingerprint>
+      <Integrity>cgKhnZ2AZGrhIqsm8PPxypNlL9FCyau9DD3cX95GtGw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\_mixin.scss'))</OriginalItemSpec>
@@ -50502,8 +50502,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dnrodc3j5c</Fingerprint>
-      <Integrity>B5FA5mc+Mc+f4gP6ir/y7tRpPiXKwQMsPiNbzaITpHU=</Integrity>
+      <Fingerprint>escvhzlkbk</Fingerprint>
+      <Integrity>gkBNftnYcnjJT1wdcdZ0ZIK9URmWce1AirDHj82f1NM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\_others.scss'))</OriginalItemSpec>
@@ -50520,8 +50520,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o6wb06b6rm</Fingerprint>
-      <Integrity>UIDpVjkWn+v/+OreUyx8dXwg8/f3ZwmZD5P1dmX1aL8=</Integrity>
+      <Fingerprint>cm0hdmj98x</Fingerprint>
+      <Integrity>ZNKtwyH9oBRl/q2W/+d58MnLvpb3F5b1fAeP7gYqReA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\_responsive.scss'))</OriginalItemSpec>
@@ -50538,8 +50538,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w18tljox9k</Fingerprint>
-      <Integrity>BO/RQ7Sb0n5aoRDuDwvI4rvOrb0r1SsUMJ2OX3S+wqM=</Integrity>
+      <Fingerprint>qvcwksryrb</Fingerprint>
+      <Integrity>Nr1zUbeBUUAwbuV4GpLaoF96DW/u3AFoLAvReyPujWM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\_spacing.scss'))</OriginalItemSpec>
@@ -50556,8 +50556,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c2sk06pkv8</Fingerprint>
-      <Integrity>7My8qf3HSjDuv8nHMAozgB7mZsf040pXIH6XodbGgU4=</Integrity>
+      <Fingerprint>vufwz7068s</Fingerprint>
+      <Integrity>RxewHYciRCoCU8ZwgTAGpkctjHNbm3Pq1E80wSOW5Es=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\_typography.scss'))</OriginalItemSpec>

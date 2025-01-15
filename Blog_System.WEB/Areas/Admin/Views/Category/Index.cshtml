@@ -48,7 +48,10 @@
                             <td>@item.Title</td>
                             <td></td>
                             <td>
-                                <a href="/Admin/Category/Edit/@item.id" class="btn btn-info btn-sm">ویرایش</a>
+                                <a href="/Admin/Category/Edit/@item.Id" class="btn btn-info btn-sm">ویرایش</a>
+                                <a href="/Admin/Category/AddChild/@item.Id" class="btn btn-success btn-sm">اضافه کردن زیرگروه</a>
+                                <a href="/Admin/Category/Delete/@item.Id" onclick="return confirm('آیا مطمئن هستید که می‌خواهید این دسته‌بندی را حذف کنید؟');" class="btn btn-danger btn-sm">حذف دسته‌بندی</a>
+
                             </td>
 
                         </tr>

@@ -25,7 +25,7 @@ namespace Blog_System.DataLayer.Entities
 
 
         // Required collection of related posts (A category can have multiple posts)
-        public ICollection<Post> Posts { get; set; }
+        public ICollection<Post> Posts { get; set; } = new List<Post>();
 
         #endregion
     }
