@@ -89,5 +89,19 @@ namespace Blog_System.CoreLayer.Services.Users
 
             return OperationResult.Success("کاربر با موفقیت ثبت شد");
         }
+        public List<UserDto> GetAllUsers()
+        {
+            var users = _context.Users 
+                .Select(user => new UserDto
+                {
+                    UserId = user.Id,
+                    FullName = user.FullName,
+                    UserName = user.UserName
+                })
+                .ToList();
+
+            return users;
+        }
+
     }
 }

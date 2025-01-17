@@ -15,24 +15,21 @@
 <link rel="stylesheet" href="/css/plugins/splitting.css">
 <link rel="stylesheet" href="/css/master.css">
 <link rel="stylesheet" href="style.css">
+
 <section class="content-header">
-    <h1>
-        @ViewData["title"]
-    </h1>
+    <h1>@ViewData["title"]</h1>
     <ol class="breadcrumb">
-        <li><a href="/Admin/Home/Index/"><i class="fa fa-dashboard"></i>  خانه  </a></li>
+        <li><a href="/Admin/Home/Index/"><i class="fa fa-dashboard"></i> خانه</a></li>
         <li class="active">@ViewData["title"]</li>
     </ol>
 </section>
+
 <section class="content">
-    <a class="col-lg-2 btn btn-secondary align-self-center" asp-area="Admin" asp-controller="Category" asp-action="Add">افزودن گروه جدید</a>
-    <br>
-    <br>
-    <!-- Default box -->
+    <a class="btn btn-primary mb-4" asp-area="Admin" asp-controller="Category" asp-action="Add">افزودن گروه جدید</a>
     <div class="box box-body">
         <div class="box box-primary">
-            <table class="table table-bordered table-hover">
-                <thead>
+            <table class="table table-bordered table-hover text-center">
+                <thead class="thead-dark">
                     <tr>
                         <th>#</th>
                         <th>عنوان</th>
@@ -41,40 +38,106 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach(var item in Model.Where(m => m.ParentId == null)){
+                    @foreach (var item in Model.Where(m => m.ParentId == null))
+                    {
                         <tr>
-                            <td>
-                                @counter
-                            </td>
+                            <td>@counter</td>
                             <td>@item.Title</td>
                             <td>
-                                @if(Model.Any(r => r.ParentId == item.Id)){
-                                    <ul>
-                                    @foreach (var subCategory in Model.Where(m => m.ParentId == item.Id))
-                                    {
-                                     <li>
-                                         @subCategory.Title
-                                         <a href="/Admin/Category/Edit/@subCategory.Id" class="btn btn-warning btn-sm">ویرایش زیرگروه</a>
-                                                <a href="/Admin/Category/Delete/@subCategory.Id" onclick="return confirm('آیا مطمئن هستید که می‌خواهید این زیر دسته‌بندی را حذف کنید؟');" class="btn btn-danger btn-sm">حذف زیردسته‌بندی</a>
-
-                                      </li>
-                                    }
+                                @if (Model.Any(r => r.ParentId == item.Id))
+                                {
+                                    <ul class="list-unstyled">
+                                        @foreach (var subCategory in Model.Where(m => m.ParentId == item.Id))
+                                        {
+                                            <li>
+                                                @subCategory.Title
+                                                <a href="/Admin/Category/Edit/@subCategory.Id" class="btn btn-warning btn-sm mx-2">ویرایش</a>
+                                                <a href="/Admin/Category/Delete/@subCategory.Id" class="btn btn-danger btn-sm mx-2" onclick="return confirm('آیا مطمئن هستید که می‌خواهید این زیر دسته‌بندی را حذف کنید؟');">حذف</a>
+                                            </li>
+                                        }
                                     </ul>
                                 }
-                               
+                                else
+                                {
+                                    <span>ندارد</span>
+                                }
                             </td>
                             <td>
-                                <a href="/Admin/Category/Edit/@item.Id" class="btn btn-info btn-sm">ویرایش</a>
-                                <a href="/Admin/Category/Add/@item.Id" class="btn btn-success btn-sm">اضافه کردن زیرگروه</a>
-                                <a href="/Admin/Category/Delete/@item.Id" onclick="return confirm('آیا مطمئن هستید که می‌خواهید این دسته‌بندی را حذف کنید؟');" class="btn btn-danger btn-sm">حذف دسته‌بندی</a>
-
+                                <a href="/Admin/Category/Edit/@item.Id" class="btn btn-info btn-sm mx-2">ویرایش</a>
+                                <a href="/Admin/Category/Add/@item.Id" class="btn btn-success btn-sm mx-2">اضافه کردن زیرگروه</a>
+                                <a href="/Admin/Category/Delete/@item.Id" class="btn btn-danger btn-sm mx-2" onclick="return confirm('آیا مطمئن هستید که می‌خواهید این دسته‌بندی را حذف کنید؟');">حذف</a>
                             </td>
-
                         </tr>
-                        counter += 1;
+                        counter++;
                     }
-              </tbody>
-</table>
+                </tbody>
+            </table>
         </div>
-</div>
+    </div>
 </section>
+
+<style>
+    .table {
+        margin: 20px 0;
+        font-size: 14px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .thead-dark {
+        background-color: #343a40;
+        color: #fff;
+    }
+
+    .btn {
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+
+    .btn-warning {
+        background-color: #ffc107;
+        border-color: #ffc107;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .list-unstyled {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+        .list-unstyled li {
+            margin-bottom: 10px;
+        }
+
+    .mx-2 {
+        margin: 0 5px;
+    }
+
+    .mb-4 {
+        margin-bottom: 20px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+</style>

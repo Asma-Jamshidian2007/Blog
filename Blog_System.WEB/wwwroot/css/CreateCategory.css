@@ -2,10 +2,10 @@
     font-family: Roboto;
     padding: 30px;
 }
+
 .content {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -52,6 +52,4 @@ h2 {
     text-align: center;
     color: #fff;
     border: none;
-
 }
-

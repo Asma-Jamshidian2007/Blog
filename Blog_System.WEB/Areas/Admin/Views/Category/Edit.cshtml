@@ -15,39 +15,95 @@
 <link rel="stylesheet" href="/css/plugins/splitting.css">
 <link rel="stylesheet" href="/css/master.css">
 <link rel="stylesheet" href="style.css">
+
 <section class="content">
     <div class="box box-body">
         <div class="box box-primary">
-            <h2>@ViewData["title"] </h2>
+            <h2 class="mb-4 text-center">@ViewData["title"]</h2>
             <form method="post" asp-area="Admin" asp-controller="Category" asp-action="Edit" class="form-horizontal">
-                <div class="form-group">
+                <div class="form-group mb-3">
                     <label asp-for="Title" class="control-label">عنوان دسته‌بندی</label>
-                    <input type="text" asp-for="Title" class="form-control" placeholder="عنوان دسته‌بندی " required />
-                    <span asp-validation-for="Title"></span>
+                    <input type="text" asp-for="Title" class="form-control" placeholder="عنوان دسته‌بندی" required />
+                    <span asp-validation-for="Title" class="text-danger"></span>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group mb-3">
                     <label asp-for="Slug" class="control-label">Slug</label>
                     <input type="text" asp-for="Slug" class="form-control" placeholder="Slug" required />
-                    <span asp-validation-for="Slug"></span>
+                    <span asp-validation-for="Slug" class="text-danger"></span>
                 </div>
 
-                <div class="form-group">
-                    <label for="metaTag" class="control-label">MetaTag</label>
-                    <input type="text" asp-for="MetaTag" class="form-control" placeholder="MetaTag " />
-                    <span asp-validation-for="MetaTag"></span>
+                <div class="form-group mb-3">
+                    <label asp-for="MetaTag" class="control-label">MetaTag</label>
+                    <input type="text" asp-for="MetaTag" class="form-control" placeholder="MetaTag" />
+                    <span asp-validation-for="MetaTag" class="text-danger"></span>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group mb-3">
                     <label asp-for="MetaDescription" class="control-label">MetaDescription</label>
-                    <textarea asp-for="MetaDescription" class="form-control" placeholder="MetaDescription " rows="4"></textarea>
+                    <textarea asp-for="MetaDescription" class="form-control" placeholder="MetaDescription" rows="4"></textarea>
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block">ویرایش دسته‌بندی</button>
+                    <button type="submit" class="btn btn-warning btn-block">ویرایش دسته‌بندی</button>
                 </div>
             </form>
         </div>
-
     </div>
 </section>
+
+<style>
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+        .form-control:focus {
+            border-color: #ffc107;
+            box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+        }
+
+    .btn-warning {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        border-radius: 10px;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+            border-color: #d39e00;
+        }
+
+    .box-primary {
+        padding: 25px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .mb-4 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-danger {
+        font-size: 0.875rem;
+        color: #dc3545;
+    }
+</style>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FGLnawLcmxI=",
+  "dgSpecHash": "WoHezjp47GQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj",
+  "projectFilePath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AFATB\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\AFATB\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

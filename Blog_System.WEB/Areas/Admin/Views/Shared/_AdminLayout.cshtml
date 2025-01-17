@@ -1,6 +1,6 @@
-﻿@model List<Blog_System.CoreLayer.DTOs.Users.UserDto>
-    @{
-   var counter = 1;
+﻿@{
+    var users = ViewData["Users"] as List<Blog_System.CoreLayer.DTOs.Users.UserDto>;
+
 }
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
@@ -149,15 +149,15 @@
                         </thead>
 
                         <tbody>
-                            @if (Model != null && Model.Any())
+                            @if (users != null && users.Any())
                             {
-                                @foreach (var item in Model)
+                                @foreach (var user in users)
                                 {
                                     <tr>
-                                        <td>@counter</td>
-                                        <td>@item.FullName</td>
-                                        <td>@item.UserName</td>
-                                        <td>ایجاد پست جدید</td>
+                                        <td>@user.UserId</td>
+                                        <td>@user.UserName</td>
+                                        <td>@user.UserName</td>
+                                        <td>آخرین فعالیت کاربر</td>
                                     </tr>
                                 }
                             }
@@ -168,6 +168,7 @@
                                 </tr>
                             }
                         </tbody>
+
                     </table>
                 </div>
 

@@ -702,3 +702,5 @@ C:\Users\AFATB\Desktop\Blog_System.WEB\Blog_System.WEB\obj\Debug\net8.0\Blog_Sys
 C:\Users\AFATB\Desktop\Blog_System.WEB\Blog_System.WEB\obj\Debug\net8.0\ref\Blog_System.WEB.dll
 C:\Users\AFATB\Desktop\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\DevOne.Security.Cryptography.BCrypt.dll
 C:\Users\AFATB\Desktop\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\DevOne.Security.Cryptography.BCrypt.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\BCrypt.Net-Next.dll
