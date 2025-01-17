@@ -6,15 +6,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Blog_System.CoreLayer.Services.Users
 {
     public interface IUserService
     {
-        // Register a new user
         OperationResult UserRegister(UserRegisterDto registerDto);
-
-        // Login an existing user
         UserDto UserLogin(LoginUserDto loginDto);
     }
 }

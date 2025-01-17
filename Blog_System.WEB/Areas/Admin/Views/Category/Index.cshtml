@@ -2,7 +2,7 @@
 @{
     ViewData["title"] = "دسته بندی ها";
     var counter = 1;
-    Layout = "_Layout";
+    Layout = "_CategoryLayout";
 }
 <link rel="icon" href="/img/logo/fabicon2.png">
 <link rel="stylesheet" href="/css/plugins/bootstrap-rtl.css">
@@ -20,12 +20,13 @@
         @ViewData["title"]
     </h1>
     <ol class="breadcrumb">
-        <li><a asp-area="Admin" asp-controller="Category" asp-action="Index"><i class="fa fa-dashboard"></i> خانه</a></li>
+        <li><a href="/Admin/Home/Index/"><i class="fa fa-dashboard"></i>  خانه  </a></li>
         <li class="active">@ViewData["title"]</li>
     </ol>
 </section>
 <section class="content">
-    <a class="col-lg-2 d-none d-lg-block text-right align-self-center" asp-area="Admin" asp-controller="Category" asp-action="Add">افزودن گروه جدید</a>
+    <a class="col-lg-2 btn btn-secondary align-self-center" asp-area="Admin" asp-controller="Category" asp-action="Add">افزودن گروه جدید</a>
+    <br>
     <br>
     <!-- Default box -->
     <div class="box box-body">
@@ -40,16 +41,31 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach(var item in Model){
+                    @foreach(var item in Model.Where(m => m.ParentId == null)){
                         <tr>
                             <td>
                                 @counter
                             </td>
                             <td>@item.Title</td>
-                            <td></td>
+                            <td>
+                                @if(Model.Any(r => r.ParentId == item.Id)){
+                                    <ul>
+                                    @foreach (var subCategory in Model.Where(m => m.ParentId == item.Id))
+                                    {
+                                     <li>
+                                         @subCategory.Title
+                                         <a href="/Admin/Category/Edit/@subCategory.Id" class="btn btn-warning btn-sm">ویرایش زیرگروه</a>
+                                                <a href="/Admin/Category/Delete/@subCategory.Id" onclick="return confirm('آیا مطمئن هستید که می‌خواهید این زیر دسته‌بندی را حذف کنید؟');" class="btn btn-danger btn-sm">حذف زیردسته‌بندی</a>
+
+                                      </li>
+                                    }
+                                    </ul>
+                                }
+                               
+                            </td>
                             <td>
                                 <a href="/Admin/Category/Edit/@item.Id" class="btn btn-info btn-sm">ویرایش</a>
-                                <a href="/Admin/Category/AddChild/@item.Id" class="btn btn-success btn-sm">اضافه کردن زیرگروه</a>
+                                <a href="/Admin/Category/Add/@item.Id" class="btn btn-success btn-sm">اضافه کردن زیرگروه</a>
                                 <a href="/Admin/Category/Delete/@item.Id" onclick="return confirm('آیا مطمئن هستید که می‌خواهید این دسته‌بندی را حذف کنید؟');" class="btn btn-danger btn-sm">حذف دسته‌بندی</a>
 
                             </td>

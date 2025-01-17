@@ -64,7 +64,14 @@
                         </div>
                         <div class="mobile_menu d-lg-none"></div>
                     </div>
-                    <div class="col-lg-2 d-none d-lg-block text-right align-self-center"><a asp-page="../Auth/LoginSignup" class="signup_btn3">ورود/ثبت نام</a></div>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                    }
+                    else
+                    {
+                        <div class="col-lg-2 d-none d-lg-block text-right align-self-center"><a asp-page="./Auth/SignUp" class="signup_btn3">ثبت نام</a></div>
+
+                    }
                 </div>
             </div>
         </div>

@@ -21,7 +21,7 @@ namespace Blog_System.DataLayer.Entities
 
         // Foreign key relationship with the Post entity (the post that the comment belongs to)
         [ForeignKey("PostId")]
-        public  Post Post { get; set; }
+        public  Post Post { get; set; } = new Post();
 
         #endregion
     }

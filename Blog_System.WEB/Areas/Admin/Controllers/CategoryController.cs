@@ -22,14 +22,16 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
             return View(categories);
         }
 
-        public IActionResult Add()
+        [Route(template: "/Admin/Category/Add/{parentId?}")]
+        public IActionResult Add(int? parentId)
         {
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Add(CreateCategoryViewModel viewModel)
+        [HttpPost(template: "/Admin/Category/Add/{parentId?}")]
+        public IActionResult Add(int? parentId,CreateCategoryViewModel viewModel)
         {
+            viewModel.ParentId = parentId;
             _categoryService.CreateCategory(viewModel.MapToDto());
             return RedirectToAction("Index");
         }
@@ -85,5 +87,6 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
             TempData["SuccessMessage"] = "Category deleted successfully.";
             return RedirectToAction("Index");
         }
+
     }
 }

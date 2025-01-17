@@ -1,0 +1,237 @@
+﻿@model List<Blog_System.CoreLayer.DTOs.Users.UserDto>
+    @{
+   var counter = 1;
+}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنل مدیریت</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .profile-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+            .profile-card img {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+            }
+
+        .todo-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .todo-list li {
+                background-color: #f8f9fa;
+                margin-bottom: 10px;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+                .todo-list li.done {
+                    text-decoration: line-through;
+                    background-color: #d4edda;
+                    color: #155724;
+                }
+
+        .card-button {
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+            .card-button:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            }
+
+        .card-category {
+            background-color: #28a745;
+        }
+
+        .card-post {
+            background-color: #17a2b8;
+        }
+    </style>
+</head>
+<body>
+    @RenderBody()
+    <div class="container-fluid">
+        <header class="header d-flex justify-content-between align-items-center p-3 bg-primary text-white">
+            <h4>پنل مدیریت</h4>
+            <div>
+                <button class="btn btn-warning">خروج</button>
+            </div>
+        </header>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="profile-card text-center">
+                    <img src="https://cdn.talkie-ai.com/talkie-user-img/56870458417291/94376791150787-2-2-2-2-2-2-2-2-2-2-2.jpeg" alt="Admin Profile">
+                    <h5>نام ادمین: نمیدونم</h5>
+                    <p>ایمیل: admin@example.com</p>
+                    <button class="btn btn-sm btn-primary">ویرایش پروفایل</button>
+                </div>
+
+                <div class="mt-4">
+                    <h6>لیست کارها</h6>
+                    <ul class="todo-list" id="todoList">
+                        <li onclick="toggleDone(this)">
+                            بررسی پیام‌های جدید <span>⬜</span>
+                            <button class="btn btn-sm btn-danger" onclick="removeTask(this)">حذف</button>
+                        </li>
+                        <li onclick="toggleDone(this)">
+                            ایجاد دسته‌بندی جدید <span>⬜</span>
+                            <button class="btn btn-sm btn-danger" onclick="removeTask(this)">حذف</button>
+                        </li>
+                        <li onclick="toggleDone(this)">
+                            مدیریت کاربران <span>⬜</span>
+                            <button class="btn btn-sm btn-danger" onclick="removeTask(this)">حذف</button>
+                        </li>
+                    </ul>
+
+                    <div class="mt-3">
+                        <input type="text" id="taskName" class="form-control" placeholder="نام کار جدید را وارد کنید">
+                        <button class="btn btn-sm btn-success mt-2" onclick="addTask()">اضافه کردن کار جدید</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <a href="/Admin/Category" class="card-button card-category d-block">
+                            <h5>مدیریت دسته‌بندی‌ها</h5>
+                            <p>مشاهده و مدیریت دسته‌بندی‌ها</p>
+                        </a>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <a href="/Admin/Post" class="card-button card-post d-block">
+                            <h5>مدیریت پست‌ها</h5>
+                            <p>مشاهده و مدیریت پست‌ها</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <h6>لیست کاربران و فعالیت‌های آن‌ها</h6>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>نام کاربر</th>
+                                <th>نام کاربری</th>
+                                <th>آخرین فعالیت</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@counter</td>
+                                        <td>@item.FullName</td>
+                                        <td>@item.UserName</td>
+                                        <td>ایجاد پست جدید</td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center">هیچ کاربری پیدا نشد.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="mt-4">
+                    <h6>نمودار ثبت‌نام کاربران</h6>
+                    <canvas id="registrationChart"></canvas>
+                    <script>
+                        const ctx = document.getElementById('registrationChart').getContext('2d');
+                        const registrationChart = new Chart(ctx, {
+                            type: 'line',
+                            data: {
+                                labels: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند'],
+                                datasets: [{
+                                    label: 'تعداد کاربران ثبت‌نام شده',
+                                    data: [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65], // این داده‌ها باید از سرور دریافت شوند
+                                    borderColor: 'rgba(75, 192, 192, 1)',
+                                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                                    fill: true,
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                scales: {
+                                    y: {
+                                        beginAtZero: true
+                                    }
+                                }
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDone(element) {
+            element.classList.toggle("done");
+            const span = element.querySelector("span");
+            span.textContent = element.classList.contains("done") ? "✅" : "⬜";
+        }
+
+        function removeTask(element) {
+            element.closest('li').remove();
+        }
+
+        function addTask() {
+            const taskName = document.getElementById("taskName").value;
+            if (taskName) {
+                const taskList = document.getElementById("todoList");
+                const newTaskItem = document.createElement("li");
+                newTaskItem.innerHTML = `${taskName} <span>⬜</span>
+                    <button class="btn btn-sm btn-danger" onclick="removeTask(this)">حذف</button>`;
+                newTaskItem.onclick = function() {
+                    toggleDone(newTaskItem);
+                };
+                taskList.appendChild(newTaskItem);
+                document.getElementById("taskName").value = ''; // Clear input after adding
+            } else {
+                alert("لطفا نام کار را وارد کنید");
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

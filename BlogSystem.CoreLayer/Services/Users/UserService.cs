@@ -2,17 +2,14 @@
 using Blog_System.CoreLayer.DTOs.Users;
 using Blog_System.CoreLayer.Utilities.OperationResult;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Blog_System.CoreLayer;
 using Blog_System.DataLayer.Context;
 using Blog_System.DataLayer.Entities;
 using Blog_System.CoreLayer.Utilities;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-
+using BCrypt.Net;
 
 namespace Blog_System.CoreLayer.Services.Users
 {
@@ -20,13 +17,11 @@ namespace Blog_System.CoreLayer.Services.Users
     {
         private readonly BlogContext _context;
 
-        // Constructor to inject the BlogContext dependency
         public UserService(BlogContext context)
         {
             _context = context;
         }
 
-        // Handles user login logic
         public UserDto UserLogin(LoginUserDto loginDto)
         {
             if (loginDto == null || string.IsNullOrEmpty(loginDto.UserName) || string.IsNullOrEmpty(loginDto.Password))
@@ -34,7 +29,7 @@ namespace Blog_System.CoreLayer.Services.Users
                 return null;
             }
 
-            var hashedPassword = loginDto.Password.EncodeToMd5();
+            var hashedPassword = loginDto.Password.EncodeToMd5(); 
 
             var user = _context.Users.FirstOrDefault(u => u.UserName == loginDto.UserName && u.Password == hashedPassword);
 
@@ -46,14 +41,13 @@ namespace Blog_System.CoreLayer.Services.Users
             return new UserDto()
             {
                 UserName = user.UserName,
-                Password = hashedPassword,
+                Password = hashedPassword, 
                 FullName = user.FullName,
                 Role = user.Role,
                 RegisterDate = user.CreationDate,
                 UserId = user.Id
             };
         }
-
 
         public OperationResult UserRegister(UserRegisterDto registerDto)
         {
@@ -69,9 +63,10 @@ namespace Blog_System.CoreLayer.Services.Users
                 return OperationResult.Error("نام کاربری تکراری است");
             }
 
-            var hashedPassword = registerDto.Password.EncodeToMd5();
 
-            _context.Users.Add(new User()
+            var hashedPassword = registerDto.Password.EncodeToMd5(); 
+
+            var newUser = new User()
             {
                 FullName = registerDto.FullName,
                 UserName = registerDto.UserName,
@@ -79,7 +74,9 @@ namespace Blog_System.CoreLayer.Services.Users
                 Role = UserRole.User,
                 CreationDate = DateTime.Now,
                 Password = hashedPassword
-            });
+            };
+
+            _context.Users.Add(newUser);
 
             try
             {
@@ -90,8 +87,7 @@ namespace Blog_System.CoreLayer.Services.Users
                 return OperationResult.Error($"خطا در ثبت کاربر: {ex.Message}");
             }
 
-            return OperationResult.Success();
+            return OperationResult.Success("کاربر با موفقیت ثبت شد");
         }
-
     }
 }

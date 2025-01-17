@@ -43,15 +43,15 @@ namespace Blog_System.CoreLayer.Utilities.OperationResult
                 Message = "اطلاعات درخواستی یافت نشد",
             };
         }
-        public static OperationResult Success()
+        public static OperationResult Success(string message)
         {
             return new OperationResult()
             {
                 Status = OperationResultStatus.Success,
-                Message = "عملیات با موفقیت انجام شد",
+                Message = message,
             };
         }
-        public static OperationResult Success(string message)
+        public static OperationResult Success(string message, DataLayer.Entities.Category category)
         {
             return new OperationResult()
             {

@@ -51,7 +51,7 @@ namespace Blog_System.CoreLayer.Services.Posts
             return OperationResult.Success("Post updated successfully.");
         }
 
-        public PostDto? GetPostById(int id)
+        public PostDto GetPostById(int id)
         {
             var post = _context.Posts.SingleOrDefault(p => p.Id == id);
             return post == null ? null : PostMapper.ToPostDto(post);

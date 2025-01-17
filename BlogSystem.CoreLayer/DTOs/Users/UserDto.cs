@@ -10,22 +10,11 @@ namespace Blog_System.CoreLayer.DTOs.Users
 {
     public class UserDto
     {
-        // Unique identifier for the user
         public int UserId { get; set; }
-
-        // Username of the user
-        public string UserName { get; set; } 
-
-        // Full name of the user
-        public string FullName { get; set; } 
-
-        // Hashed password of the user
-        public string Password { get; set; } 
-
-        // Date of user registration
+        public string UserName { get; set; } = string.Empty;
+        public string FullName { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
         public DateTime RegisterDate { get; set; } 
-
-        // Role of the user in the system (e.g., Admin, User)
         public UserRole Role { get; set; }
     }
 }

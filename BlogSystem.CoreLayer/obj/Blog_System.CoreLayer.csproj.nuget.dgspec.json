@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj": {}
+    "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj": {
+    "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj",
+        "projectUniqueName": "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj",
         "projectName": "Blog_System.CoreLayer",
-        "projectPath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj",
+        "projectPath": "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj",
         "packagesPath": "C:\\Users\\AFATB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\obj\\",
+        "outputPath": "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj": {
-                "projectPath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj"
+              "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj"
               }
             }
           }
@@ -53,6 +53,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -73,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj": {
+    "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj",
         "projectName": "Blog_System.DataLayer",
-        "projectPath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj",
+        "projectPath": "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.DataLayer\\Blog_System.DataLayer.csproj",
         "packagesPath": "C:\\Users\\AFATB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\AFATB\\Desktop\\Blog_System.WEB\\BlogSystem.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,6 +129,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"

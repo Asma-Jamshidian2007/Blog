@@ -5,6 +5,9 @@ using Blog_System.CoreLayer.Utilities.OperationResult;
 using Blog_System.DataLayer.Context;
 using Blog_System.DataLayer.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Runtime.InteropServices;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace Blog_System.CoreLayer.Services.Categories
 {
@@ -42,7 +45,7 @@ namespace Blog_System.CoreLayer.Services.Categories
             {
                 _context.Categories.Add(category);
                 _context.SaveChanges();
-                return OperationResult.Success();
+                return OperationResult.Success("Category Created");
             }
             catch (DbUpdateException ex)
             {
@@ -73,7 +76,7 @@ namespace Blog_System.CoreLayer.Services.Categories
             try
             {
                 _context.SaveChanges();
-                return OperationResult.Success();
+                return OperationResult.Success("Category edited");
             }
             catch (DbUpdateException ex)
             {
