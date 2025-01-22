@@ -18,12 +18,15 @@ namespace Blog_System.DataLayer.Entities
 
         [Required(ErrorMessage = "{0}را وارد کنید")]
         public string Password { get; set; } = string.Empty;
+        public string LastActivityType { get; set; } = string.Empty;
 
 
         public UserRole Role { get; set; }
 
         #region relations
         public ICollection<Post> Posts { get; set; }=new List<Post>();
+
+
         #endregion
     }
     public enum UserRole

@@ -102,6 +102,21 @@ namespace Blog_System.CoreLayer.Services.Users
 
             return users;
         }
+       
+            public bool DeleteUser(int userId)
+            {
+                var user = _context.Users.Find(userId); 
+                if (user != null)
+                {
+                    _context.Users.Remove(user);
+                    _context.SaveChanges(); 
+                    return true;
+                }
+                return false;
+            }
+        }
+
+
 
     }
-}
+

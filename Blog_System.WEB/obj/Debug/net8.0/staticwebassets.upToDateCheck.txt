@@ -2721,6 +2721,7 @@ wwwroot\img\screen\screen14.png
 wwwroot\img\shape\line1.png
 wwwroot\img\shape\oval1.png
 wwwroot\img\testi\author1.png
+wwwroot\js\JavaScript.js
 wwwroot\js\jquery.min.js
 wwwroot\js\main.js
 wwwroot\js\plugins\bootstrap.min.js

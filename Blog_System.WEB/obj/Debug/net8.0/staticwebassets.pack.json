@@ -10897,6 +10897,10 @@
       "PackagePath": "staticwebassets\\img\\testi\\author1.png"
     },
     {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\js\\JavaScript.js"
+    },
+    {
       "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },

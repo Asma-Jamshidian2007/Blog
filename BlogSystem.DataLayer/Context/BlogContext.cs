@@ -10,17 +10,27 @@ namespace Blog_System.DataLayer.Context
         {
         }
 
-        // Define DbSet for Posts table
         public DbSet<Post> Posts { get; set; }
-
-        // Define DbSet for Users table
         public DbSet<User> Users { get; set; }
-
-        // Define DbSet for Categories table
         public DbSet<Category> Categories { get; set; }
-
-        // Define DbSet for PostComments table
         public DbSet<PostComments> PostComments { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Post>()
+                .HasOne(p => p.Category)
+                .WithMany(c => c.Posts)
+                .HasForeignKey(p => p.CategoryId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Post>()
+                .HasOne(p => p.SubCategory)
+                .WithMany(c => c.SubPosts)
+                .HasForeignKey(p => p.SubCategoryId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 
     public class DbContextFactory : IDesignTimeDbContextFactory<BlogContext>

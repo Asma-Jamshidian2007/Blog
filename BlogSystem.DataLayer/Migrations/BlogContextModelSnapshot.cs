@@ -89,6 +89,9 @@ namespace Blog_System.DataLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("SubCategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -102,6 +105,8 @@ namespace Blog_System.DataLayer.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("SubCategoryId");
 
                     b.HasIndex("UserId");
 
@@ -157,6 +162,10 @@ namespace Blog_System.DataLayer.Migrations
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
 
+                    b.Property<string>("LastActivityType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -178,7 +187,13 @@ namespace Blog_System.DataLayer.Migrations
                     b.HasOne("Blog_System.DataLayer.Entities.Category", "Category")
                         .WithMany("Posts")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Blog_System.DataLayer.Entities.Category", "SubCategory")
+                        .WithMany("SubPosts")
+                        .HasForeignKey("SubCategoryId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Blog_System.DataLayer.Entities.User", "User")
@@ -188,6 +203,8 @@ namespace Blog_System.DataLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+
+                    b.Navigation("SubCategory");
 
                     b.Navigation("User");
                 });
@@ -206,6 +223,8 @@ namespace Blog_System.DataLayer.Migrations
             modelBuilder.Entity("Blog_System.DataLayer.Entities.Category", b =>
                 {
                     b.Navigation("Posts");
+
+                    b.Navigation("SubPosts");
                 });
 
             modelBuilder.Entity("Blog_System.DataLayer.Entities.Post", b =>

@@ -4,6 +4,7 @@ using Blog_System.DataLayer.Context;
 using Blog_System.CoreLayer.Services.Users;
 using Microsoft.AspNetCore.Mvc;
 using Blog_System.CoreLayer.Services.Categories;
+using Blog_System.CoreLayer.Services.Posts;
 
 namespace Blog_System.WEB
 {
@@ -29,6 +30,7 @@ namespace Blog_System.WEB
 
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddTransient<IPostService , PostService>();
 
             builder.Services.AddDbContext<BlogContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

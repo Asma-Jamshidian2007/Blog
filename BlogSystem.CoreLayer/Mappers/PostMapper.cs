@@ -41,7 +41,8 @@ namespace Blog_System.CoreLayer.Mappers
                 UserId = post.UserId,
                 Visit = post.Visit,
                 CreationDate = post.CreationDate,
-                Category = post.Category  
+                Category = post.Category,
+                ImageName = post.ImageName
             };
         }
     }

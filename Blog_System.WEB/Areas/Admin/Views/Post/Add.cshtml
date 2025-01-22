@@ -1,0 +1,225 @@
+﻿@model Blog_System.WEB.Areas.Admin.Models.Posts.CreatePostViewModel
+@{
+    Layout = "_postAddLayout";
+    ViewData["title"] = "افزودن مقاله";
+}
+
+<link rel="stylesheet" href="/css/CreateCategory.css">
+<link rel="icon" href="/img/logo/fabicon2.png">
+<link rel="stylesheet" href="/css/plugins/bootstrap-rtl.css">
+<link rel="stylesheet" href="/css/plugins/animate.min.css">
+<link rel="stylesheet" href="/css/plugins/fontawesome.css">
+<link rel="stylesheet" href="/css/plugins/modal-video.min.css">
+<link rel="stylesheet" href="/css/plugins/owl.carousel.css">
+<link rel="stylesheet" href="/css/plugins/slicknav.css">
+<link rel="stylesheet" href="/css/plugins/loader.css">
+<link rel="stylesheet" href="/css/plugins/splitting.css">
+<link rel="stylesheet" href="/css/master.css">
+<link rel="stylesheet" href="style.css">
+
+<section class="content">
+    <div class="box box-body">
+        <div class="box box-primary">
+            <h2 class="mb-4 text-center">@ViewData["title"]</h2>
+            <form method="post" action="/Admin/Post/Add" class="form-horizontal">
+                <input type="hidden" asp-for="CategoryId" />
+
+                <div class="form-group mb-3">
+                    <label asp-for="Title" class="control-label">عنوان دسته‌بندی</label>
+                    <input type="text" asp-for="Title" class="form-control" placeholder="عنوان مقاله را وارد کنید" required />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Slug" class="control-label">Slug</label>
+                    <input type="text" asp-for="Slug" class="form-control" placeholder="Slug را وارد کنید" required />
+                    <span asp-validation-for="Slug" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="CategoryId" class="control-label">دسته‌بندی</label>
+                    <select asp-for="CategoryId" class="form-control" required>
+                        <option value="">انتخاب دسته‌بندی</option>
+                        <option value="1">دسته‌بندی 1</option>
+                        <option value="2">دسته‌بندی 2</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="SubCategoryId" class="control-label">زیر دسته‌بندی</label>
+                    <select asp-for="SubCategoryId" class="form-control" required>
+                        <option value="">انتخاب زیر دسته‌بندی</option>
+                        <option value="1">زیر دسته 1</option>
+                        <option value="2">زیر دسته 2</option>
+                    </select>
+                    <span asp-validation-for="SubCategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-12">
+                    <label for="Description" class="control-label">توضیحات</label>
+                    <textarea asp-for="Description" class="form-control" id="Description" placeholder="توضیحات را وارد کنید"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="fileUpload" class="control-label">انتخاب فایل</label>
+                    <input type="file" name="ImageFile" id="fileUpload" class="form-control-file" asp-for="ImageFile" />
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="col-lg-2 btn btn-success align-self-center btn-block">ایجاد مقاله</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create(document.querySelector('#Description'), {
+            language: 'fa',
+            toolbar: [
+                'heading', '|',
+                'bold', 'italic', 'underline', 'strikethrough', '|',
+                'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', '|',
+                'alignment', '|',
+                'numberedList', 'bulletedList', '|',
+                'outdent', 'indent', '|',
+                'link', 'blockQuote', 'insertTable', '|',
+                'imageUpload', 'mediaEmbed', '|',
+                'undo', 'redo', '|',
+                'findAndReplace', 'selectAll', '|',
+                'specialCharacters', '|',
+                'removeFormat', '|',
+                'code', '|',
+                'sourceEditing', '|',
+                'htmlEmbed', '|',
+                'horizontalLine', '|',
+                'subscript', 'superscript'
+            ],
+            image: {
+                toolbar: ['imageTextAlternative', '|', 'imageStyle:full', 'imageStyle:side'],
+            },
+            simpleUpload: {
+                uploadUrl: '/your-upload-endpoint', 
+                headers: {
+                    'X-CSRF-TOKEN': 'CSRF-TOKEN-HERE' 
+                }
+            }
+        })
+        .then(editor => {
+            console.log('Editor was initialized:', editor);
+        })
+        .catch(error => {
+            console.error('There was a problem initializing the editor:', error);
+        });
+</script>
+
+
+<style>
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control, .form-control-file, select {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        font-size: 14px;
+        color: #555;
+        background-color: #f9f9f9;
+        width: 100%;
+        display: block;
+    }
+
+        .form-control:focus, select:focus, .form-control-file:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+        }
+
+    .form-control-file {
+        cursor: pointer;
+    }
+
+        .form-control-file::-webkit-file-upload-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 12px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+            .form-control-file::-webkit-file-upload-button:hover {
+                background-color: #218838;
+            }
+
+    select {
+        appearance: none;
+        background-color: #f9f9f9;
+        color: #555;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+    }
+
+        select:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+            outline: none;
+        }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+        border-radius: 10px;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+
+    .box-primary {
+        padding: 25px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .mb-4 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-danger {
+        font-size: 0.875rem;
+        color: #dc3545;
+    }
+
+    .form-control-file {
+        display: block;
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 14px;
+        color: #555;
+        background-color: #f9f9f9;
+        cursor: pointer;
+    }
+</style>

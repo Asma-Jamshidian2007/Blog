@@ -13,6 +13,7 @@ namespace Blog_System.CoreLayer.Services.Posts
         OperationResult CreatePost(CreatePostDto postDto);
         OperationResult EditPost(EditPostDto postDto);
         PostDto GetPostById(int id);
+        PostFilterDto GetPostByFilter(PostFilterParams filterParams);
         bool IsSlugExist(string slug);
     }
 
@@ -54,12 +55,30 @@ namespace Blog_System.CoreLayer.Services.Posts
         public PostDto GetPostById(int id)
         {
             var post = _context.Posts.SingleOrDefault(p => p.Id == id);
-            return post == null ? null : PostMapper.ToPostDto(post);
+            return PostMapper.ToPostDto(post);
         }
 
         public bool IsSlugExist(string slug)
         {
             return _context.Posts.Any(p => p.Slug == slug.ToSlug());
+        }
+
+        PostFilterDto IPostService.GetPostByFilter(PostFilterParams filterParams)
+        {
+            var result =_context.Posts.OrderByDescending(d => d.CreationDate).AsQueryable();
+            if (string.IsNullOrWhiteSpace(filterParams.CategorySlug))
+                result = result.Where(p => p.Category.Slug==filterParams.CategorySlug);
+            if (!string.IsNullOrWhiteSpace(filterParams.Title))
+                result = result.Where(p => p.Title.Contains(filterParams.Title));
+            var skip = (filterParams.PageId - 1) * filterParams.Take;
+            var pageCount=result.Count() / filterParams.Take;
+
+            return new PostFilterDto()
+            {
+                Posts = result.Skip(skip).Take(filterParams.Take).Select(post => PostMapper.ToPostDto(post)).ToList(),
+                filterParams = filterParams,
+                PageCount = pageCount
+            };
         }
     }
 }

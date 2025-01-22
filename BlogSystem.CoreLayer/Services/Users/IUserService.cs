@@ -15,5 +15,6 @@ namespace Blog_System.CoreLayer.Services.Users
         OperationResult UserRegister(UserRegisterDto registerDto);
         UserDto UserLogin(LoginUserDto loginDto);
         List<UserDto> GetAllUsers();
+        bool DeleteUser(int userId);
     }
 }
