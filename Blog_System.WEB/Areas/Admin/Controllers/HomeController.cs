@@ -1,6 +1,6 @@
-﻿using Blog_System.CoreLayer.DTOs.Users;
+﻿using Microsoft.AspNetCore.Mvc;
 using Blog_System.CoreLayer.Services.Users;
-using Microsoft.AspNetCore.Mvc;
+using Blog_System.CoreLayer.Utilities.OperationResult;
 
 namespace Blog_System.WEB.Areas.Admin.Controllers
 {
@@ -17,10 +17,23 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
         public IActionResult Index()
         {
             var users = _userService.GetAllUsers();
-
             ViewData["Users"] = users;
-
             return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int userId)
+        {
+            var result = _userService.Delete(userId);
+            if (result.Status== OperationResultStatus.Success)
+            {
+                TempData["SuccessMessage"] = "user deleted successfully.";
+                return RedirectToAction("Index");
+            }
+
+            TempData["ErrorMessage"] = result.ToString();
+            return RedirectToAction("Index");
         }
     }
 }

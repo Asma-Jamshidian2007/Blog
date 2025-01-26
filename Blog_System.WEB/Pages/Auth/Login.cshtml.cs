@@ -49,25 +49,24 @@ namespace Blog_System.WEB.Pages.Auth
             }
 
             List<Claim> claims = new()
-            {
-                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-                new Claim(ClaimTypes.Name, user.FullName)
-            };
+    {
+        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+        new Claim(ClaimTypes.Name, user.FullName)
+    };
 
-          
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var claimPrincipal = new ClaimsPrincipal(identity);
 
             var props = new AuthenticationProperties
             {
                 IsPersistent = true,
-                ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(30) 
+                ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(30)
             };
-
 
             HttpContext.SignInAsync(claimPrincipal, props);
 
             return RedirectToPage("../Index");
         }
+
     }
 }

@@ -22,11 +22,11 @@ namespace Blog_System.CoreLayer.Services.Categories
 
         public OperationResult CreateCategory(CreateCategoryDto createto)
         {
-            if (IsSlugExist(createto.Slug))
-                return OperationResult.Error("Slug is exist!");
-
             if (string.IsNullOrEmpty(createto.Title) || string.IsNullOrEmpty(createto.Slug))
                 return OperationResult.Error("Title and Slug cannot be empty.");
+
+            if (IsSlugExist(createto.Slug))
+                return OperationResult.Error("Slug is exist!");
 
             var category = new Category
             {
@@ -37,9 +37,6 @@ namespace Blog_System.CoreLayer.Services.Categories
                 MetaTag = createto.MetaTag,
                 Slug = createto.Slug.ToSlug()
             };
-
-            if (_context.Categories.Any(c => c.Slug == createto.Slug))
-                return OperationResult.Error("Slug must be unique.");
 
             try
             {
@@ -52,6 +49,7 @@ namespace Blog_System.CoreLayer.Services.Categories
                 return OperationResult.Error($"Database update failed: {ex.InnerException?.Message ?? ex.Message}");
             }
         }
+
 
         public OperationResult EditCategory(EditCategoryDto editDto)
         {
@@ -90,6 +88,14 @@ namespace Blog_System.CoreLayer.Services.Categories
             if (category == null)
                 return OperationResult.NotFound("Category not found.");
 
+            var childCategories = _context.Categories.Where(c => c.ParentId == id).ToList();
+            if (childCategories.Any())
+                return OperationResult.Error("This category has child categories. Please remove child categories first.");
+
+            var posts = _context.Posts.Where(p => p.CategoryId == id).ToList();
+            if (posts.Any())
+                return OperationResult.Error("This category has associated posts. Please remove or reassign the posts first.");
+
             try
             {
                 _context.Categories.Remove(category);
@@ -101,6 +107,7 @@ namespace Blog_System.CoreLayer.Services.Categories
                 return OperationResult.Error($"Database update failed: {ex.InnerException?.Message ?? ex.Message}");
             }
         }
+
 
         public List<CategoryDto> GetCategoryBy()
         {
@@ -126,16 +133,18 @@ namespace Blog_System.CoreLayer.Services.Categories
 
         public List<CategoryDto> GetAll()
         {
-            return _context.Categories
-                           .Where(c => !c.IsDelete)
-                           .Select(CategoryMapper.Map)
-                           .ToList();
+            return _context.Categories.Select(category => CategoryMapper.Map(category)).ToList();
         }
 
         public CategoryDto? GetCategoryBy(int id)
         {
             var category = _context.Categories.SingleOrDefault(c => c.Id == id && !c.IsDelete);
             return category == null ? null : CategoryMapper.Map(category);
+        }
+
+        List<CategoryDto> ICategoryService.GetChildCategories(int parentId)
+        {
+            return _context.Categories.Where(c => c.ParentId==parentId).Select(category => CategoryMapper.Map(category)).ToList();
         }
     }
 }

@@ -42,9 +42,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var item in Model.Posts)
+                    @foreach(var item in Model.Posts)
                     {
                         <tr>
+                      
                             <td>@counter</td>
                             <th>
                                 <img src="/img/@item.ImageName"/>
@@ -52,14 +53,16 @@
                             <td>@item.Title</td>
                             <td>@item.Slug</td>
                             <td>
-                                @item.Category.Title
+                                @item.CategoryId
                             </td>
                             <td>
                                 <a href="/Admin/Category/Edit/@item.PostId" class="btn btn-info btn-sm mx-2">ویرایش</a>
                             </td>
                         </tr>
                         counter++;
-                    }
+                        }
+                        
+ 
                 </tbody>
             </table>
         </div>

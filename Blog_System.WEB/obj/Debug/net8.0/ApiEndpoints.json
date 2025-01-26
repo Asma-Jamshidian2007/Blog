@@ -1,12 +1,1 @@
-[
-  {
-    "ContainingType": "Blog_System.WEB.Areas.Admin.Controllers.UsersController",
-    "Method": "GetRegistrationCount",
-    "RelativePath": "api/Users/GetRegistrationCount",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  }
-]
+[]

@@ -10,7 +10,8 @@ namespace Blog_System.CoreLayer.Services.Categories
         OperationResult EditCategory(EditCategoryDto editDto);
         CategoryDto? GetCategoryBy(int id);
         CategoryDto? GetCategoryBy(string slug);
-        List<CategoryDto> GetAll(); 
+        List<CategoryDto> GetAll();
+        List<CategoryDto> GetChildCategories(int parentId);
         bool IsSlugExist(string slug);
         OperationResult DeleteCategory(int id);
     }

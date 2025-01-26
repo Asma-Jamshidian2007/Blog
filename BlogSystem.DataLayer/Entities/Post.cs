@@ -8,8 +8,8 @@ namespace Blog_System.DataLayer.Entities
     public class Post : BaseEntity
     {
         public int UserId { get; set; }
-        public int CategoryId { get; set; }
-        public int SubCategoryId { get; set; }
+        public int? CategoryId { get; set; }
+        public int? SubCategoryId { get; set; }
         [Required]
         public string Title { get; set; } = string.Empty;
         [Required]

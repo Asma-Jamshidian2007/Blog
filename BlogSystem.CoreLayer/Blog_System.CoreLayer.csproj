@@ -28,8 +28,4 @@
     <ProjectReference Include="..\BlogSystem.DataLayer\Blog_System.DataLayer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\FileManager\" />
-  </ItemGroup>
-
 </Project>

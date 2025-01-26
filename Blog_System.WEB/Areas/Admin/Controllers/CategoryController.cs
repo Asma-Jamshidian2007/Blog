@@ -25,14 +25,31 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
         [Route(template: "/Admin/Category/Add/{parentId?}")]
         public IActionResult Add(int? parentId)
         {
+            if (parentId.HasValue && parentId.Value <= 0)
+            {
+                ModelState.AddModelError(nameof(parentId), "مقدار والد نامعتبر است.");
+                return View();
+            }
             return View();
         }
 
         [HttpPost(template: "/Admin/Category/Add/{parentId?}")]
-        public IActionResult Add(int? parentId,CreateCategoryViewModel viewModel)
+        public IActionResult Add(int? parentId, CreateCategoryViewModel viewModel)
         {
+            if (parentId.HasValue && parentId.Value <= 0)
+            {
+                ModelState.AddModelError(nameof(parentId), "مقدار والد نامعتبر است.");
+                return View(viewModel);
+            }
+
             viewModel.ParentId = parentId;
-            _categoryService.CreateCategory(viewModel.MapToDto());
+            var result = _categoryService.CreateCategory(viewModel.MapToDto());
+            if (result.Status != OperationResultStatus.Success)
+            {
+                ModelState.AddModelError("", result.Message);
+                return View(viewModel);
+            }
+
             return RedirectToAction("Index");
         }
 
@@ -57,6 +74,11 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, EditCategoryViewModel editModel)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(editModel);
+            }
+
             var result = _categoryService.EditCategory(new EditCategoryDto
             {
                 Slug = editModel.Slug,
@@ -84,9 +106,14 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
                 return RedirectToAction("Index");
             }
 
-            TempData["SuccessMessage"] = "Category deleted successfully.";
+            TempData["SuccessMessage"] = "دسته‌بندی با موفقیت حذف شد.";
             return RedirectToAction("Index");
         }
 
+        public IActionResult GetChildCategories(int parentId)
+        {
+            var category = _categoryService.GetChildCategories(parentId);
+            return new JsonResult(category);
+        }
     }
 }

@@ -13,7 +13,6 @@ namespace Blog_System.WEB.Pages.Auth
     {
         private readonly IUserService _userService;
 
-        // Constructor injection of IUserService
         public SignUpModel(IUserService userService)
         {
             _userService = userService ?? throw new ArgumentNullException(nameof(userService));
