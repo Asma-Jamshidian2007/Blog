@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using System.Runtime.InteropServices;
 using System.ComponentModel.DataAnnotations;
 
-
 namespace Blog_System.CoreLayer.Services.Categories
 {
     public class CategoryService : ICategoryService
@@ -23,62 +22,64 @@ namespace Blog_System.CoreLayer.Services.Categories
         public OperationResult CreateCategory(CreateCategoryDto createto)
         {
             if (string.IsNullOrEmpty(createto.Title) || string.IsNullOrEmpty(createto.Slug))
-                return OperationResult.Error("Title and Slug cannot be empty.");
+                return OperationResult.Error("عنوان و اسلاگ نمی‌توانند خالی باشند.");
 
-            if (IsSlugExist(createto.Slug))
-                return OperationResult.Error("Slug is exist!");
+            var slug = createto.Slug.ToSlug();
+            if (IsSlugExist(slug))
+                return OperationResult.Error("اسلاگ تکراری است.");
 
             var category = new Category
             {
                 Title = createto.Title,
                 IsDelete = false,
                 ParentId = createto.ParentId,
-                MetaDescription = createto.MetaDescription ?? "",
+                MetaDescription = createto.MetaDescription ?? string.Empty,
                 MetaTag = createto.MetaTag,
-                Slug = createto.Slug.ToSlug()
+                Slug = slug,
+                Id = createto.Id
             };
 
             try
             {
                 _context.Categories.Add(category);
                 _context.SaveChanges();
-                return OperationResult.Success("Category Created");
+                return OperationResult.Success("دسته‌بندی با موفقیت ایجاد شد.");
             }
             catch (DbUpdateException ex)
             {
-                return OperationResult.Error($"Database update failed: {ex.InnerException?.Message ?? ex.Message}");
+                return OperationResult.Error($"خطا در به‌روزرسانی پایگاه داده: {ex.InnerException?.Message ?? ex.Message}");
             }
         }
-
 
         public OperationResult EditCategory(EditCategoryDto editDto)
         {
             var category = _context.Categories.SingleOrDefault(c => c.Id == editDto.Id);
             if (category == null)
-                return OperationResult.NotFound("Category not found.");
+                return OperationResult.NotFound("دسته‌بندی یافت نشد.");
 
-            if (editDto.Slug.ToSlug() != category.Slug && IsSlugExist(editDto.Slug))
-                return OperationResult.Error("Slug is exist!");
+            var slug = editDto.Slug.ToSlug();
+            if (slug != category.Slug && IsSlugExist(slug))
+                return OperationResult.Error("اسلاگ تکراری است.");
 
-            if (string.IsNullOrEmpty(editDto.Title) || string.IsNullOrEmpty(editDto.Slug))
-                return OperationResult.Error("Title and Slug cannot be empty.");
+            if (string.IsNullOrEmpty(editDto.Title) || string.IsNullOrEmpty(slug))
+                return OperationResult.Error("عنوان و اسلاگ نمی‌توانند خالی باشند.");
 
-            if (_context.Categories.Any(c => c.Slug == editDto.Slug && c.Id != editDto.Id))
-                return OperationResult.Error("Slug must be unique.");
+            if (_context.Categories.Any(c => c.Slug == slug && c.Id != editDto.Id))
+                return OperationResult.Error("اسلاگ باید یکتا باشد.");
 
-            category.MetaDescription = editDto.MetaDescription ?? "";
-            category.Slug = editDto.Slug.ToSlug();
+            category.MetaDescription = editDto.MetaDescription ?? string.Empty;
+            category.Slug = slug;
             category.Title = editDto.Title;
             category.MetaTag = editDto.MetaTag;
 
             try
             {
                 _context.SaveChanges();
-                return OperationResult.Success("Category edited");
+                return OperationResult.Success("دسته‌بندی با موفقیت ویرایش شد.");
             }
             catch (DbUpdateException ex)
             {
-                return OperationResult.Error($"Database update failed: {ex.InnerException?.Message ?? ex.Message}");
+                return OperationResult.Error($"خطا در به‌روزرسانی پایگاه داده: {ex.InnerException?.Message ?? ex.Message}");
             }
         }
 
@@ -86,28 +87,27 @@ namespace Blog_System.CoreLayer.Services.Categories
         {
             var category = _context.Categories.SingleOrDefault(c => c.Id == id);
             if (category == null)
-                return OperationResult.NotFound("Category not found.");
+                return OperationResult.NotFound("دسته‌بندی یافت نشد.");
 
             var childCategories = _context.Categories.Where(c => c.ParentId == id).ToList();
             if (childCategories.Any())
-                return OperationResult.Error("This category has child categories. Please remove child categories first.");
+                return OperationResult.Error("این دسته‌بندی دارای زیر دسته‌ها می‌باشد. ابتدا زیر دسته‌ها را حذف کنید.");
 
             var posts = _context.Posts.Where(p => p.CategoryId == id).ToList();
             if (posts.Any())
-                return OperationResult.Error("This category has associated posts. Please remove or reassign the posts first.");
+                return OperationResult.Error("این دسته‌بندی دارای پست‌های مرتبط می‌باشد. ابتدا پست‌ها را حذف یا جابه‌جا کنید.");
 
             try
             {
                 _context.Categories.Remove(category);
                 _context.SaveChanges();
-                return OperationResult.Success("Category permanently deleted.");
+                return OperationResult.Success("دسته‌بندی با موفقیت حذف شد.");
             }
             catch (DbUpdateException ex)
             {
-                return OperationResult.Error($"Database update failed: {ex.InnerException?.Message ?? ex.Message}");
+                return OperationResult.Error($"خطا در به‌روزرسانی پایگاه داده: {ex.InnerException?.Message ?? ex.Message}");
             }
         }
-
 
         public List<CategoryDto> GetCategoryBy()
         {
@@ -142,9 +142,9 @@ namespace Blog_System.CoreLayer.Services.Categories
             return category == null ? null : CategoryMapper.Map(category);
         }
 
-        List<CategoryDto> ICategoryService.GetChildCategories(int parentId)
+        public List<CategoryDto> GetChildCategories(int parentId)
         {
-            return _context.Categories.Where(c => c.ParentId==parentId).Select(category => CategoryMapper.Map(category)).ToList();
+            return _context.Categories.Where(c => c.ParentId == parentId).Select(CategoryMapper.Map).ToList();
         }
     }
 }

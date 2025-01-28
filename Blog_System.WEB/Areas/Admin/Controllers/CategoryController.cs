@@ -22,18 +22,17 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
             return View(categories);
         }
 
-        [Route(template: "/Admin/Category/Add/{parentId?}")]
+        [Route("/Admin/Category/Add/{parentId?}")]
         public IActionResult Add(int? parentId)
         {
             if (parentId.HasValue && parentId.Value <= 0)
             {
                 ModelState.AddModelError(nameof(parentId), "مقدار والد نامعتبر است.");
-                return View();
             }
             return View();
         }
 
-        [HttpPost(template: "/Admin/Category/Add/{parentId?}")]
+        [HttpPost("/Admin/Category/Add/{parentId?}")]
         public IActionResult Add(int? parentId, CreateCategoryViewModel viewModel)
         {
             if (parentId.HasValue && parentId.Value <= 0)
@@ -44,20 +43,23 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
 
             viewModel.ParentId = parentId;
             var result = _categoryService.CreateCategory(viewModel.MapToDto());
+
             if (result.Status != OperationResultStatus.Success)
             {
                 ModelState.AddModelError("", result.Message);
                 return View(viewModel);
             }
 
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Edit(int id)
         {
             var category = _categoryService.GetCategoryBy(id);
             if (category == null)
-                return RedirectToAction("Index");
+            {
+                return RedirectToAction(nameof(Index));
+            }
 
             var model = new EditCategoryViewModel
             {
@@ -91,23 +93,22 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
             if (result.Status != OperationResultStatus.Success)
             {
                 ModelState.AddModelError(nameof(editModel.Slug), result.Message);
-                return View();
+                return View(editModel);
             }
 
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Delete(int id)
         {
             var result = _categoryService.DeleteCategory(id);
-            if (result.Status != OperationResultStatus.Success)
-            {
-                TempData["ErrorMessage"] = result.Message;
-                return RedirectToAction("Index");
-            }
+            var messageKey = result.Status == OperationResultStatus.Success ? "SuccessMessage" : "ErrorMessage";
+            var messageValue = result.Status == OperationResultStatus.Success
+                ? "دسته‌بندی با موفقیت حذف شد."
+                : result.Message;
 
-            TempData["SuccessMessage"] = "دسته‌بندی با موفقیت حذف شد.";
-            return RedirectToAction("Index");
+            TempData[messageKey] = messageValue;
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult GetChildCategories(int parentId)

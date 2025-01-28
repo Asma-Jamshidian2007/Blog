@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\services\\filemanager\\ifilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\services\\filemanager\\ifilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\areas\\admin\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\areas\\admin\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\dtos\\posts\\createpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\dtos\\posts\\createpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\areas\\admin\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\areas\\admin\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,28 +27,12 @@
       "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\areas\\admin\\models\\posts\\createpostviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\dtos\\posts\\editpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\dtos\\posts\\editpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\signupmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\signupmodel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\pages\\auth\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\pages\\auth\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blogsystem.corelayer\\services\\posts\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13B871A1-8FB7-4DE7-9103-2154DC4A4842}|BlogSystem.CoreLayer\\Blog_System.CoreLayer.csproj|solutionrelative:blogsystem.corelayer\\services\\posts\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|c:\\users\\afatb\\source\\repos\\blog_system.web\\blog_system.web\\areas\\admin\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4777BCAA-9E66-4645-990D-21ABD59115CB}|Blog_System.WEB\\Blog_System.WEB.csproj|solutionrelative:blog_system.web\\areas\\admin\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Views\\Post\\Add.cshtml",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Areas\\Admin\\Views\\Post\\Add.cshtml",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Views\\Post\\Add.cshtml",
-              "RelativeToolTip": "Blog_System.WEB\\Areas\\Admin\\Views\\Post\\Add.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwG0AAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Areas\\Admin\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Views\\Home\\Edit.cshtml*",
+              "RelativeToolTip": "Blog_System.WEB\\Areas\\Admin\\Views\\Home\\Edit.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T18:24:32.944Z",
+              "WhenOpened": "2025-01-28T15:45:57.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\Login.cshtml.cs",
-              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\Login.cshtml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDQAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CreatePostDto.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\DTOs\\Posts\\CreatePostDto.cs",
+              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\DTOs\\Posts\\CreatePostDto.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\DTOs\\Posts\\CreatePostDto.cs",
+              "RelativeToolTip": "BlogSystem.CoreLayer\\DTOs\\Posts\\CreatePostDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T14:19:19.6Z"
+              "WhenOpened": "2025-01-28T15:29:48.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T14:19:15.026Z",
+              "DocumentIndex": 0,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Controllers\\PostController.cs*",
+              "RelativeToolTip": "Blog_System.WEB\\Areas\\Admin\\Controllers\\PostController.cs*",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwFUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:20:57.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFileManager.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\FileManager\\IFileManager.cs",
+              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\Services\\FileManager\\IFileManager.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\FileManager\\IFileManager.cs",
+              "RelativeToolTip": "BlogSystem.CoreLayer\\Services\\FileManager\\IFileManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:11:47.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\SignUp.cshtml",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\SignUp.cshtml",
-              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\SignUp.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Views\\Post\\Add.cshtml",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Areas\\Admin\\Views\\Post\\Add.cshtml",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Views\\Post\\Add.cshtml",
+              "RelativeToolTip": "Blog_System.WEB\\Areas\\Admin\\Views\\Post\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-25T14:19:04.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreatePostViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Models\\Posts\\CreatePostViewModel.cs",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Areas\\Admin\\Models\\Posts\\CreatePostViewModel.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Models\\Posts\\CreatePostViewModel.cs",
-              "RelativeToolTip": "Blog_System.WEB\\Areas\\Admin\\Models\\Posts\\CreatePostViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T14:09:57.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Areas\\Admin\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Blog_System.WEB\\Areas\\Admin\\Controllers\\PostController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFQAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T11:53:33.145Z",
+              "WhenOpened": "2025-01-28T14:09:13.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SignUpModel.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\SignUpModel.cshtml.cs",
-              "RelativeDocumentMoniker": "Blog_System.WEB\\Pages\\Auth\\SignUpModel.cshtml.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Pages\\Auth\\SignUpModel.cshtml.cs",
-              "RelativeToolTip": "Blog_System.WEB\\Pages\\Auth\\SignUpModel.cshtml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "Title": "CreatePostViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Models\\Posts\\CreatePostViewModel.cs",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Areas\\Admin\\Models\\Posts\\CreatePostViewModel.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Models\\Posts\\CreatePostViewModel.cs*",
+              "RelativeToolTip": "Blog_System.WEB\\Areas\\Admin\\Models\\Posts\\CreatePostViewModel.cs*",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwGcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T14:27:01.305Z"
+              "WhenOpened": "2025-01-28T15:31:50.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditPostDto.cs",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\DTOs\\Posts\\EditPostDto.cs",
+              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\DTOs\\Posts\\EditPostDto.cs",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\DTOs\\Posts\\EditPostDto.cs",
+              "RelativeToolTip": "BlogSystem.CoreLayer\\DTOs\\Posts\\EditPostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:29:59.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IPostService.cs",
-              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Posts\\IPostService.cs",
-              "RelativeDocumentMoniker": "BlogSystem.CoreLayer\\Services\\Posts\\IPostService.cs",
-              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\BlogSystem.CoreLayer\\Services\\Posts\\IPostService.cs",
-              "RelativeToolTip": "BlogSystem.CoreLayer\\Services\\Posts\\IPostService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T13:49:54.416Z"
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "Blog_System.WEB\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "ToolTip": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "Blog_System.WEB\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T14:07:43.18Z"
             }
           ]
         }

@@ -13,24 +13,30 @@ namespace Blog_System.WEB.Pages.Auth
     {
         private readonly IUserService _userService;
 
+        private const string RequiredErrorMessage = "{0} را وارد کنید";
+        private const string UserNameErrorMessage = "نام کاربری فقط باید شامل حروف انگلیسی و اعداد باشد";
+        private const string PasswordErrorMessage = "رمز عبور باید حداقل شامل یک حرف بزرگ، یک عدد و 8 کاراکتر باشد";
+        private const string PasswordMinLengthErrorMessage = "رمز عبور حداقل باید 8 کاراکتر داشته باشد";
+        private const string UserRegisterErrorMessage = "ثبت نام ناموفق بود. لطفاً دوباره تلاش کنید.";
+
         public SignUpModel(IUserService userService)
         {
             _userService = userService ?? throw new ArgumentNullException(nameof(userService));
         }
 
         [Display(Name = "نام کاربری")]
-        [Required(ErrorMessage = "{0} را وارد کنید")]
-        [RegularExpression("^[a-zA-Z0-9]+$", ErrorMessage = "نام کاربری فقط باید شامل حروف انگلیسی و اعداد باشد")]
+        [Required(ErrorMessage = RequiredErrorMessage)]
+        [RegularExpression("^[a-zA-Z0-9]+$", ErrorMessage = UserNameErrorMessage)]
         public string UserName { get; set; } = string.Empty;
 
         [Display(Name = "نام و نام خانوادگی")]
-        [Required(ErrorMessage = "{0} را وارد کنید")]
+        [Required(ErrorMessage = RequiredErrorMessage)]
         public string FullName { get; set; } = string.Empty;
 
-        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-zA-Z]).{8,}$", ErrorMessage = "رمز عبور باید حداقل شامل یک حرف بزرگ، یک عدد و 8 کاراکتر باشد")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-zA-Z]).{8,}$", ErrorMessage = PasswordErrorMessage)]
         [Display(Name = "رمز عبور")]
-        [Required(ErrorMessage = "{0} را وارد کنید")]
-        [MinLength(8, ErrorMessage = "رمز عبور حداقل باید 8 کاراکتر داشته باشد")]
+        [Required(ErrorMessage = RequiredErrorMessage)]
+        [MinLength(8, ErrorMessage = PasswordMinLengthErrorMessage)]
         public string Password { get; set; } = string.Empty;
 
         public void OnGet()

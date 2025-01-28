@@ -1,6 +1,7 @@
 ﻿using Blog_System.DataLayer.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 namespace Blog_System.DataLayer.Context
 {
@@ -21,13 +22,20 @@ namespace Blog_System.DataLayer.Context
                 .HasOne(p => p.Category)
                 .WithMany(c => c.Posts)
                 .HasForeignKey(p => p.CategoryId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Restrict)
+                .HasConstraintName("FK_Post_Category"); 
 
             modelBuilder.Entity<Post>()
                 .HasOne(p => p.SubCategory)
                 .WithMany(c => c.SubPosts)
                 .HasForeignKey(p => p.SubCategoryId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Restrict)
+                .HasConstraintName("FK_Post_SubCategory"); 
+
+            modelBuilder.Entity<Post>()
+                .Property(p => p.Title)
+                .HasMaxLength(200)
+                .IsRequired();
 
             base.OnModelCreating(modelBuilder);
         }
@@ -37,10 +45,15 @@ namespace Blog_System.DataLayer.Context
     {
         public BlogContext CreateDbContext(string[] args)
         {
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
+
             var optionsBuilder = new DbContextOptionsBuilder<BlogContext>();
-            optionsBuilder.UseSqlServer(
-                "Server=.\\DEV_SQLSERVER;Database=BlogDB;Trusted_Connection=True;TrustServerCertificate=True"
-            );
+            optionsBuilder.UseSqlServer(connectionString);
 
             return new BlogContext(optionsBuilder.Options);
         }

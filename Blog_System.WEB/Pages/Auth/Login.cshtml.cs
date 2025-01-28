@@ -14,19 +14,25 @@ namespace Blog_System.WEB.Pages.Auth
     public class LoginModel : PageModel
     {
         private readonly IUserService _userService;
+
+        private const string UserNameErrorMessage = "نام کاربری فقط باید شامل حروف انگلیسی و اعداد باشد";
+        private const string PasswordErrorMessage = "رمز عبور باید حداقل شامل یک حرف بزرگ، یک عدد و 8 کاراکتر باشد";
+        private const string RequiredErrorMessage = "{0} را وارد کنید";
+        private const string LoginErrorMessage = "نام کاربری یا رمز عبور اشتباه است";
+
         public LoginModel(IUserService userService)
         {
             _userService = userService ?? throw new ArgumentNullException(nameof(userService));
         }
 
-        [RegularExpression("^[a-zA-Z0-9]+$", ErrorMessage = "نام کاربری فقط باید شامل حروف انگلیسی و اعداد باشد")]
+        [RegularExpression("^[a-zA-Z0-9]+$", ErrorMessage = UserNameErrorMessage)]
         [Display(Name = "نام کاربری")]
-        [Required(ErrorMessage = "{0} را وارد کنید")]
+        [Required(ErrorMessage = RequiredErrorMessage)]
         public string UserName { get; set; } = string.Empty;
 
-        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-zA-Z]).{8,}$", ErrorMessage = "رمز عبور باید حداقل شامل یک حرف بزرگ، یک عدد و 8 کاراکتر باشد")]
+        [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[a-zA-Z]).{8,}$", ErrorMessage = PasswordErrorMessage)]
         [Display(Name = "رمز عبور")]
-        [Required(ErrorMessage = "{0} را وارد کنید")]
+        [Required(ErrorMessage = RequiredErrorMessage)]
         public string Password { get; set; } = string.Empty;
 
         public void OnGet()
@@ -44,15 +50,15 @@ namespace Blog_System.WEB.Pages.Auth
 
             if (user == null)
             {
-                ModelState.AddModelError("Password", "نام کاربری یا رمز عبور اشتباه است");
+                ModelState.AddModelError("Password", LoginErrorMessage);
                 return Page();
             }
 
             List<Claim> claims = new()
-    {
-        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-        new Claim(ClaimTypes.Name, user.FullName)
-    };
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+                new Claim(ClaimTypes.Name, user.FullName)
+            };
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var claimPrincipal = new ClaimsPrincipal(identity);
@@ -67,6 +73,5 @@ namespace Blog_System.WEB.Pages.Auth
 
             return RedirectToPage("../Index");
         }
-
     }
 }

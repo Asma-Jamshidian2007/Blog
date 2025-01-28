@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Blog_System.DataLayer.Entities
 {
@@ -7,9 +6,8 @@ namespace Blog_System.DataLayer.Entities
     {
         [Key]
         public int Id { get; set; }
-
-        public DateTime CreationDate { get; set; } = DateTime.Now;
-
+        public DateTime CreationDate { get; set; } = DateTime.UtcNow;
         public bool IsDelete { get; set; }
+        public DateTime? LastModifiedDate { get; set; }
     }
 }

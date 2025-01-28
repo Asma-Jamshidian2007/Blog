@@ -11,13 +11,13 @@ namespace Blog_System.DataLayer.Entities
         public int PostId { get; set; }
 
         [Required]
+        [StringLength(1000, ErrorMessage = "متن کامنت نباید بیشتر از 1000 کاراکتر باشد.")]
         public string Text { get; set; } = string.Empty;
 
         #region Relationships
 
-        // Foreign key relationship with the Post entity (the post that the comment belongs to)
         [ForeignKey("PostId")]
-        public  Post Post { get; set; } = new Post();
+        public virtual Post Post { get; set; } = new Post();
 
         #endregion
     }

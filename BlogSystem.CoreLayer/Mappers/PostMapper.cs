@@ -5,7 +5,7 @@ namespace Blog_System.CoreLayer.Mappers
 {
     public static class PostMapper
     {
-        public static Post ToPostEntity(CreatePostDto createDto)
+        public static Post ToPostEntity(EPostDto createDto)
         {
             return new Post
             {

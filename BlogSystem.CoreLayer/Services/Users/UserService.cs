@@ -2,6 +2,7 @@
 using Blog_System.CoreLayer.DTOs.Users;
 using Blog_System.CoreLayer.Utilities.OperationResult;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Blog_System.CoreLayer;
 using Blog_System.DataLayer.Context;
@@ -24,13 +25,19 @@ namespace Blog_System.CoreLayer.Services.Users
             _logger = logger;
         }
 
-        public UserDto UserLogin(LoginUserDto loginDto)
+        private User? GetUserByUsername(string userName)
+        {
+            return _context.Users.FirstOrDefault(u => u.UserName == userName);
+        }
+
+        public UserDto? UserLogin(LoginUserDto loginDto)
         {
             if (loginDto == null || string.IsNullOrEmpty(loginDto.UserName) || string.IsNullOrEmpty(loginDto.Password))
             {
-                return null;
+                return null; 
             }
-            var user = _context.Users.FirstOrDefault(u => u.UserName == loginDto.UserName);
+
+            var user = GetUserByUsername(loginDto.UserName);
             if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.Password, user.Password))
             {
                 return null;
@@ -42,8 +49,7 @@ namespace Blog_System.CoreLayer.Services.Users
                 FullName = user.FullName,
                 Role = user.Role,
                 RegisterDate = user.CreationDate,
-                UserId = user.Id,
-                Password = user.Password
+                UserId = user.Id
             };
         }
 
@@ -54,8 +60,7 @@ namespace Blog_System.CoreLayer.Services.Users
                 return OperationResult.Error("اطلاعات وارد شده معتبر نیست");
             }
 
-            var isUserNameExist = _context.Users.Any(u => u.UserName == registerDto.UserName);
-            if (isUserNameExist)
+            if (_context.Users.Any(u => u.UserName == registerDto.UserName))
             {
                 return OperationResult.Error("نام کاربری تکراری است");
             }
@@ -77,19 +82,17 @@ namespace Blog_System.CoreLayer.Services.Users
             try
             {
                 _context.SaveChanges();
+                return OperationResult.Success("کاربر با موفقیت ثبت شد");
             }
             catch (DbUpdateException ex)
             {
                 _logger.LogError(ex, "Error occurred while saving user.");
                 return OperationResult.Error("خطا در ثبت کاربر: " + ex.Message);
             }
-
-            return OperationResult.Success("کاربر با موفقیت ثبت شد");
         }
 
         public List<UserDto> GetAllUsers()
         {
-
             var users = _context.Users
                 .Where(u => !u.IsDelete)
                 .Select(user => new UserDto
@@ -97,13 +100,13 @@ namespace Blog_System.CoreLayer.Services.Users
                     UserId = user.Id,
                     FullName = user.FullName,
                     UserName = user.UserName,
-                    Password = user.Password,
                     RegisterDate = user.CreationDate
                 })
                 .ToList();
 
             return users;
         }
+
         public OperationResult Delete(int userId)
         {
             if (userId <= 0)
@@ -111,17 +114,16 @@ namespace Blog_System.CoreLayer.Services.Users
                 return OperationResult.Error("شناسه کاربر معتبر نیست.");
             }
 
+            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
+            if (user == null)
+            {
+                return OperationResult.Error("کاربر یافت نشد.");
+            }
+
             try
             {
-                var user = _context.Users.FirstOrDefault(u => u.Id == userId);
-                if (user == null)
-                {
-                    return OperationResult.Error("کاربر یافت نشد.");
-                }
-
                 _context.Users.Remove(user);
                 _context.SaveChanges();
-
                 return OperationResult.Success("کاربر با موفقیت حذف شد.");
             }
             catch (Exception ex)
@@ -130,7 +132,5 @@ namespace Blog_System.CoreLayer.Services.Users
                 return OperationResult.Error("خطا در حذف کاربر: " + ex.Message);
             }
         }
-
-
     }
 }

@@ -23,9 +23,8 @@ namespace Blog_System.WEB.Areas.Admin.Models.Category
         [StringLength(300, ErrorMessage = "MetaDescription نباید بیشتر از 300 کاراکتر باشد.")]
         public string MetaDescription { get; set; } = string.Empty;
 
-        public CreateCategoryDto MapToDto()
-        {
-            return new CreateCategoryDto
+        public CreateCategoryDto MapToDto() =>
+            new CreateCategoryDto
             {
                 Title = Title,
                 Slug = Slug,
@@ -33,6 +32,5 @@ namespace Blog_System.WEB.Areas.Admin.Models.Category
                 MetaTag = MetaTag,
                 MetaDescription = MetaDescription
             };
-        }
     }
 }

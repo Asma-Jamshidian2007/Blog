@@ -51,12 +51,11 @@ namespace Blog_System.CoreLayer.Utilities.OperationResult
                 Message = message,
             };
         }
-        public static OperationResult Success(string message, DataLayer.Entities.Category category)
+        public static OperationResult Success(DataLayer.Entities.Category category)
         {
             return new OperationResult()
             {
                 Status = OperationResultStatus.Success,
-                Message = message,
             };
         }
     }

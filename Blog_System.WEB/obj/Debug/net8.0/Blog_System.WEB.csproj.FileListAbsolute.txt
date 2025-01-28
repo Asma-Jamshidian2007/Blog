@@ -705,3 +705,9 @@ C:\Users\AFATB\Desktop\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\BCrypt.N
 C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\DevOne.Security.Cryptography.BCrypt.dll
 C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\AFATB\source\repos\Blog_System.WEB\Blog_System.WEB\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll

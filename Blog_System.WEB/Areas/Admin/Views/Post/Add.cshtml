@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="/css/master.css">
 <link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 <section class="content">
     <div class="box box-body">
         <div class="box box-primary">
@@ -41,7 +42,7 @@
                 <div class="form-group mb-3">
                     <label asp-for="CategoryId" class="control-label">دسته‌بندی</label>
                     <select asp-for="CategoryId" class="form-control" required>
-                        <option>انتخاب کنید</option>
+                        <option value="">انتخاب کنید</option>
                         @foreach (var item in categories.Where(c => c.ParentId == null))
                         {
                             <option value='@item.Id'>@item.Title</option>
@@ -52,22 +53,23 @@
 
                 <div class="form-group mb-3">
                     <label asp-for="SubCategoryId" class="control-label">زیر دسته‌بندی</label>
-                    <select asp-for="SubCategoryId" class="form-control" required>
+                    <select asp-for="SubCategoryId" class="form-control">
+                        <option value="">زیر دسته‌ای انتخاب کنید</option>
                     </select>
                     <span asp-validation-for="SubCategoryId" class="text-danger"></span>
                 </div>
 
                 <div class="form-group mb-12">
                     <label for="Description" class="control-label">توضیحات</label>
-                    <textarea asp-for="Description" class="form-control" id="Description" placeholder="توضیحات را وارد کنید"></textarea>
+                    <textarea asp-for="Description" class="form-control" placeholder="توضیحات را وارد کنید"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
                 <div class="form-group mb-3">
                     <label for="fileUpload" class="control-label">انتخاب فایل</label>
-                    <input type="file" name="ImageFile" id="fileUpload" class="form-control-file" asp-for="ImageFile" />
+                    <input type="file" class="form-control-file" asp-for="ImageFile" />
                 </div>
-
+                <p id="error-message" class="text-danger"></p>
                 <div class="form-group">
                     <button type="submit" class="col-lg-2 btn btn-success align-self-center btn-block">ایجاد مقاله</button>
                 </div>
@@ -75,6 +77,10 @@
         </div>
     </div>
 </section>
+
+<div id="loading-spinner" class="spinner" style="display: none;">
+    <img src="/img/loading.gif" alt="Loading..." />
+</div>
 
 <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 <script>
@@ -116,33 +122,40 @@
         .catch(error => {
             console.error('There was a problem initializing the editor:', error);
         });
-             $(document).on("change", "#CategoryId", function () {
+
+    $(document).on("change", "#CategoryId", async function () {
         var categoryId = $(this).val();
-        if (categoryId === "" || isNaN(categoryId)) {
-            $("#SubCategoryId").html("<option disabled='true'>= دسته‌بندی را انتخاب کنید</option>");
+        if (!categoryId || isNaN(categoryId)) {
+            $("#SubCategoryId").empty().append("<option disabled='true'>= دسته‌بندی را انتخاب کنید</option>");
             return;
         }
-        $.ajax({
-            url: "/Admin/Category/GetChildCategories?parentId=" + categoryId,
-            type: "GET",
-            success: function (data) {
-                var subCategorySelect = $("#SubCategoryId");
-                subCategorySelect.html("");
-                if (data && data.length > 0) {
-                    subCategorySelect.append(`<option value=''>انتخاب کنید</option>`);
-                    data.forEach(function (category) {
-                        subCategorySelect.append(`<option value="${category.id}">${category.title}</option>`);
-                    });
-                } else {
-                    subCategorySelect.append("<option value=''>زیر دسته‌ای یافت نشد</option>");
-                }
-            },
-            error: function () {
-                alert("مشکلی در بارگذاری زیر دسته‌ها به وجود آمد.");
-            }
-        });
-    });
 
+        $("#loading-spinner").show();
+        $("#error-message").empty();
+
+        try {
+            const response = await $.ajax({
+                url: `/Admin/Category/GetChildCategories?parentId=${encodeURIComponent(categoryId)}`,
+                type: "GET",
+            });
+
+            var subCategorySelect = $("#SubCategoryId");
+            subCategorySelect.empty();
+
+            if (response && response.length > 0) {
+                subCategorySelect.append(`<option value=''>انتخاب کنید</option>`);
+                response.forEach(function (category) {
+                    subCategorySelect.append(`<option value="${category.id}">${category.title}</option>`);
+                });
+            } else {
+                subCategorySelect.append("<option value=''>زیر دسته‌ای یافت نشد</option>");
+            }
+        } catch (error) {
+            $("#error-message").text("مشکلی در بارگذاری زیر دسته‌ها به وجود آمد. لطفاً دوباره تلاش کنید.");
+        } finally {
+            $("#loading-spinner").hide();
+        }
+    });
 </script>
 
 <style>
@@ -165,39 +178,6 @@
             box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
         }
 
-    .form-control-file {
-        cursor: pointer;
-    }
-
-        .form-control-file::-webkit-file-upload-button {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 8px 12px;
-            font-size: 14px;
-            cursor: pointer;
-        }
-
-            .form-control-file::-webkit-file-upload-button:hover {
-                background-color: #218838;
-            }
-
-    select {
-        appearance: none;
-        background-color: #f9f9f9;
-        color: #555;
-        padding: 5px;
-        border-radius: 10px;
-        border: 1px solid #ddd;
-    }
-
-        select:focus {
-            border-color: #28a745;
-            box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-            outline: none;
-        }
-
     .btn-success {
         background-color: #28a745;
         border-color: #28a745;
@@ -211,41 +191,15 @@
             border-color: #1e7e34;
         }
 
-    .box-primary {
-        padding: 25px;
-        border-radius: 10px;
-        background-color: #ffffff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    h2 {
-        font-size: 24px;
-        color: #333;
-        margin-bottom: 20px;
-    }
-
-    .mb-4 {
-        margin-bottom: 1.5rem !important;
-    }
-
-    .text-center {
-        text-align: center;
+    .spinner img {
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin: 0 auto;
     }
 
     .text-danger {
         font-size: 0.875rem;
         color: #dc3545;
-    }
-
-    .form-control-file {
-        display: block;
-        width: 100%;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 10px;
-        font-size: 14px;
-        color: #555;
-        background-color: #f9f9f9;
-        cursor: pointer;
     }
 </style>

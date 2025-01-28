@@ -26,13 +26,12 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
         public IActionResult Delete(int userId)
         {
             var result = _userService.Delete(userId);
-            if (result.Status== OperationResultStatus.Success)
-            {
-                TempData["SuccessMessage"] = "user deleted successfully.";
-                return RedirectToAction("Index");
-            }
+            var messageKey = result.Status == OperationResultStatus.Success ? "SuccessMessage" : "ErrorMessage";
+            var messageValue = result.Status == OperationResultStatus.Success
+                ? "کاربر با موفقیت حذف شد."
+                : result.ToString();
 
-            TempData["ErrorMessage"] = result.ToString();
+            TempData[messageKey] = messageValue;
             return RedirectToAction("Index");
         }
     }
