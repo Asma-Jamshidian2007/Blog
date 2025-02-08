@@ -47826,6 +47826,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\fa-solid-900.woff2'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\posts\78ac3a32-98a5-4422-bcf6-04eb9316b261_@WallpaperSRanGi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Blog_System.WEB</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Blog_System.WEB</BasePath>
+      <RelativePath>images/posts/78ac3a32-98a5-4422-bcf6-04eb9316b261_@WallpaperSRanGi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wmjvtesm6q</Fingerprint>
+      <Integrity>2BXw2fHtLFTQxAPz/Irpa6yCGmtoFKK4ygTdD2I62Dc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\posts\78ac3a32-98a5-4422-bcf6-04eb9316b261_@WallpaperSRanGi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\posts\a7fe40c4-c70e-490d-a889-750a038a4375_@WallpaperSRanGi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Blog_System.WEB</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Blog_System.WEB</BasePath>
+      <RelativePath>images/posts/a7fe40c4-c70e-490d-a889-750a038a4375_@WallpaperSRanGi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wmjvtesm6q</Fingerprint>
+      <Integrity>2BXw2fHtLFTQxAPz/Irpa6yCGmtoFKK4ygTdD2I62Dc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\posts\a7fe40c4-c70e-490d-a889-750a038a4375_@WallpaperSRanGi.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\posts\Content\e27f483c-45ce-43d3-833a-c2fcfedfe952.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Blog_System.WEB</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Blog_System.WEB</BasePath>
+      <RelativePath>images/posts/Content/e27f483c-45ce-43d3-833a-c2fcfedfe952.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>td8yk41tp8</Fingerprint>
+      <Integrity>Dy1XHcVgnU2Xav1xdQSkvFpSn3PL09jtqJ0v2Btdyo8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\posts\Content\e27f483c-45ce-43d3-833a-c2fcfedfe952.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\JavaScript.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Blog_System.WEB</SourceId>

@@ -2654,6 +2654,9 @@ wwwroot\fonts\fa-solid-900.svg
 wwwroot\fonts\fa-solid-900.ttf
 wwwroot\fonts\fa-solid-900.woff
 wwwroot\fonts\fa-solid-900.woff2
+wwwroot\images\posts\78ac3a32-98a5-4422-bcf6-04eb9316b261_@WallpaperSRanGi.jpg
+wwwroot\images\posts\a7fe40c4-c70e-490d-a889-750a038a4375_@WallpaperSRanGi.jpg
+wwwroot\images\posts\Content\e27f483c-45ce-43d3-833a-c2fcfedfe952.jpg
 wwwroot\js\JavaScript.js
 wwwroot\js\jquery.min.js
 wwwroot\js\main.js

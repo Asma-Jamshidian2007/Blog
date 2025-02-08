@@ -10629,6 +10629,18 @@
       "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
     },
     {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\images\\posts\\78ac3a32-98a5-4422-bcf6-04eb9316b261_@WallpaperSRanGi.jpg",
+      "PackagePath": "staticwebassets\\images\\posts\\78ac3a32-98a5-4422-bcf6-04eb9316b261_@WallpaperSRanGi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\images\\posts\\Content\\e27f483c-45ce-43d3-833a-c2fcfedfe952.jpg",
+      "PackagePath": "staticwebassets\\images\\posts\\Content\\e27f483c-45ce-43d3-833a-c2fcfedfe952.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\images\\posts\\a7fe40c4-c70e-490d-a889-750a038a4375_@WallpaperSRanGi.jpg",
+      "PackagePath": "staticwebassets\\images\\posts\\a7fe40c4-c70e-490d-a889-750a038a4375_@WallpaperSRanGi.jpg"
+    },
+    {
       "Id": "C:\\Users\\AFATB\\source\\repos\\Blog_System.WEB\\Blog_System.WEB\\wwwroot\\js\\JavaScript.js",
       "PackagePath": "staticwebassets\\js\\JavaScript.js"
     },

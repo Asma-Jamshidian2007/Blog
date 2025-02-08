@@ -29,7 +29,6 @@ namespace Blog_System.CoreLayer.Mappers
             existingPost.Description = editDto.Description ?? string.Empty;  
             existingPost.CategoryId = editDto.CategoryId;
             existingPost.SubCategoryId = editDto.SubCategoryId; 
-            existingPost.ImageFile=existingPost.ImageFile;
             existingPost.ImageName=existingPost.ImageName;
             return existingPost;
         }
