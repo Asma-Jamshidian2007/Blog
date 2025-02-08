@@ -6,6 +6,7 @@ namespace Blog_System.CoreLayer.Services.FileManager
 {
     public interface IFileManager
     {
-        string SaveFile(IFormFile file, string savePath);
+       public string SaveAndReturnFileName(IFormFile file, string savePath);
+       public void DeleteImage(string fileName,string path);
     }
 }

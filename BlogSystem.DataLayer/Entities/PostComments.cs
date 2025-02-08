@@ -11,13 +11,14 @@ namespace Blog_System.DataLayer.Entities
         public int PostId { get; set; }
 
         [Required]
-        [StringLength(1000, ErrorMessage = "متن کامنت نباید بیشتر از 1000 کاراکتر باشد.")]
+        [StringLength(1000, ErrorMessage = "Comment text should not exceed 1000 characters.")]
         public string Text { get; set; } = string.Empty;
 
         #region Relationships
 
         [ForeignKey("PostId")]
         public virtual Post Post { get; set; } = new Post();
+        public string UserName { get; set; }
 
         #endregion
     }

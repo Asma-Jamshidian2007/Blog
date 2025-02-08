@@ -31,11 +31,11 @@
         <div class="mb-3 position-relative">
             <label for="loginPassword" class="form-label">رمز عبور</label>
             <i class="fas fa-lock form-control-icon"></i>
-            <input id="password" type="password" class="form-control" asp-for="Password" placeholder="پسورد خود را وارد کنید">
+            <input id="password" type="password" class="form-control" asp-for="Password" placeholder="Enter your password">
             <span class="text-danger" asp-validation-for="Password"></span>
         </div>
         <div>
-            <small id="capsLockWarning" style="display:none; color:red;">روشن است capsLock</small>
+            <small id="capsLockWarning" style="display:none; color:red;">capsLock is on</small>
          </div>
 
         <button type="submit" class="btn btn-custom w-100">ورود</button>

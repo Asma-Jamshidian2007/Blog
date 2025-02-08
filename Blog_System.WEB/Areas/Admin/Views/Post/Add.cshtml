@@ -3,7 +3,7 @@
 @inject ICategoryService _categoryService
 @{
     Layout = "_postAddLayout";
-    ViewData["title"] = "افزودن مقاله";
+    ViewData["title"] = "Add Post";
     var categories = _categoryService.GetAll();
 }
 
@@ -26,23 +26,22 @@
         <div class="box box-primary">
             <h2 class="mb-4 text-center">@ViewData["title"]</h2>
             <form asp-area="Admin" asp-controller="Post" asp-action="Add" class="form-horizontal" enctype="multipart/form-data">
-                <input type="hidden" asp-for="CategoryId" />
                 <div class="form-group mb-3">
-                    <label asp-for="Title" class="control-label">عنوان دسته‌بندی</label>
-                    <input type="text" asp-for="Title" class="form-control" placeholder="عنوان مقاله را وارد کنید" required />
+                    <label asp-for="Title" class="control-label">عنوان مقاله</label>
+                    <input type="text" asp-for="Title" class="form-control" placeholder="Enter the title of post" required />
                     <span asp-validation-for="Title" class="text-danger"></span>
                 </div>
 
                 <div class="form-group mb-3">
                     <label asp-for="Slug" class="control-label">Slug</label>
-                    <input type="text" asp-for="Slug" class="form-control" placeholder="Slug را وارد کنید" required />
+                    <input type="text" asp-for="Slug" class="form-control" placeholder="Enter Slug" required />
                     <span asp-validation-for="Slug" class="text-danger"></span>
                 </div>
 
                 <div class="form-group mb-3">
-                    <label asp-for="CategoryId" class="control-label">دسته‌بندی</label>
-                    <select asp-for="CategoryId" class="form-control" required>
-                        <option value="">انتخاب کنید</option>
+                    <label asp-for="CategoryId" class="control-label">Category</label>
+                    <select asp-for="CategoryId" id="CategoryId" class="form-control" required>
+                        <option value="">Select</option>
                         @foreach (var item in categories.Where(c => c.ParentId == null))
                         {
                             <option value='@item.Id'>@item.Title</option>
@@ -52,26 +51,28 @@
                 </div>
 
                 <div class="form-group mb-3">
-                    <label asp-for="SubCategoryId" class="control-label">زیر دسته‌بندی</label>
-                    <select asp-for="SubCategoryId" class="form-control">
-                        <option value="">زیر دسته‌ای انتخاب کنید</option>
+                    <label asp-for="SubCategoryId" class="control-label">SubCategory</label>
+                    <select asp-for="SubCategoryId" id="SubCategoryId" class="form-control">
+                        <option value="">Select</option>
                     </select>
                     <span asp-validation-for="SubCategoryId" class="text-danger"></span>
                 </div>
 
                 <div class="form-group mb-12">
-                    <label for="Description" class="control-label">توضیحات</label>
-                    <textarea asp-for="Description" class="form-control" placeholder="توضیحات را وارد کنید"></textarea>
+                    <label for="Description" class="control-label">Caption</label>
+                    <textarea asp-for="Description" class="form-control" placeholder="Write Caption"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
                 <div class="form-group mb-3">
-                    <label for="fileUpload" class="control-label">انتخاب فایل</label>
+                    <label for="fileUpload" class="control-label">Choose Picture</label>
                     <input type="file" class="form-control-file" asp-for="ImageFile" />
                 </div>
+
                 <p id="error-message" class="text-danger"></p>
+
                 <div class="form-group">
-                    <button type="submit" class="col-lg-2 btn btn-success align-self-center btn-block">ایجاد مقاله</button>
+                    <button type="submit" class="col-lg-2 btn btn-success align-self-center btn-block">Generate Post</button>
                 </div>
             </form>
         </div>
@@ -84,51 +85,57 @@
 
 <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 <script>
+    class MyUploadAdapter {
+        constructor(loader) {
+            this.loader = loader;
+        }
+
+        upload() {
+            return this.loader.file.then(file => new Promise((resolve, reject) => {
+                const data = new FormData();
+                data.append('upload', file);
+
+                fetch('/Admin/Post/UploadImage', {
+                    method: 'POST',
+                    body: data
+                })
+                .then(response => response.json())
+                .then(result => {
+                    if (result.url) {
+                        resolve({ default: result.url });
+                    } else {
+                        reject(result.error || 'Error uploading image');
+                    }
+                })
+                .catch(error => reject(error));
+            }));
+        }
+    }
+
+    function CustomUploadAdapterPlugin(editor) {
+        editor.plugins.get('FileRepository').createUploadAdapter = loader => new MyUploadAdapter(loader);
+    }
+
     ClassicEditor
         .create(document.querySelector('#Description'), {
+            extraPlugins: [CustomUploadAdapterPlugin],
             language: 'fa',
             toolbar: [
-                'heading', '|',
-                'bold', 'italic', 'underline', 'strikethrough', '|',
-                'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', '|',
-                'alignment', '|',
-                'numberedList', 'bulletedList', '|',
-                'outdent', 'indent', '|',
-                'link', 'blockQuote', 'insertTable', '|',
-                'imageUpload', 'mediaEmbed', '|',
-                'undo', 'redo', '|',
-                'findAndReplace', 'selectAll', '|',
-                'specialCharacters', '|',
-                'removeFormat', '|',
-                'code', '|',
-                'sourceEditing', '|',
-                'htmlEmbed', '|',
-                'horizontalLine', '|',
-                'subscript', 'superscript'
+                'heading', '|', 'bold', 'italic', 'underline', '|',
+                'numberedList', 'bulletedList', '|', 'imageUpload', 'mediaEmbed'
             ],
             image: {
                 toolbar: ['imageTextAlternative', '|', 'imageStyle:full', 'imageStyle:side'],
-            },
-            simpleUpload: {
-                uploadUrl: '/your-upload-endpoint',
-                headers: {
-                    'X-CSRF-TOKEN': 'CSRF-TOKEN-HERE'
-                }
             }
         })
-        .then(editor => {
-            console.log('Editor was initialized:', editor);
-        })
-        .catch(error => {
-            console.error('There was a problem initializing the editor:', error);
-        });
+        .catch(error => console.error('CKEditor error:', error));
+
 
     $(document).on("change", "#CategoryId", async function () {
         var categoryId = $(this).val();
-        if (!categoryId || isNaN(categoryId)) {
-            $("#SubCategoryId").empty().append("<option disabled='true'>= دسته‌بندی را انتخاب کنید</option>");
-            return;
-        }
+        var subCategorySelect = $("#SubCategoryId");
+
+        subCategorySelect.empty().append("<option value=''>Loading...</option>");
 
         $("#loading-spinner").show();
         $("#error-message").empty();
@@ -139,19 +146,16 @@
                 type: "GET",
             });
 
-            var subCategorySelect = $("#SubCategoryId");
             subCategorySelect.empty();
 
             if (response && response.length > 0) {
-                subCategorySelect.append(`<option value=''>انتخاب کنید</option>`);
-                response.forEach(function (category) {
+                subCategorySelect.append("<option value=''>انتخاب کنید</option>");
+                response.forEach(category => {
                     subCategorySelect.append(`<option value="${category.id}">${category.title}</option>`);
                 });
             } else {
-                subCategorySelect.append("<option value=''>زیر دسته‌ای یافت نشد</option>");
+                subCategorySelect.append("<option value=''>SubCategory Not found</option>");
             }
-        } catch (error) {
-            $("#error-message").text("مشکلی در بارگذاری زیر دسته‌ها به وجود آمد. لطفاً دوباره تلاش کنید.");
         } finally {
             $("#loading-spinner").hide();
         }
@@ -159,47 +163,60 @@
 </script>
 
 <style>
+    section{
+        background-color: rgb(161, 161, 161);
+    }
     .form-group {
         margin-bottom: 1.5rem;
     }
 
     .form-control, .form-control-file, select {
-        border: 1px solid #ddd;
+        border: 1px solid #333;
         border-radius: 10px;
         font-size: 14px;
-        color: #555;
-        background-color: #f9f9f9;
+        color: #333;
+        /مشکی */ background-color: #f8d6e2; 
         width: 100%;
         display: block;
     }
 
-        .form-control:focus, select:focus, .form-control-file:focus {
-            border-color: #28a745;
-            box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+        .form-control:focus, select:focus,
+        .form-control-file:focus {
+            border-color: rgb(254,213,255); 
+            box-shadow: 0 0 0 0.2rem rgba(244, 167, 197, 0.25);
         }
 
     .btn-success {
-        background-color: #28a745;
-        border-color: #28a745;
+        background-color: rgb(210, 115, 180);
         border-radius: 10px;
         padding: 12px 20px;
         font-size: 16px;
+        color: black;
+        border: none;
     }
 
         .btn-success:hover {
-            background-color: #218838;
-            border-color: #1e7e34;
+            background-color: rgb(111, 56, 101);
+
         }
+
+    .box-primary {
+        background-color: #f8d6e2;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+        .box-primary h2 {
+            color: #333;
+        }
+
+    .text-danger {
+        color: #f44336; /* قرمز برای خطا */
+    }
 
     .spinner img {
         width: 40px;
-        height: 40px;
         display: block;
         margin: 0 auto;
-    }
-
-    .text-danger {
-        font-size: 0.875rem;
-        color: #dc3545;
     }
 </style>

@@ -1,0 +1,296 @@
+﻿@page "{slug}"
+@using Blog_System.CoreLayer.Utilities
+@model Blog_System.WEB.Pages.postSingleModel
+@{
+    ViewData["Title"] = Model.Post.Title;
+    Layout = "_SinglePostLayout";
+}
+
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>به اشتراک گذاشته شده در mellatweb.com - وبلاگ</title>
+    <link rel="icon" href="/img/logo/fabicon2.png">
+    <link rel="stylesheet" href="/css/plugins/bootstrap-rtl.css">
+    <link rel="stylesheet" href="/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="/css/plugins/fontawesome.css">
+    <link rel="stylesheet" href="/css/plugins/modal-video.min.css">
+    <link rel="stylesheet" href="/css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="/css/plugins/slicknav.css">
+    <link rel="stylesheet" href="/css/plugins/loader.css">
+    <link rel="stylesheet" href="/css/plugins/splitting.css">
+    <link rel="stylesheet" href="/css/master.css">
+</head>
+<body class="theme-3">
+    <div class="mesh-loader">
+        <div class="set-one">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="set-two">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <header>
+        <div class="header_area header3 primary_bg" id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-lg-2 align-self-center"><div class="logo"><a href="index1.html"><img src="assets/img/logo/logo3.png" alt="image"></a></div></div>
+                    <div class="col-6 col-lg-8 align-self-center">
+                        <div class="main_menu d-none d-lg-block text-right">
+                            <ul id="nav_menu" class="scroll">
+                                <li>
+                                    <a href="index1.html">صفحه اصلی</a>
+                                    <ul>
+                                        <li><a href="index1.html">خانه اصلی</a></li>
+                                        <li><a href="index2.html">نسخه 2</a></li>
+                                        <li><a href="index3.html">نسخه 3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">درباره ما</a></li>
+                                <li><a href="#">خدمات</a></li>
+                                <li>
+                                    <a href="blog4.html">وبلاگ</a>
+                                    <ul>
+                                        <li><a href="blog4.html">وبلاگ اصلی</a></li>
+                                        <li><a href="blog5.html">وبلاگ V2</a></li>
+                                        <li><a href="blog3.html">وبلاگ V3</a></li>
+                                        <li><a href="blog.html">وبلاگ V4</a></li>
+                                        <li><a href="blog_left.html">وبلاگ V5</a></li>
+                                        <li><a href="single.html">وبلاگ تک</a></li>
+                                        <li><a href="single_left.html">Single Blog V2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#contact">تماس با ما</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_menu d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="inner_hero_area primary_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="inner_text" data-scroll>
+                        <h2>@Model.Post.Title</h2>
+                        <div class="post-meta">
+                            <a href="#">@Model.Post.UserName</a>
+                            <span class="separator">|</span>
+                            <a href="#">@Model.Post.CreationDate</a>
+                            <span class="separator">|</span>
+                            <a href="#" class="views"><i class="fas fa-eye"></i>Views @Model.Post.Visit </a>
+                            <span class="separator">|</span>
+                            <a href="#comments" class="comments"><i class="fas fa-comment"></i>Comments </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog_area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="blog_metas">
+                        <div class="meta_box news_letter">
+                            <div class="news_letter_img"><img></div>
+                            <div class="news_letter_form">
+                                <h3>برای خبرنامه ثبت نام کنید</h3>
+                                <p>خواه یک تور رانندگی باشد، یک سفر دریایی یا راهی برای خرج کردن.</p>
+                                <form action="#">
+                                    <input type="email" placeholder="آدرس ایمیل"><button type="submit" class="submit_btn">اکنون مشترک شوید</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="meta_box popular_post">
+                            <h3 class="widget-title">پست محبوب</h3>
+                            <div class="single_popular">
+                                <div class="popular_mg"><img src="assets/img/blog/popular1.jpg" alt=""></div>
+                                <h4><a href="#">لترپرس ویروسی، ماه گرگ در حال نوشیدن سرکه.</a></h4>
+                                <a href="#" class="appture_meta appture_date">15 آوریل 2020</a>
+                            </div>
+                            <div class="single_popular">
+                                <div class="popular_mg"><img src="assets/img/blog/popular2.jpg" alt=""></div>
+                                <h4><a href="#">لترپرس ویروسی، ماه گرگ در حال نوشیدن سرکه.</a></h4>
+                                <a href="#" class="appture_meta appture_date">15 آوریل 2020</a>
+                            </div>
+                            <div class="single_popular">
+                                <div class="popular_mg"><img src="assets/img/blog/popular3.jpg" alt=""></div>
+                                <h4><a href="#">لترپرس ویروسی، ماه گرگ در حال نوشیدن سرکه.</a></h4>
+                                <a href="#" class="appture_meta appture_date">15 آوریل 2020</a>
+                            </div>
+                            <div class="single_popular">
+                                <div class="popular_mg"><img src="assets/img/blog/popular4.jpg" alt=""></div>
+                                <h4><a href="#">لترپرس ویروسی، ماه گرگ در حال نوشیدن سرکه.</a></h4>
+                                <a href="#" class="appture_meta appture_date">15 آوریل 2020</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-6">
+                    <div class="single_blog_page">
+                        <div class="single_blog_page_img">
+                            <img src="@Directories.GetPostImage(Model.Post.ImageName)" alt="@Model.Post.Title"></div>
+                        @Html.Raw(Model.Post.Description)
+
+
+                    </div>
+                        <div class="col-sm-6 align-self-center">
+                            <div class="share_social">
+                                <ul>
+                                    <li class="meta_title">به اشتراک بگذارید:</li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="comment-form">
+                        <h3>ارسال دیدگاه</h3>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">نام</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">ایمیل</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">دیدگاه</label>
+                                <textarea id="comment" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">ارسال دیدگاه</button>
+                        </form>
+                    <li class="border p-3 rounded shadow">
+                        <strong>UserName</strong> - <span>CreationDate</span>
+                        <p>Text</p>
+                    </li>
+
+                    <div class="space-80"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-12"><div class="blog_heading"><h3>شما هم ممکن است دوست داشته باشید</h3></div></div>
+                        <div class="col-lg-6">
+                            <div class="single_blog">
+                                <div class="single_blog_img">
+                                    <img src="assets/img/blog/blog1.jpg" alt=""><a href="#" class="meta_date">15 JUN</a>
+                                </div>
+                                <div class="single_blog_content">
+                                    <h3><a href="single.html">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چا</a></h3>
+                                    <p>رعایت CQC در صنایع بهداشتی و مراقبت اجتماعی ضروری است اما نرم افزار مناسب است.</p>
+                                    <a href="single.html" class="readmore_btn">ادامه مطلب<i class="far fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single_blog">
+                                <div class="single_blog_img">
+                                    <img src="assets/img/blog/blog2.jpg" alt=""><a href="#" class="meta_date">15 JUN</a>
+                                </div>
+                                <div class="single_blog_content">
+                                    <h3><a href="single.html">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنع</a></h3>
+                                    <p>رعایت CQC در صنایع بهداشتی و مراقبت اجتماعی ضروری است اما نرم افزار مناسب است.</p>
+                                    <a href="single.html" class="readmore_btn">ادامه مطلب<i class="far fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer footer1 section-padding2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="single_footer">
+                            <div class="footer_logo"><a href="index1.html"><img src="assets/img/logo/footer_logo2.png" alt="logo"></a></div>
+                            <p class="footer_pera">چه یک تور رانندگی باشد، یک سفر دریایی یا اتوبوس، تماشای برگ ها راهی عالی برای گذراندن تعطیلات پاییزی است. همچنین یک تجارت بزرگ تور است.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg">
+                        <div class="single_footer">
+                            <h3>درباره ما</h3>
+                            <ul>
+                                <li><a href="#">کمک شریک</a></li>
+                                <li><a href="#">مشاغل</a></li>
+                                <li><a href="#">مرکز مطبوعات</a></li>
+                                <li><a href="#">روابط سرمایه گذار</a></li>
+                                <li><a href="#">شرایط و ضوابط</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg">
+                        <div class="single_footer">
+                            <h3>محصول</h3>
+                            <ul>
+                                <li><a href="#">ویژگی ها</a></li>
+                                <li><a href="#">قیمت گذاری</a></li>
+                                <li><a href="#">برنامه ها</a></li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">پشتیبانی کنید</a></li>
+                                <li><a href="#">مشتریان</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg">
+                        <div class="single_footer">
+                            <h3>منابع</h3>
+                            <ul>
+                                <li><a href="#">مشتریان</a></li>
+                                <li><a href="#">کاغذ سفید</a></li>
+                                <li><a href="#">Dev API</a></li>
+                                <li><a href="#">پوشش رسانه ای</a></li>
+                                <li><a href="#">GDPR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-lg-6"><p> Copyright © 2020 ملت وب. تمامی حقوق محفوظ است.</p></div>
+                    <div class="col-sm-4 col-lg-6">
+                        <div class="footer_social">
+                            <div class="social1">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/plugins/jquery.2.1.0.min.js"></script>
+    <script src="/js/plugins/bootstrap.min.js"></script>
+    <script src="/js/plugins/jquery.nav.js"></script>
+    <script src="/js/plugins/jquery.waypoints.min.js"></script>
+    <script src="/js/plugins/jquery-modal-video.min.js"></script>
+    <script src="/js/plugins/owl.carousel.js"></script>
+    <script src="/js/plugins/popper.min.js"></script>
+    <script src="/js/plugins/jquery.slicknav.js"></script>
+    <script src="/js/plugins/wow.min.js"></script>
+    <script src="/js/plugins/splitting.js"></script>
+    <script src="/js/plugins/scroll-out.min.js"></script>
+    <script src="/js/plugins/jquery.counterup.js"></script>
+    <script src="/js/plugins/simpleParallax.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

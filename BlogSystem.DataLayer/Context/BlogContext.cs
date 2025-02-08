@@ -16,6 +16,7 @@ namespace Blog_System.DataLayer.Context
         public DbSet<Category> Categories { get; set; }
         public DbSet<PostComments> PostComments { get; set; }
 
+ 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Post>()

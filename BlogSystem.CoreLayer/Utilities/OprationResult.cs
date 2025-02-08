@@ -16,7 +16,7 @@ namespace Blog_System.CoreLayer.Utilities.OperationResult
             return new OperationResult()
             {
                 Status = OperationResultStatus.Error,
-                Message = "عملیات ناموفق",
+                Message = "Unsuccessful operation",
             };
         }
         public static OperationResult Error(string message)
@@ -40,7 +40,7 @@ namespace Blog_System.CoreLayer.Utilities.OperationResult
             return new OperationResult()
             {
                 Status = OperationResultStatus.NotFound,
-                Message = "اطلاعات درخواستی یافت نشد",
+                Message = "The requested information was not found.",
             };
         }
         public static OperationResult Success(string message)

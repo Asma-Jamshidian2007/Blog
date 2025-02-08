@@ -4,20 +4,21 @@ namespace Blog_System.WEB.Areas.Admin.Models.Category
 {
     public class EditCategoryViewModel
     {
-        [Display(Name = "عنوان")]
-        [Required(ErrorMessage = "عنوان ضروری است.")]
-        [StringLength(100, ErrorMessage = "عنوان نباید بیشتر از 100 کاراکتر باشد.")]
+        [Display(Name = "title")]
+        [Required(ErrorMessage = "The title is essential")]
+        [StringLength(100, ErrorMessage = "The title should not be mor than 100 characters")]
         public string Title { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Slug ضروری است.")]
-        [StringLength(100, ErrorMessage = "Slug نباید بیشتر از 100 کاراکتر باشد.")]
-        [RegularExpression(@"^[a-z0-9]+(?:-[a-z0-9]+)*$", ErrorMessage = "Slug باید فقط شامل حروف کوچک و اعداد باشد و از خط تیره (-) برای جدا کردن بخش‌ها استفاده کند.")]
+        [Required(ErrorMessage = "Slug The title is essential")]
+        [StringLength(100, ErrorMessage = "The Slug should not be mor than 100 characters")]
+        [RegularExpression(@"^[a-z0-9]+(?:-[a-z0-9]+)*$", ErrorMessage = "Slug should only contain small letters and number and use the dash(-)to separate sections.")]
         public string Slug { get; set; } = string.Empty;
 
-        [StringLength(150, ErrorMessage = "MetaTag نباید بیشتر از 150 کاراکتر باشد.")]
+        [StringLength(150, ErrorMessage = "The MetaTag should not be mor than 150 characters")]
         public string MetaTag { get; set; } = string.Empty;
 
-        [StringLength(300, ErrorMessage = "MetaDescription نباید بیشتر از 300 کاراکتر باشد.")]
+        [StringLength(300, ErrorMessage = "The MetaDescription should not be mor than 300 characters")]
         public string MetaDescription { get; set; } = string.Empty;
+
     }
 }

@@ -5,7 +5,7 @@ namespace Blog_System.CoreLayer.Mappers
 {
     public static class PostMapper
     {
-        public static Post ToPostEntity(EPostDto createDto)
+        public static Post ToPostEntity(CreatePostDto createDto)
         {
             return new Post
             {
@@ -15,7 +15,9 @@ namespace Blog_System.CoreLayer.Mappers
                 CategoryId = createDto.CategoryId,
                 UserId = createDto.UserId,
                 Visit = 0,
-                IsDelete = false
+                IsDelete = false,
+                SubCategoryId = createDto.SubCategoryId,
+                ImageName = createDto.ImageName
             };
         }
 
@@ -26,11 +28,15 @@ namespace Blog_System.CoreLayer.Mappers
             existingPost.Slug = editDto.Slug ?? string.Empty;  
             existingPost.Description = editDto.Description ?? string.Empty;  
             existingPost.CategoryId = editDto.CategoryId;
+            existingPost.SubCategoryId = editDto.SubCategoryId; 
+            existingPost.ImageFile=existingPost.ImageFile;
+            existingPost.ImageName=existingPost.ImageName;
             return existingPost;
         }
 
         public static PostDto ToPostDto(Post post)
         {
+
             return new PostDto
             {
                 PostId = post.Id,
@@ -38,11 +44,12 @@ namespace Blog_System.CoreLayer.Mappers
                 Slug = post.Slug,
                 Description = post.Description,
                 CategoryId = post.CategoryId,
-                UserId = post.UserId,
+                UserName = post.User?.FullName,
                 Visit = post.Visit,
                 CreationDate = post.CreationDate,
                 Category = post.Category,
                 ImageName = post.ImageName
+                
             };
         }
     }

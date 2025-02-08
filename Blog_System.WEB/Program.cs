@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Blog_System.CoreLayer.Services.Categories;
 using Blog_System.CoreLayer.Services.Posts;
 using Blog_System.CoreLayer.Services.FileManager;
+using Blog_System.CoreLayer.Services.Commets;
 
 namespace Blog_System.WEB
 {
@@ -33,10 +34,12 @@ namespace Blog_System.WEB
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddTransient<IPostService , PostService>();
             builder.Services.AddTransient<IFileManager, FileManager>();
+            builder.Services.AddTransient<ICommentService, CommentService>();
+
 
 
             builder.Services.AddDbContext<BlogContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>

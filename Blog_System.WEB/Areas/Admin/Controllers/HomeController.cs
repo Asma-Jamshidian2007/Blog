@@ -28,7 +28,7 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
             var result = _userService.Delete(userId);
             var messageKey = result.Status == OperationResultStatus.Success ? "SuccessMessage" : "ErrorMessage";
             var messageValue = result.Status == OperationResultStatus.Success
-                ? "کاربر با موفقیت حذف شد."
+                ? "The user was successfully removed"
                 : result.ToString();
 
             TempData[messageKey] = messageValue;

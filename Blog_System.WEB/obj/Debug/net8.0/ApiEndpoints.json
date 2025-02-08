@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "Blog_System.WEB.Areas.Admin.Controllers.UploadController",
+    "Method": "UploadImage",
+    "RelativePath": "Admin/Post/UploadImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "upload",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

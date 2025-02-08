@@ -5,7 +5,7 @@ using Blog_System.WEB.Areas.Admin.Models.Posts;
 using Blog_System.CoreLayer.Utilities;
 using Blog_System.CoreLayer.Utilities.OperationResult;
 using System.Linq;
-using static Blog_System.WEB.Areas.Admin.Models.Posts.AllowedExtensionsAttribute;
+using Blog_System.DataLayer.Context;
 
 namespace Blog_System.WEB.Areas.Admin.Controllers
 {
@@ -13,6 +13,8 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
     public class PostController : Controller
     {
         private readonly IPostService _postService;
+        private readonly BlogContext _context;
+
 
         public PostController(IPostService postService)
         {
@@ -26,7 +28,7 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
                 CategorySlug = categorySlug,
                 Title = title,
                 PageId = pageId,
-                Take = 20
+                Take = 2
             };
             var model = _postService.GetPostByFilter(param);
             return View(model);
@@ -38,96 +40,61 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Add(CreatePostViewModel createViewModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                if (createViewModel.CategoryId <= 0)
-                {
-                    ModelState.AddModelError("CategoryId", "دسته‌بندی معتبر انتخاب نشده است.");
-                }
-
-                if (createViewModel.SubCategoryId.HasValue && createViewModel.SubCategoryId.Value <= 0)
-                {
-                    ModelState.AddModelError("SubCategoryId", "زیر دسته‌بندی معتبر انتخاب نشده است.");
-                }
-
-                if (!ModelState.IsValid)
-                {
-                    TempData["ErrorMessage"] = "لطفاً تمامی فیلدها را به درستی پر کنید.";
-                    return View(createViewModel);
-                }
-
-                var result = _postService.CreatePost(new EPostDto
-                {
-                    CategoryId = createViewModel.CategoryId,
-                    Title = createViewModel.Title,
-                    Description = createViewModel.Description,
-                    ImageFile = createViewModel.ImageFile,
-                    Slug = createViewModel.Slug,
-                    SubCategoryId = createViewModel.SubCategoryId,
-                    UserId = User.GetUserId()
-                });
-
-                if (result.Status != OperationResultStatus.Success)
-                {
-                    TempData["ErrorMessage"] = result.Message ?? "خطا در ایجاد پست. لطفاً دوباره تلاش کنید.";
-                    return View(createViewModel);
-                }
-
-                TempData["SuccessMessage"] = "پست با موفقیت ایجاد شد!";
-                return RedirectToAction("Index");
+                return View();
             }
 
-            TempData["ErrorMessage"] = "لطفاً تمامی فیلدها را به درستی پر کنید.";
-            TempData["ErrorDetails"] = string.Join(" ", ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
-            return View(createViewModel);
+            var result = _postService.CreatePost(new CreatePostDto()
+            {
+                Title = createViewModel.Title,
+                Description = createViewModel.Description,
+                ImageFile = createViewModel.ImageFile,
+                ImageName=createViewModel.ImageFile.Name,
+                SubCategoryId = createViewModel.SubCategoryId == 0 ? null : createViewModel.SubCategoryId,
+                Slug = createViewModel.Slug,
+                CategoryId = createViewModel.CategoryId,
+                UserId = User.GetUserId()
+
+            });
+
+            if (result.Status != OperationResultStatus.Success)
+            {
+                ModelState.AddModelError(nameof(createViewModel.Slug), result.Message);
+                return View(createViewModel);
+            }
+
+            return RedirectToAction("Index");
         }
         public IActionResult Edit() => View();
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(EditPostViewModel editViewModel)
+        public IActionResult Edit(int Id, EditPostViewModel editViewModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                if (editViewModel.CategoryId <= 0)
-                {
-                    ModelState.AddModelError("CategoryId", "دسته‌بندی معتبر انتخاب نشده است.");
-                }
-
-                if (editViewModel.SubCategoryId.HasValue && editViewModel.SubCategoryId.Value <= 0)
-                {
-                    ModelState.AddModelError("SubCategoryId", "زیر دسته‌بندی معتبر انتخاب نشده است.");
-                }
-
-                if (!ModelState.IsValid)
-                {
-                    TempData["ErrorMessage"] = "لطفاً تمامی فیلدها را به درستی پر کنید.";
-                    return View(editViewModel);
-                }
-
-                var result = _postService.EditPost(new EditPostDto
-                {
-                    CategoryId = editViewModel.CategoryId,
-                    Title = editViewModel.Title,
-                    Description = editViewModel.Description,
-                    ImageFile = editViewModel.ImageFile,
-                    Slug = editViewModel.Slug,
-                    SubCategoryId = editViewModel.SubCategoryId
-                });
-
-                if (result.Status != OperationResultStatus.Success)
-                {
-                    TempData["ErrorMessage"] = result.Message ?? "خطا در ایجاد پست. لطفاً دوباره تلاش کنید.";
-                    return View(editViewModel);
-                }
-
-                TempData["SuccessMessage"] = "پست با موفقیت ایجاد شد!";
-                return RedirectToAction("Index");
+                return View();
             }
 
-            TempData["ErrorMessage"] = "لطفاً تمامی فیلدها را به درستی پر کنید.";
-            TempData["ErrorDetails"] = string.Join(" ", ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage));
-            return View(editViewModel);
+            var result = _postService.EditPost(new EditPostDto()
+            {
+                Title = editViewModel.Title,
+                Description = editViewModel.Description,
+                SubCategoryId = editViewModel.SubCategoryId == 0 ? null : editViewModel.SubCategoryId,
+                Slug = editViewModel.Slug,
+                CategoryId = editViewModel.CategoryId,
+                PostId = Id
+
+            });
+
+            if (result.Status != OperationResultStatus.Success)
+            {
+                ModelState.AddModelError(nameof(editViewModel.Slug), result.Message);
+                return View(editViewModel);
+            }
+
+            return RedirectToAction("Index");
         }
     }
 }

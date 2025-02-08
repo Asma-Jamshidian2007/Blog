@@ -8,22 +8,22 @@ namespace Blog_System.DataLayer.Entities
     public class Post : BaseEntity
     {
         public int UserId { get; set; }
-        public int? CategoryId { get; set; }
+        public int CategoryId { get; set; }
         public int? SubCategoryId { get; set; }
 
         [Required]
-        [StringLength(200, ErrorMessage = "عنوان نباید بیشتر از 200 کاراکتر باشد.")]
+        [StringLength(200, ErrorMessage = "The title should not exceed 200 characters.")]
         public string Title { get; set; } = string.Empty;
 
         [Required]
-        [StringLength(5000, ErrorMessage = "توضیحات نباید بیشتر از 5000 کاراکتر باشد.")]
+        [StringLength(5000, ErrorMessage = "Descriptions should not exceed 5,000 characters.")]
         public string Description { get; set; } = string.Empty;
 
         [Required]
-        [StringLength(100, ErrorMessage = "Slug نباید بیشتر از 100 کاراکتر باشد.")]
+        [StringLength(100, ErrorMessage = "Slug It should not be more than 100 characters.")]
         public string Slug { get; set; } = string.Empty;
 
-        [StringLength(255, ErrorMessage = "نام تصویر نباید بیشتر از 255 کاراکتر باشد.")]
+        [StringLength(255, ErrorMessage = "Image names should not exceed 255 characters.")]
         public string ImageName { get; set; } = string.Empty;
 
         public int Visit { get; set; } = 0; 
@@ -39,6 +39,7 @@ namespace Blog_System.DataLayer.Entities
         public virtual Category? SubCategory { get; set; }
 
         public virtual ICollection<PostComments>? PostComment { get; set; }
+        public string ImageFile { get; set; }
 
         #endregion
     }

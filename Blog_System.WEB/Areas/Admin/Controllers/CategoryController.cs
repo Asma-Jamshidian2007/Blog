@@ -27,7 +27,7 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
         {
             if (parentId.HasValue && parentId.Value <= 0)
             {
-                ModelState.AddModelError(nameof(parentId), "مقدار والد نامعتبر است.");
+                ModelState.AddModelError(nameof(parentId), "the value of the parent is invalid.");
             }
             return View();
         }
@@ -37,7 +37,7 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
         {
             if (parentId.HasValue && parentId.Value <= 0)
             {
-                ModelState.AddModelError(nameof(parentId), "مقدار والد نامعتبر است.");
+                ModelState.AddModelError(nameof(parentId), "the value of the parent is invalid.");
                 return View(viewModel);
             }
 
@@ -66,7 +66,7 @@ namespace Blog_System.WEB.Areas.Admin.Controllers
                 Slug = category.Slug,
                 MetaDescription = category.MetaDescription,
                 MetaTag = category.MetaTag,
-                Title = category.Title
+                Title = category.Title,
             };
 
             return View(model);

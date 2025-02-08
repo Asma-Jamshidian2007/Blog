@@ -10,13 +10,13 @@ namespace Blog_System.DataLayer.Entities
     public class User : BaseEntity
     {
 
-        [Required(ErrorMessage = "{0}را وارد کنید")]
+        [Required(ErrorMessage = "{0}Enter")]
         public string UserName { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "{0}را وارد کنید")]
+        [Required(ErrorMessage = "{0}Enter")]
         public string FullName { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "{0}را وارد کنید")]
+        [Required(ErrorMessage = "{0}Enter")]
         public string Password { get; set; } = string.Empty;
         public string LastActivityType { get; set; } = string.Empty;
 

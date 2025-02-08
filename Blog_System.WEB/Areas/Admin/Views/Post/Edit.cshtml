@@ -1,0 +1,206 @@
+﻿@using Blog_System.CoreLayer.DTOs.Categories
+@using Blog_System.CoreLayer.Services.Categories
+@model Blog_System.WEB.Areas.Admin.Models.Posts.EditPostViewModel
+@inject ICategoryService _categoryService
+@{
+    Layout = "_EditLayout";
+    ViewData["title"] = "Edit Post";
+    var categories = _categoryService.GetAll()?? new List<CategoryDto>();
+}
+
+<link rel="stylesheet" href="/css/CreateCategory.css">
+<link rel="icon" href="/img/logo/fabicon2.png">
+<link rel="stylesheet" href="/css/plugins/bootstrap-rtl.css">
+<link rel="stylesheet" href="/css/plugins/animate.min.css">
+<link rel="stylesheet" href="/css/plugins/fontawesome.css">
+<link rel="stylesheet" href="/css/plugins/modal-video.min.css">
+<link rel="stylesheet" href="/css/plugins/owl.carousel.css">
+<link rel="stylesheet" href="/css/plugins/slicknav.css">
+<link rel="stylesheet" href="/css/plugins/loader.css">
+<link rel="stylesheet" href="/css/plugins/splitting.css">
+<link rel="stylesheet" href="/css/master.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<section class="content">
+    <div class="box box-body">
+        <div class="box box-primary">
+            <h2 class="mb-4 text-center">@ViewData["title"]</h2>
+            <form asp-area="Admin" asp-controller="Post" asp-action="Edit" class="form-horizontal" enctype="multipart/form-data">
+                <div class="form-group mb-3">
+                    <label asp-for="Title" class="control-label">Title</label>
+                    <input type="text" asp-for="Title" class="form-control" placeholder="Enter the title of post" required />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Slug" class="control-label">Slug</label>
+                    <input type="text" asp-for="Slug" class="form-control" placeholder="Enter Slug" required />
+                    <span asp-validation-for="Slug" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="CategoryId" class="control-label">Category</label>
+                    <select asp-for="CategoryId" id="CategoryId" class="form-control" required>
+                        <option value="">Select</option>
+                        @foreach (var item in categories.Where(c => c.ParentId == null))
+                        {
+                            <option value='@item.Id'>@item.Title</option>
+                        }
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="SubCategoryId" class="control-label">SubCategory</label>
+                    <select asp-for="SubCategoryId" id="SubCategoryId" class="form-control">
+                        <option value="">Select</option>
+                    </select>
+                    <span asp-validation-for="SubCategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-12">
+                    <label for="Description" class="control-label">Caption</label>
+                    <textarea asp-for="Description" class="form-control" placeholder="Write Caption"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="fileUpload" class="control-label">Choose Picture</label>
+                    <input type="file" class="form-control-file" asp-for="ImageFile" />
+                </div>
+
+                <p id="error-message" class="text-danger"></p>
+
+                <div class="form-group">
+                    <button type="submit" class="col-lg-2 btn btn-success align-self-center btn-block">Edit Post</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div id="loading-spinner" class="spinner" style="display: none;">
+    <img src="/img/loading.gif" alt="Loading..." />
+</div>
+
+<script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create(document.querySelector('#Description'), {
+            language: 'fa',
+            toolbar: [
+                'heading', '|',
+                'bold', 'italic', 'underline', 'strikethrough', '|',
+                'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', '|',
+                'alignment', '|',
+                'numberedList', 'bulletedList', '|',
+                'outdent', 'indent', '|',
+                'link', 'blockQuote', 'insertTable', '|',
+                'imageUpload', 'mediaEmbed', '|',
+                'undo', 'redo', '|',
+                'findAndReplace', 'selectAll', '|',
+                'specialCharacters', '|',
+                'removeFormat', '|',
+                'code', '|',
+                'sourceEditing', '|',
+                'htmlEmbed', '|',
+                'horizontalLine', '|',
+                'subscript', 'superscript'
+            ],
+            image: {
+                toolbar: ['imageTextAlternative', '|', 'imageStyle:full', 'imageStyle:side'],
+            }
+        })
+        .then(editor => console.log('Editor was initialized:', editor))
+        .catch(error => console.error('There was a problem initializing the editor:', error));
+
+    $(document).on("change", "#CategoryId", async function () {
+        var categoryId = $(this).val();
+        var subCategorySelect = $("#SubCategoryId");
+
+        subCategorySelect.empty().append("<option value=''>Loading...</option>");
+
+        $("#loading-spinner").show();
+        $("#error-message").empty();
+
+        try {
+            const response = await $.ajax({
+                url: `/Admin/Category/GetChildCategories?parentId=${encodeURIComponent(categoryId)}`,
+                type: "GET",
+            });
+
+            subCategorySelect.empty();
+
+            if (response && response.length > 0) {
+                subCategorySelect.append("<option value=''>انتخاب کنید</option>");
+                response.forEach(category => {
+                    subCategorySelect.append(`<option value="${category.id}">${category.title}</option>`);
+                });
+            } else {
+                subCategorySelect.append("<option value=''>SubCategory Not found</option>");
+            }
+        } finally {
+            $("#loading-spinner").hide();
+        }
+    });
+</script>
+
+<style>
+    section {
+        background-color: rgb(161, 161, 161);
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control, .form-control-file, select {
+        border: 1px solid #333;
+        border-radius: 10px;
+        font-size: 14px;
+        color: #333;
+        /مشکی */ background-color: #f8d6e2;
+        width: 100%;
+        display: block;
+    }
+
+        .form-control:focus, select:focus,
+        .form-control-file:focus {
+            border-color: rgb(254,213,255);
+            box-shadow: 0 0 0 0.2rem rgba(244, 167, 197, 0.25);
+        }
+
+    .btn-success {
+        background-color: rgb(210, 115, 180);
+        border-radius: 10px;
+        padding: 12px 20px;
+        font-size: 16px;
+        color: black;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: rgb(111, 56, 101);
+        }
+
+    .box-primary {
+        background-color: #f8d6e2;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+        .box-primary h2 {
+            color: #333;
+        }
+
+    .text-danger {
+        color: #f44336; /* قرمز برای خطا */
+    }
+
+    .spinner img {
+        width: 40px;
+        display: block;
+        margin: 0 auto;
+    }
+</style>

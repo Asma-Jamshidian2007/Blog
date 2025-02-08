@@ -55,43 +55,97 @@
 <style>
     .form-group {
         margin-bottom: 1.5rem;
+        position: relative;
     }
+
 
     .form-control {
-        border-radius: 10px;
-        border: 1px solid #ddd;
-        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid rgba(208, 166, 244, 0.4);
+        padding: 12px;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, border 0.3s, box-shadow 0.3s ease;
+        position: relative;
     }
 
+
+        .form-control::before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 2px solid rgba(208, 166, 244, 0.7);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+
         .form-control:focus {
-            border-color: #ffc107;
+            border-color: rgba(255, 193, 7, 0.8);
             box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
         }
 
+
     .btn-warning {
-        background-color: #ffc107;
-        border-color: #ffc107;
-        border-radius: 10px;
-        padding: 12px 20px;
-        font-size: 16px;
+        background-color: rgba(255, 193, 7, 0.8);
+        border-color: rgba(255, 193, 7, 0.8);
+        border-radius: 15px;
+        padding: 14px 24px;
+        font-size: 18px;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+        position: relative;
     }
+
+
+        .btn-warning::before {
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            right: -8px;
+            bottom: -8px;
+            border: 3px solid rgba(208, 166, 244, 0.5);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
 
         .btn-warning:hover {
             background-color: #e0a800;
             border-color: #d39e00;
         }
 
+
     .box-primary {
-        padding: 25px;
-        border-radius: 10px;
-        background-color: #ffffff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        border-radius: 20px;
+        background-color: rgba(208, 166, 244, 0.3);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+        position: relative;
     }
 
+
+        .box-primary::before {
+            content: "";
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            right: -15px;
+            bottom: -15px;
+            border: 5px solid rgba(208, 166, 244, 0.7);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
     h2 {
-        font-size: 24px;
-        color: #333;
+        font-size: 28px;
+        color: #6a4c9c;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .mb-4 {

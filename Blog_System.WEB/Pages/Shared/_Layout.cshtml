@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="theme-3">
+<body class="theme-3" dir="ltr">
     @RenderBody()
     <div class="mesh-loader">
         <div class="set-one">
@@ -64,10 +64,7 @@
                         </div>
                         <div class="mobile_menu d-lg-none"></div>
                     </div>
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                    }
-                    else
+                    @if (!User.Identity.IsAuthenticated)
                     {
                         <div class="col-lg-2 d-none d-lg-block text-right align-self-center"><a asp-page="./Auth/SignUp" class="signup_btn3">ثبت نام</a></div>
 
@@ -352,3 +349,107 @@
     <script src="/js/main.js"></script>
 </body>
 </html>
+<style>
+    body {
+        background-color: #f0f8ff;
+        color: #333;
+    }
+
+    header {
+        background-color: #004a7c;
+    }
+
+        header .logo img {
+            width: 150px;
+        }
+
+    .main_menu ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .main_menu ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+            .main_menu ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                .main_menu ul li a:hover {
+                    color: #00aaff;
+                }
+
+    .blog_area {
+        padding: 50px 0;
+        background-color: #ffffff;
+    }
+
+        .blog_area .single_blog {
+            background-color: #e6f7ff;
+            border: 1px solid #b3e0ff;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+    .single_blog h3 a {
+        color: #004a7c;
+    }
+
+        .single_blog h3 a:hover {
+            color: #00aaff;
+        }
+
+    .submit_btn {
+        background-color: #00aaff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+        .submit_btn:hover {
+            background-color: #0077cc;
+        }
+
+    footer {
+        background-color: #004a7c;
+        color: #fff;
+        padding: 30px 0;
+    }
+
+        footer .footer_logo img {
+            width: 120px;
+        }
+
+        footer .footer_social ul {
+            list-style: none;
+            padding: 0;
+        }
+
+            footer .footer_social ul li {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+                footer .footer_social ul li a {
+                    color: #fff;
+                }
+
+                    footer .footer_social ul li a:hover {
+                        color: #00aaff;
+                    }
+
+    .cpagination .page-link {
+        color: #004a7c;
+    }
+
+        .cpagination .page-link:hover {
+            background-color: #00aaff;
+            color: #fff;
+        }
+</style>
