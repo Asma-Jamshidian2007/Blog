@@ -124,6 +124,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/partial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/Post.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -132,8 +136,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/Shared/MainHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE1haW5IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/Shared/_AuthLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/Shared/_PopularPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Qb3B1bGFyUG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/Shared/_postLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9wb3N0TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/Shared/_SearchLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TZWFyY2hMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/AFATB/source/repos/Blog_System.WEB/Blog_System.WEB/Pages/Shared/_SinglePostLayout.cshtml]

@@ -9,9 +9,9 @@ namespace Blog_System.CoreLayer.DTOs.Comments
 {
     public class CommentDto
     {
-        public int Id { get; set; }
-        public string UserName { get; set; }=string.Empty;
+        public string? UserName { get; set; }=string.Empty;
         public int PostId { get; set; }
+        public DateTime CreationDate { get; set; }
 
         [Required]
         [StringLength(1000, ErrorMessage = "Comment text should not exceed 1000 characters.")]

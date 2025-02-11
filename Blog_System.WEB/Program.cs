@@ -72,7 +72,7 @@ namespace Blog_System.WEB
             app.MapControllers();
             app.MapControllerRoute(
                 name: "Default",
-                pattern: "{area:exists}/{controller=Home}/{action=Index}/{Id?}");
+                pattern: "{area:exists}/{controller=Home}/{action=Index}/{postId?}");
         }
     }
 }

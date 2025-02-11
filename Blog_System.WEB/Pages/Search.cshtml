@@ -1,0 +1,251 @@
+﻿@page
+@using Blog_System.CoreLayer.DTOs.Categories
+@using Blog_System.CoreLayer.Services.Categories
+@model Blog_System.WEB.Pages.SearchModel
+@inject ICategoryService _categoryService
+@{
+    Layout = "Shared/_SearchLayout";
+    var search = "Posts";
+    CategoryDto category=null;
+    if(!string.IsNullOrEmpty(Model.Filter.FilterParams.CategorySlug))
+    {
+        category = _categoryService.GetCategoryBy(Model.Filter.FilterParams.CategorySlug);
+        if(category != null){
+            search = category.Title;
+        }
+        else{
+            search = "Posts";
+        }
+
+    }
+    ViewData["Title"] = search;
+
+}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>به اشتراک گذاشته شده در mellatweb.com - وبلاگ</title>
+    <link rel="icon" href="/img/logo/fabicon2.png">
+    <link rel="stylesheet" href="/css/plugins/bootstrap-rtl.css">
+    <link rel="stylesheet" href="/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="/css/plugins/fontawesome.css">
+    <link rel="stylesheet" href="/css/plugins/modal-video.min.css">
+    <link rel="stylesheet" href="/css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="/css/plugins/slicknav.css">
+    <link rel="stylesheet" href="/css/plugins/loader.css">
+    <link rel="stylesheet" href="/css/plugins/splitting.css">
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-3">
+    <div class="mesh-loader">
+        <div class="set-one">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="set-two">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    @await Html.PartialAsync("MainHeader")
+
+    <div class="inner_hero_area primary_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="inner_text" data-scroll>
+                        @if (search != null)
+                        {
+                            <h2>Search Results for @search</h2>
+                        }
+                        <div class="breadcrumb_area">
+                            <a href="index1.html">صفحه اصلی ></a>وبلاگ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog_area section-padding">
+        <div class="container">
+            <div class="row ">
+
+                @foreach(var post in Model.Filter.Posts)
+                {
+                    var summary = post.Description.Length > 49 ? post.Description.Substring(0, 49) + "..." : post.Description;
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_blog">
+                            <div class="single_blog_img">
+                                <img src="/images/posts/@post.ImageName" alt="image">
+                                <a class="meta_date">@post.CreationDate.ToShortDateString()</a>
+                            </div>
+                            <div class="single_blog_content">
+                                <h3><a asp-page="Post" asp-route-slug="@post.Slug">@post.Title</a></h3>
+                                <p>@Html.Raw(summary)</p>
+                                <a asp-page="Post" asp-route-slug="@post.Slug" class="readmore_btn">ادامه مطلب<i class="far fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+   
+   
+ 
+   
+     
+       
+              
+                @if (Model.Filter.PageCount > 1)
+                {
+                    <div class="cpagination">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                @if (Model.Filter.FilterParams.PageId > 1)
+                                {
+                                    <li class="page-item"><a onclick="changePage(@Model.Filter.FilterParams.PageId - 1)" class="page-link" aria-label="Previous"><span aria-hidden="true"><i class="far fa-angle-left"></i></span></a></li>
+                                }
+                                else
+                                {
+                                    <li class="page-item"><a class="page-link disabled" href="#" aria-label="Previous"><span aria-hidden="true"><i class="far fa-angle-left "></i></span></a></li>
+
+                                }
+                                @for (var i = 1; i <= Model.Filter.PageCount; i++)
+                                {
+
+                                    <li class="page-item"><a onclick="changePage(@i)" class="page-link @(i==Model.Filter.FilterParams.PageId?"active":null)">@i</a></li>
+                                }
+                                @if (Model.Filter.PageCount > Model.Filter.FilterParams.PageId)
+                                {
+                                    <li class="page-item"><a onclick="changePage(@Model.Filter.FilterParams.PageId + 1)" class="page-link" href="#" aria-label="Next"><span aria-hidden="true"><i class="far fa-angle-right"></i></span></a></li>
+                                }
+                                else
+                                {
+                                    <li class="page-item"><a class="page-link disabled" aria-label="Next"><span aria-hidden="true"><i class="far fa-angle-right"></i></span></a></li>
+
+                                }
+                            </ul>
+                        </nav>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="cta_area section-padding primary_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="heading">
+                        <h1>آزمایشی 14 روزه را از امروز شروع کنید</h1>
+                        <p>اگر در ایجاد انگیزه برای حفظ برنامه تناسب اندام خود مشکل دارید،</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-center">
+                    <div class="subscribe_form ml-lg-5">
+                        <form action="#">
+                            <input type="email" placeholder="آدرس ایمیل"><button type="submit" class="submit_btn submit_btn2">شروع کنید</button>
+                        </form>
+                        <p>بدون نیاز به کارت اعتباری</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer footer1 section-padding2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="single_footer">
+                            <div class="footer_logo"><a href="index1.html"><img src="assets/img/logo/footer_logo2.png" alt="logo"></a></div>
+                            <p class="footer_pera">چه یک تور رانندگی باشد، یک سفر دریایی یا اتوبوس، تماشای برگ ها راهی عالی برای گذراندن تعطیلات پاییزی است. همچنین یک تجارت بزرگ تور است.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg">
+                        <div class="single_footer">
+                            <h3>درباره ما</h3>
+                            <ul>
+                                <li><a href="#">کمک شریک</a></li>
+                                <li><a href="#">مشاغل</a></li>
+                                <li><a href="#">مرکز مطبوعات</a></li>
+                                <li><a href="#">روابط سرمایه گذار</a></li>
+                                <li><a href="#">شرایط و ضوابط</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg">
+                        <div class="single_footer">
+                            <h3>محصول</h3>
+                            <ul>
+                                <li><a href="#">ویژگی ها</a></li>
+                                <li><a href="#">قیمت گذاری</a></li>
+                                <li><a href="#">برنامه ها</a></li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">پشتیبانی کنید</a></li>
+                                <li><a href="#">مشتریان</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg">
+                        <div class="single_footer">
+                            <h3>منابع</h3>
+                            <ul>
+                                <li><a href="#">مشتریان</a></li>
+                                <li><a href="#">کاغذ سفید</a></li>
+                                <li><a href="#">Dev API</a></li>
+                                <li><a href="#">پوشش رسانه ای</a></li>
+                                <li><a href="#">GDPR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-lg-6"><p> حق چاپ © 2020 ملت وب. تمامی حقوق محفوظ است.</p></div>
+                    <div class="col-sm-4 col-lg-6">
+                        <div class="footer_social">
+                            <div class="social1">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/plugins/jquery.2.1.0.min.js"></script>
+    <script src="/js/plugins/bootstrap.min.js"></script>
+    <script src="/js/plugins/jquery.nav.js"></script>
+    <script src="/js/plugins/jquery.waypoints.min.js"></script>
+    <script src="/js/plugins/jquery-modal-video.min.js"></script>
+    <script src="/js/plugins/owl.carousel.js"></script>
+    <script src="/js/plugins/popper.min.js"></script>
+    <script src="/js/plugins/jquery.slicknav.js"></script>
+    <script src="/js/plugins/wow.min.js"></script>
+    <script src="/js/plugins/splitting.js"></script>
+    <script src="/js/plugins/scroll-out.min.js"></script>
+    <script src="/js/plugins/jquery.counterup.js"></script>
+    <script src="/js/plugins/simpleParallax.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+            function changePage(pageId){
+            var url= new URL(window.location.href);
+            var searchParams=url.searchParams;
+            searchParams.set('pageId',pageId);
+            url.search = searchParams.toString();
+            var newUrl = url.toString();
+            window.location.replace(newUrl);
+        }
+    </script>
+</body>
+</html>

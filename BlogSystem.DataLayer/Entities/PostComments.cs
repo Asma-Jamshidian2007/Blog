@@ -7,7 +7,6 @@ namespace Blog_System.DataLayer.Entities
     public class PostComments : BaseEntity
     {
         public int UserId { get; set; }
-
         public int PostId { get; set; }
 
         [Required]
@@ -15,11 +14,10 @@ namespace Blog_System.DataLayer.Entities
         public string Text { get; set; } = string.Empty;
 
         #region Relationships
-
-        [ForeignKey("PostId")]
-        public virtual Post Post { get; set; } = new Post();
-        public string UserName { get; set; }
-
+        [ForeignKey(nameof(PostId))]
+        public Post Post { get; set; } 
+        public User User { get; set; }
         #endregion
     }
+
 }

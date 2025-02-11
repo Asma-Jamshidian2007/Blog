@@ -24,7 +24,7 @@ namespace Blog_System.DataLayer.Entities
         public string Slug { get; set; } = string.Empty;
 
         [StringLength(255, ErrorMessage = "Image names should not exceed 255 characters.")]
-        public string ImageName { get; set; } = string.Empty;
+        public string? ImageName { get; set; } = string.Empty;
 
         public int Visit { get; set; } = 0; 
         #region Relationships
@@ -39,7 +39,7 @@ namespace Blog_System.DataLayer.Entities
         public virtual Category? SubCategory { get; set; }
 
         public virtual ICollection<PostComments>? PostComment { get; set; }
-        public string ImageFile { get; set; }
+        public string? ImageFile { get; set; }
 
         #endregion
     }

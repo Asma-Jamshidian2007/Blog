@@ -1,0 +1,30 @@
+﻿@using Blog_System.CoreLayer.DTOs.Posts
+@model List<PostDto>
+<div class="blog_metas">
+    <div class="meta_box news_letter">
+        <div class="news_letter_img"><img></div>
+        <div class="news_letter_form">
+            <h3>برای خبرنامه ثبت نام کنید</h3>
+            <p>خواه یک تور رانندگی باشد، یک سفر دریایی یا راهی برای خرج کردن.</p>
+            <form action="#">
+                <input type="email" placeholder="آدرس ایمیل"><button type="submit" class="submit_btn">اکنون مشترک شوید</button>
+            </form>
+        </div>
+    </div>
+   @if(Model.Any()){
+        <div class="meta_box popular_post">
+            <h3 class="widget-title">پست محبوب</h3>
+            @foreach (var post in Model)
+            {
+                var summary = post.Description.Length > 150 ? post.Description.Substring(0, 150) + "..." : post.Description;
+
+                <div class="single_popular">
+                    <div class="popular_mg"><img src="/images/posts/@post.ImageName"></div>
+                    <h4><a href="#">@post.Title</a></h4>
+                    <a class="appture_meta appture_date">@post.CreationDate.ToShortDateString()</a>
+                    <a class="appture_meta appture_date">@post.UserName</a>
+                </div>
+            }
+        </div>
+   }
+</div>

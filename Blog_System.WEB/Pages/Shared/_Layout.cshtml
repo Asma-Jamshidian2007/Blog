@@ -1,4 +1,5 @@
-﻿
+﻿@using Blog_System.CoreLayer.DTOs.Categories
+@model IndexModel
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -29,50 +30,9 @@
             <div class="circle"></div>
         </div>
     </div>
-    <header>
-        <div class="header_area header3," id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 col-lg-2 align-self-center"><div class="logo"><a href="index1.html"><img src="/img/logo/logo3.png" alt="image"></a></div></div>
-                    <div class="col-6 col-lg-8 align-self-center">
-                        <div class="main_menu d-none d-lg-block text-right">
-                            <ul id="nav_menu" class="scroll">
-                                <li>
-                                    <a href="index1.html">صفحه اصلی</a>
-                                    <ul>
-                                        <li><a href="index1.html">خانه اصلی</a></li>
-                                        <li><a href="index2.html">نسخه 2</a></li>
-                                        <li><a href="index3.html">نسخه 3</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">درباره ما</a></li>
-                                <li><a href="#">خدمات</a></li>
-                                <li>
-                                    <a href="blog4.html">وبلاگ</a>
-                                    <ul>
-                                        <li><a href="blog4.html">وبلاگ اصلی</a></li>
-                                        <li><a href="blog5.html">وبلاگ V2</a></li>
-                                        <li><a href="blog3.html">وبلاگ V3</a></li>
-                                        <li><a href="blog.html">وبلاگ V4</a></li>
-                                        <li><a href="blog_left.html">وبلاگ V5</a></li>
-                                        <li><a href="single.html">وبلاگ تک</a></li>
-                                        <li><a href="single_left.html">Single Blog V2</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#contact">تماس با ما</a></li>
-                            </ul>
-                        </div>
-                        <div class="mobile_menu d-lg-none"></div>
-                    </div>
-                    @if (!User.Identity.IsAuthenticated)
-                    {
-                        <div class="col-lg-2 d-none d-lg-block text-right align-self-center"><a asp-page="./Auth/SignUp" class="signup_btn3">ثبت نام</a></div>
+    @await Html.PartialAsync("MainHeader", Model.Categories)
 
-                    }
-                </div>
-            </div>
-        </div>
-    </header>
+
     <div class="inner_hero_area ">
         <div class="container">
             <div class="row">

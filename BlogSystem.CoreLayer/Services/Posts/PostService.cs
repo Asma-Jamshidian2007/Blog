@@ -4,6 +4,7 @@ using Blog_System.CoreLayer.Services.FileManager;
 using Blog_System.CoreLayer.Utilities;
 using Blog_System.CoreLayer.Utilities.OperationResult;
 using Blog_System.DataLayer.Context;
+using Blog_System.DataLayer.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Blog_System.CoreLayer.Services.Posts
@@ -107,7 +108,7 @@ namespace Blog_System.CoreLayer.Services.Posts
                 var query = _context.Posts.AsQueryable();
 
                 if (!string.IsNullOrWhiteSpace(filterParams.CategorySlug))
-                    query = query.Where(p => p.Category.Slug == filterParams.CategorySlug);
+                    query = query.Where(p => p.Category.Slug == filterParams.CategorySlug || p.SubCategory.Slug==filterParams.CategorySlug);
 
                 if (!string.IsNullOrWhiteSpace(filterParams.Title))
                     query = query.Where(p => p.Title.Contains(filterParams.Title));
@@ -142,6 +143,27 @@ namespace Blog_System.CoreLayer.Services.Posts
                 return null;
 
             return post != null ? PostMapper.ToPostDto(post) : null;
+        }
+
+        List<PostDto> IPostService.GetRelatedPosts(int categoryId)
+        {
+            return _context.Posts.Where(p => p.CategoryId == categoryId || p.SubCategoryId == categoryId)
+                .Take(2).Select(p => PostMapper.ToPostDto(p)).ToList();
+        }
+
+        List<PostDto> IPostService.GetFamousPosts()
+        {
+            return _context.Posts
+                .Include(c => c.User)
+                .OrderByDescending(p => p.Visit)
+                .Take(2).Select(p => PostMapper.ToPostDto(p)).ToList();
+        }
+
+        void IPostService.IncreaseVisit(int id)
+        {
+            var post=_context.Posts.First(p => p.Id == id);
+            post.Visit++;
+            _context.SaveChanges();
         }
     }
 }

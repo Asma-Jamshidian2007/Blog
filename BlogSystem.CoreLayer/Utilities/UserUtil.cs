@@ -12,6 +12,11 @@ namespace Blog_System.CoreLayer.Utilities
 
             var userIdClaim = principal.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
+            if (string.IsNullOrEmpty(userIdClaim))
+            {
+                userIdClaim = principal.FindFirst("sub")?.Value;
+            }
+
             if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
             {
                 throw new InvalidOperationException("User ID is not valid or not found in the claims.");

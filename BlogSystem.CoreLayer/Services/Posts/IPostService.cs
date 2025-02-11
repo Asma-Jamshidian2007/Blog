@@ -12,8 +12,10 @@ namespace Blog_System.CoreLayer.Services.Posts
         OperationResult EditPost(EditPostDto postDto);
         PostDto GetPostById(int id);
         PostDto GetPostBySlug(string slug);
-
+        List<PostDto> GetRelatedPosts(int groupId);
+        List<PostDto> GetFamousPosts();
         PostFilterDto GetPostByFilter(PostFilterParams filterParams);
         bool IsSlugExist(string slug);
+        public void IncreaseVisit(int id);
     }
 }

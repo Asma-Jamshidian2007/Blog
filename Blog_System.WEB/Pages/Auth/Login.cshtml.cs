@@ -39,7 +39,7 @@ namespace Blog_System.WEB.Pages.Auth
         {
         }
 
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
             {
@@ -50,7 +50,7 @@ namespace Blog_System.WEB.Pages.Auth
 
             if (user == null)
             {
-                ModelState.AddModelError("Password", LoginErrorMessage);
+                ModelState.AddModelError(string.Empty, LoginErrorMessage);
                 return Page();
             }
 
@@ -65,11 +65,11 @@ namespace Blog_System.WEB.Pages.Auth
 
             var props = new AuthenticationProperties
             {
-                IsPersistent = true,
-                ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(30)
+                IsPersistent = true, 
+                ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(30) 
             };
 
-            HttpContext.SignInAsync(claimPrincipal, props);
+            await HttpContext.SignInAsync(claimPrincipal, props);
 
             return RedirectToPage("../Index");
         }
